@@ -1,82 +1,208 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\chapter{Collaboratively generating ideas}
 
-\section{Dual objective functions in learning and crowdsourcing}
-Combining university classes in psychology with editing
-Wikipedia articles led to improvement in the scientific
-content of over 800 Wikipedia articles while students
-learned about the topic they edited [25]. Similarly, Kim et
-al. asked learners to create how-to video segments as part
-of an online curriculum [35]; the student-created videos
-then became a learning resource for the next cohort. 
-
-Some crowdsourcing offers a dual objective: user-facing
-goals include fun (e.g., Peekaboom [2]), authentication
-(reCAPTCHA [3]), and learning (Duolingo [28]). Under the
-hood, these tasks simultaneously label images, transcribe
-text, and translate phrases. Such crowd work can also bootstrap machine learning [8]. This paper is distinct from prior
-work (Figure 2) in leveraging people’s individual lived
-experience, knowledge, context, and folk theories, rather
-than treating people as interchangeable respondents.
+\chapter{Related Work}
+This chapter summarizes related work in social computing, online learning, citizen science, psychology, and health that has provided useful insights to design the systems in this thesis.
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\chapter{Collaboratively generating hypotheses}
-Source of hypothses: data seen, intuitions, folk theories, experiences
-
-\section{Learn-Train-Ask: From Intuitions to Hypotheses}
-\section{Design process: CHI 2017 Gut Instinct}
-People created vague unfalsifiable hypotheses
-
-\section{Docent: System Design}
-\section{Evaluation: Scaffolds For Better Questions}
- \subsection{Hypotheses Test}
- \subsection{The effect of learning and training on questions}
- \subsection{Which topics did the questions deal with?}
- \subsection{How novel are the questions?}
- \subsection{Emergent behavior, Engagement, and Growth}
-
-\section{Discussion and Design Implications????}
-\section{Summary???}
-
-\section{Self-tracking Offers Insights but Not Causality}
-??????
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\chapter{Collaboratively running experiments}
-
-\section{Motivation}
-3 reasons: people created novel hypo, people discuss on online fora, people can track fine-grained data, people are motivated to find answers
+we need three things
+1. right sets of people
+2. right architectures to co-ordinate them
+3. integrating learning resources 
 
 
-\section{Design-Review-Run: From Intuitions to Investigations}
-\subsection{Techniques: Roles and Rules}
+\begin{quote}
+\emph{This dissertation explores how }
 
-\section{Design process}
+\end{quote}
+\vspace{0.25in}
 
-\section{Galileo system design}
+%%%%%%
+\section{Lead Users Succeed When People Know What to Do and How to Do It}
+-- Techniques and systems to build expertise in people (toolkit?)
 
-\section{Evaluation}
-\subsection{Study 1: Experiment Comparing Procedural Training To Videos}
-\subsection{Study 2: People Design And Review Experiments Online}
-\subsection{Study 3: Three Communities Design, Review, \& Run Experiments}
+1. GitHub: enables storing code, sharing code, great, but doesn’t teach how to program
+2. Technology systems currently use existing capacity and takes away the context that they have — how do you build capacity — people have the context 
+3. techniques to build expertise in people
+4. difference between lead users and end users? 
+5. examples: UN example (see eric vh)
 
-\section{Discussion and Design Implications????}
-\section{Summary???}
+\subsection{People haven't thought about lead/end users as communities}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{End users can program, write, and perform data analysis but dont know how to experiment}
+-- A new domain for end-user programming 
+End users as designers
+
+contr -- exp design workflow, learning to generate a hypothesis
+
+-- Thinking differently about hci 
+  people are not just information processing machines
+  people are social, have motivations and goals
+
+1. HCI work focuses on programmers, end-user programmers, "even casual users” - individuals
+2. also, these tasks are CS specific (like writing)
+3. we focus on a general-purpose task (like experimentation), on novices, and on communities
 
 
-\chapter{Adoption challenges and unforeseen side effects of massive citizen experimentation systems}
--- other stuff we tried but didn’t work
+%%%%%%%
+\section{Online Learning Resources Emphasize Conceptual Understanding in Fake Settings Over Procedural Learning for Real Questions}
 
-\chapter{Conclusion and Future Work}
-1 .Framework: A different human-machine integration way 
---  that puts people in the driving category, supported by algo
+Current online learning scales the classroom.
+
+\subsection{personally meaningful learning and doing}
+-- JIT learning techniques embedded in people’s doing
+
+%%%%%%
+\section{Crowdsourcing Does Not Support Personally Meaningful Work}
 
 
-\section{Theoretical Questions}
+\subsection{Systems and architectures for crowdsourcing complex work}
 
-\section{New Systems?}
 
-\section{Other areas of application?}
+\subsection{People discuss online but don't do stuff}
+//TODO1: Unclear what i'm going for here
+1. Meaningful social computing systems need learning
+    1. my work shows how to inject learning in social computing systems
+
+-- rather than divide into many small pieces (microtasks), build capacity among people
+
+1. What is the purpose of building social computing systems?
+-- probe an idea and see how far it goes (See msb)
+2 .open-ended, creative tasks
+3. 1. Improve the quality of poor contributions — and improve the quality of max contributions 
+    1. — hockey stick curve 
+4.
+    1. lowers the threshold for designing an experiment - how: procedural learning
+    2. support reviewing and running an experimentation with system support
+
+like mark ackerman’s answer garden - social garden
+
+// systems/processes thing is a good match for the social computing section i think…
+
+
+%%%%%%
+\section{Specific domain: Citizen Science}
+-- An expansion of the depth and breadth of work performed by citizen science communities
+
+Internet-scale science misses people’s lived experience
+Science is increasingly networked, multidisciplinary, and
+open [34]. For instance, LIGO’s pathbreaking discovery of
+gravitational waves brought together over 100 researchers
+from over 100 institutions across 18 countries
+(ligo.org/about). Scientists increasingly share data and results faster (arxiv.org). Large scientific projects, like the Human Genome Project, took to agile science by sharing
+methods, data, and insights to collaboratively speed discoveries. Scientists also form global collaborations to accelerate
+research in nascent scientific domains, like the Earth Microbiome project (earthmicrobiome.org).
+At its best, institutional science has benefitted immensely
+from large-scale global collaboration. Complementing this,
+many online projects enable people to help scientists: annotating scientific papers [14]; labeling galaxies [20]; folding
+protein structures [9] and providing microbiome samples
+[32], CPU cycles (worldcommunitygrid.org), or personal data
+(openhumans.org). However, public involvement continues
+to be largely limited to performing tasks just beyond the
+reach of computers. This is not without reason—a lot of scientific work requires deep conceptual knowledge and training in scientific process to perform useful work. Most
+citizens lack the time, resources, and motivation to develop
+narrow, unique skillsets.
+In the quest to get people to track, measure, accumulate, or
+sort both digital and analog data, citizen science has overlooked the massive opportunity of leveraging people’s
+unique advantages: our skills as reflective, creative thinkers
+who generate theories about the world, including ourselves.
+People can offer more than just their data and perceptual
+skills: they create theories, right or wrong, about a wide
+range of topics including emotions [19], motivation [30], or
+diet. These may be observational theories [22], folk theories
+passed in a family/culture across generations [13], or ideas
+brainstormed in online communities [1]. Perhaps, these intuitions can provide a starting point for personally meaningful
+scientific work that also assists the scientific community.
+Can people be scientists rather than just sensors?
+Advances in precision medicine have demonstrated the need
+to engage people in uncovering and sharing insights [5]. People are highly motivated to improve their health outcomes,
+more so if they suffer from a condition that severely affects
+their quality of life, naturally forming communities. For example, patients from the Amyotrophic Lateral Sclerosis
+(ALS) community on Patients Like Me (patientslikeme.com)
+organized a study to track effects of Lithium on their symptoms [45]. This is not surprising; lead users excel at tackling
+need-intensive problems where they can use their lived
+experiences to identify problems, try solutions, and readily
+observe the effects [18]. Other organized communities like
+Quantified Self hope to uncover lifestyle patterns that may
+improve their productivity and health outcomes. The word
+‘self’ belies the fact that such movements are highly collaborative: amateurs frequently share experiences and invite
+feedback on online fora (patientslikeme.com) and blogs
+(ibsgroup.org). Millions follow these ideas and some incorporate these intuitions in their lives. How can people expand
+their insights into scientific work?
+Most scientists develop their skills through an apprenticeship-based graduate school experience. Apprenticeships emphasize hands-on experience with individualized, taskspecific feedback [40]. Scientists possess a wealth of declarative knowledge about their domains (e.g., how to set up a
+randomized controlled trial), and also procedural knowledge
+—some narrow, some broad—towards getting things done
+(e.g., improving fMRI signal intensity by having participants
+consume cocoa beforehand [11]).This work explores how
+online learning and process training systems, combined with
+peer collaboration, can help people learn similar skills that
+can be useful in scientific and design domains
+
+Modern science is increasingly collaborative
+[57]: citizens count bird species, identify galaxies, edit protein structures, and create novel hypotheses [16,59,73]. One reason is that different people provide different expertise that can vet
+claims and fix mistakes [33]. Collaboration benefits creativity when it brings different perspectives that build on each other; it impedes creativity (or worse, causes regression) when—through
+groupthink—it spreads biases rather than removing them [68]. A humbling example of the power
+of fresh eyes: volunteer citizen scientists identified a new class of galaxies (“green pea” galaxies)
+after researching green blots on Galaxy zoo images; experts had dismissed these images as apparatus error [6]. Such collaboration requires strategic isolation: providing just enough scaffolding
+to keep biases independent, while not stifling original ideas for bottom-up knowledge creation.
+While public contributions have supported institutional science; it’s rare for citizens to design
+their own experiments. Despite a predetermined goal and a formalized process, experimentation
+requires making situationally-appropriate decisions. A dependent variable may produce crisp
+numbers but feedback on the experiment design itself is more multifarious. Good experiment
+design is inherently user centered: how will participants interpret the instructions? Experiment
+designers need awareness of others’ interpretation of their ideas and asks. Feedback and iteration
+might be key to creative success, especially for novices. Feedback can be provided by experts
+[20,64], peers [5,40], software [19,28], or even oneself [5,64]. While feedback from novices can
+potentially improve both structure and content, it can also emphasize superficial issues over the
+underlying structure [11].
+
+
+science is nascent, highly contextual, and personally motivating.
+1. Internet-scale science misses people’s lived experience \\
+ “Other people’s noise is my signal” \\
+2. Can people be scientists rather than just sensors? \\
+ Provide a taxonomy of sorts of citizen science work
+3. Scaling up science: How open is open science? \\
+ open science things assume people know the science — it’s not a right assumption — providing notebooks and books does nothing // truly open science means people know how science works
+4. Microbiome research: a petri dish for making scientists \\
+5. link my research with more hardcore science
+
+**
+Often, when citizens participate in science, it is as “embedded sensors” that are aggregated by experts. A classic example is Audubon’s Christmas bird count, run since 1900
+[7]. Online examples include reporting flower blooms in
+Project Budburst [13]; recording wildlife activity [24];
+identifying galaxies from satellite imagery in GalaxyZoo
+[59]; and biochemistry games: finding protein structures in
+Foldit [19], synthesizing RNA molecules in EteRNA [44], and aligning nucleotide sequences in Phylo [33]. At their
+best, these citizen science platforms yield novel insights.
+For example, Foldit players discovered protein structures
+that helped scientists understand how the AIDS virus reproduces [20].
+
+
+\subsection{Petri-dish: Scaling up microbime science}
+Specific domain in which this has been tried about: microbiome
+
+Understanding the human microbiome requires insights
+into people’s lifestyles
+The human gut microbiome is the community of microbes
+(and their gene products) interacting in the human gut.
+However, research has only scratched the surface of understanding the microbiome and using it to improve our wellbeing. The American Gut Project (AGP) is the world's
+largest crowdfunded citizen science project [38]. AGP
+participants contribute their samples for bacterial marker
+gene sequencing and analysis [22]. Participants then receive
+a summary of their results with all their raw data. Anonymized data is publically available. AGP seeks to build a
+comprehensive map of the human microbiome, and identify
+its healthy and unhealthy components.
+People hold the key to understanding the gut microbiome
+The structure of the human microbiome is influenced by
+many factors, including age, genetics, diet, and xenobiotic
+and antibiotic use [27]. The gut microbiome in particular
+plays an important role in metabolism and immune system
+development, and some microbiome dysbioses have been
+associated with diseases such as obesity, inflammatory
+bowel disease, type I and type II diabetes, autism, multiple
+sclerosis, and malnutrition [16]. The human microbiome is
+impossible to understand without information about its host
+[22] and many influence factors remain unknown. Teaching
+people about the gut microbiome and having them guess
+associations between the microbiome and health and disease states can potentially accelerate the process of discovering links between diet, disease, and lifestyle factors and
+the gut microbiome.
+
