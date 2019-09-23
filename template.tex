@@ -241,15 +241,11 @@ This subsection shows a sample figure.
 
 \begin{figure}[h] 
   \centering
-  \includegraphics[width=0.5\textwidth]{sandiego}
+  \includegraphics[width=1.0\textwidth]{sandiego}
   \caption[A picture of San Diego. Short figure caption must be \protect{$< 4$} lines in the list of figures]
 {A picture of San Diego.  Short figure caption must be \protect{$< 4$} lines in the list of figures and match the start of the main figure caption verbatim. Note that figures must be on their own line (no neighboring text) and captions must be single-spaced and appear \protect\textit{below} the figure.  Captions can be as long as you want, but if they are longer than 4 lines in the list of figures, you must provide a short figure caption.\index{SanDiego}}
   \label{fig:sandiego}
 \end{figure}
-
-\subsection{A Table Example}
-
-While in Section \ref{ssec:figure_example} Figure \ref{fig:sandiego} we had a majestic figure, here we provide a crazy table example.
 
 
 %%%% TABLE 1 %%%%
@@ -285,10 +281,11 @@ noon & medium & Croutons (Tomato Basil Soup \& Granny Smith Chicken Salad) \\
 \end{comment}
 
 
-\include{chapter1}
-\include{chapter2}
-\include{chapter3}
-\include{chapter6}
+\include{chapters/chapter1}
+\include{chapters/chapter2}
+\include{chapters/chapter3}
+\include{chapters/chapter5}
+\include{chapters/chapter6}
 
 
 %% APPENDIX
@@ -303,13 +300,14 @@ What to do about things \cite{Martin_1983}.  What did he say \cite{Rilling_Insel
 % \printindex %% Uncomment to display the index
 % \nocite{}  %% Put any references that you want to include in the bib 
 %               but haven't cited in the braces.
-\bibliographystyle{alpha}  %% This is just my personal favorite style. 
+\bibliographystyle{acm}  %% This is just my personal favorite style. 
 %                              There are many others.
 %\setlength{\bibleftmargin}{0.25in}  % indent each item
 %\setlength{\bibindent}{-\bibleftmargin}  % unindent the first line
 %\def\baselinestretch{1.0}  % force single spacing
 %\setlength{\bibitemsep}{0.16in}  % add extra space between items
-\bibliography{template}  %% This looks for the bibliography in template.bib 
+\bibliography{bib/library,template}  %% This looks for the bibliography in template.bib 
+%\bibliography{library} 
 %                          which should be formatted as a bibtex file.
 %                          and needs to be separately compiled into a bbl file.
 \singlespace  %to force bibilography environment to use single spacing for each entry 

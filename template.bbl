@@ -1,14 +1,28 @@
-\begin{thebibliography}{Mar83}
+\begin{thebibliography}{1}
 
-\bibitem[Mar83]{Martin_1983}
-Robert~D. Martin.
-\newblock {\em Human Brain Evolution in an Ecological Context}.
-\newblock American Museum of Natural History, 1983.
+\bibitem{Cooper2010}
+{\sc Cooper, S., Khatib, F., Treuille, A., and Al., E.}
+\newblock {Predicting protein structures with a multiplayer online game}.
+\newblock {\em Nature 466}, 7307 (2010), 756--760.
 
-\bibitem[RI99]{Rilling_Insel_1999}
-James~K. Rilling and Thomas~R. Insel.
-\newblock The primate neocortex in comparative perspective using magnetic
-  resonance imaging.
-\newblock {\em Journal of Human Evolution}, 37(2):191--223, 1999.
+\bibitem{crawford2017politics}
+{\sc Crawford, J.~T., and Jussim, L.}
+\newblock {\em {Politics of Social Psychology}}.
+\newblock Psychology Press, 2017.
+
+\bibitem{Henrich2010a}
+{\sc Henrich, J., Heine, S.~J., and Norenzayan, A.}
+\newblock {Most People are not WEIRD}.
+\newblock {\em Nature 466}, July 2010 (2010).
+
+\bibitem{Lewis2016}
+{\sc Lewis, D., and Leibrand, S.}
+\newblock {Real-World Use of Open Source Artificial Pancreas Systems}.
+\newblock {\em Journal of Diabetes Science and Technology 10}, 6 (2016).
+
+\bibitem{Martin2007}
+{\sc Martin, D.~W.}
+\newblock {\em {Doing psychology experiments}}.
+\newblock Cengage Learning., 2007.
 
 \end{thebibliography}
