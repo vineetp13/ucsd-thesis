@@ -1,5 +1,26 @@
 
 \chapter{Collaboratively running experiments}
+
+\textit{People have creative scientific questions and folk theories;
+yet most lack the expertise to investigate them. How might
+people transform their questions into experiments that
+inform both science and their lives? This paper introduces
+the Galileo system; it provides procedural support using
+three techniques: 1) experimental design workflow that
+provides just-in-time training; 2) review workflow with
+scaffolded questions; and 3) automated routines for data
+collection. We present three empirical investigations: a
+between-subjects experiment with students, a study with
+online volunteers across 16 countries, and a deployment
+with online volunteers across 8 countries. Procedural
+support yielded higher-quality experiments than watching
+lecture videos. People generated structurally-sound experiments
+on personally meaningful topics and ran them with
+participants from around the world. These results highlight
+the promise and challenges of collaborative, novice-led
+knowledge work.}
+
+
 \begin{figure}[h] 
   \centering
   \includegraphics[width=1.0\textwidth]{figures/galileo/galileo-1}
@@ -14,24 +35,7 @@ The main contribution of this paper is demonstrating that online volunteers can 
 
 Three empirical investigations tested Galileo’s approach. First, a controlled between-subjects experiment with 72 participants found that procedural support yielded signifi-cantly higher-quality experiment designs than lecture videos. Second, a deployment across 16 countries found that people generated structurally-sound experiments on personally meaningful topics. Third, in a field deployment, online users from three communities—kombucha, Open Humans, and beer—across 8 countries demonstrated that people designed, iterated on, and ran week-long experiments.
 
-\section{Related Work}
-\subsection{Citizen Scientists: From Collectors to Experimenters}
-Citizen science efforts span counting bird species, identify-ing galaxies, editing protein structures, and creating novel hypotheses [15,56,69]. One reason for citizen science’s success is that different people provide different expertise that can vet claims and fix mistakes [35]. A humbling example of the power of fresh eyes: volunteer citizen scientists identified an entirely new class of galaxies (“green pea” galaxies) from Galaxy zoo images; experts had dismissed these images as apparatus error [7]. This volun-teer-led discovery demonstrates the need for fostering independent perspectives while simultaneously cultivating sufficient knowledge for meaningful domain contributions. 
 
-Efforts to expand participation in scientific research are bearing fruit: Lab in the Wild recruits anyone with an internet connection for behavioral studies [58]; All of Us aims to recruit one million Americans from all strata of society (allofus.nih.gov). Distributed data contributions from people around the world—browsing online [17], using activity trackers, and joining scientific projects—have enabled valuable insights on topics including obesity [2], aesthetic preferences [59], sleep [25], and the human microbiome [52]. Our work draws on the idea of people using their complementary insights and cognitive surplus towards expert-led scientific work [5].
-
-A number of health and behavioral research projects enlist citizens as helpers (e.g., HabitLab [43]). It remains rare for citizens to design experiments. CivilServant enables online communities’ moderators to test policy ideas; moderators share these ideas with researchers who transform them to study designs [51]. Through the PatientsLikeMe website (patientslikeme.com), citizens and scientists created a study investigating whether consuming lithium alleviated ALS symptoms [64]. While an initial scientific study had provided positive benefits, both this citizen science study and a subsequent university study did not find benefits. Closest to our research, Tummy Trials asked participants to generate health questions, introducing a protocol for self-experimentation combining ideation and self-tracking [36].
-
-This paper provides a general workflow for anyone to transform their intuition to an experimental design; our work focuses on controlled experiments as opposed to self-tracking or informal iteration.
-
-\subsection{Supporting novice inquiry}
-Lived experience, a tight feedback loop, and strong personal motivation can yield different and sometimes better ideas than experts [33]. Prior work has explored collaborative hypothesis generation and testing on pre-existing data sets [48,67]. Galileo offers a complementary contribution: enabling citizens to generate data on topics of personal interest.
-
-One way to make complex tasks manageable is to divide them into distinct phases. Touchstone demonstrates the power of a semi-automated workflow integrating experi-ment design, testing, and analysis [49]. Crowdsourcing has similarly innovated by creating distinct phases: break larger tasks into microtasks; algorithms specify the division, dependency, and agglomeration activities while workers perform small tasks supported by task-specific guidelines [45]. From these systems, our work draws the idea of dividing experimentation into multiple tasks—some self-sourced, others crowd-sourced; and introduce just-in-time domain expertise to perform these tasks. 
-
-Carefully-constructed interfaces can aid novices with task-specific expertise to solve problems that only experts previously could. Foldit introduced 3D game for specifying low-energy protein structures via direct manipulation [15]. Making a challenge visually salient is an effective way to on-board novices. This paper explores scaffolds that are more structural than visual.
-
-Providing just-in-time supports, step-by-step instruction, and showing helpful supportive information are core ideas in instructional design [39]. Crowdsourcing systems leverage interactive guidance for specific tasks. For exam-ple, CrowdLayout and Cicero provide guidelines and static rules that workers use these to reason about their choices and improve network layouts [11,62]. Others like CrowdSCIM and Crowdclass scaffold pre-task interventions [46,63]. Galileo introduces support during the task itself for those with little-to-no mental model of the knowledge domain. Like the Shepherd review-writing system [20], Galileo provides just-in-time support. There are two key differences: 1) Galileo scaffolds the entire creation process, not just the post-draft feedback stage, and 2) Galileo does not draw on expert time – the knowledge is implemented in the software itself. 
 
 \section{The Galileo Experimentation platform}
 Galileo introduces a system for end users to design experi-ments, get them reviewed, and run them with interested participants. It provides procedural support for these steps, an online collaboration platform, and automated data collection and reminders (Figure 1).
