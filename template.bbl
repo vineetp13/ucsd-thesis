@@ -1,28 +1,689 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{100}
+
+\bibitem{national2018learning}
+{\sc {, Engineering, and Medicine}, N. A. o.~S.}
+\newblock {\em {Learning through citizen science: enhancing opportunities by
+  design}}.
+\newblock National Academies Press, 2018.
+
+\bibitem{23andMe2016}
+{\sc 23andMe}.
+\newblock {Something to Chew On}.
+\newblock $\backslash$url{\{}https://blog.23andme.com/23andmeresearch/
+  something-to-chew-on/{\}}, 2016.
+
+\bibitem{Aleven2006}
+{\sc Aleven, V., Mclaren, B., Roll, I., and Koedinger, K.}
+\newblock {Toward meta-cognitive tutoring: A model of help seeking with a
+  cognitive tutor}.
+\newblock {\em International Journal of Artificial Intelligence in Education
+  16}, 2 (2006), 101--128.
+
+\bibitem{Amazon2016}
+{\sc Amazon}.
+\newblock {Mechanical Turk}.
+\newblock mturk.com, 2016.
+
+\bibitem{Andersen2012}
+{\sc Andersen, E., Rourke, E.~O., Liu, Y.-e., Snider, R., Lowdermilk, J.,
+  Truong, D., Cooper, S., and Popovi, Z.}
+\newblock {The Impact of Tutorials on Games of Varying Complexity}.
+\newblock In {\em Proceedings of the SIGCHI Conference on Human Factors in
+  Computing Systems (CHI '12)\/} (ACM, New York, NY, USA, 59-68. DOI:
+  http://dx.doi.org/10.1145/2207676.2207687, 2012), pp.~59--68.
+
+\bibitem{Andrade2005}
+{\sc Andrade, H.~L., and Du, Y.}
+\newblock {Student perspectives on rubric-referenced assessment}.
+\newblock {\em Educational {\&} Counseling Psychology Faculty Scholarship\/}
+  (2005).
+
+\bibitem{Audubon2016}
+{\sc Audubon}.
+\newblock {Audubon Science. Using data to realize the best conservation
+  outcomes}, 2016.
+
+\bibitem{Bernstein2012c}
+{\sc Bernstein, M.~S.}
+\newblock {Crowd-powered Systems}, 2012.
+
+\bibitem{bernstein2011crowds}
+{\sc Bernstein, M.~S., Brandt, J., Miller, R.~C., and Karger, D.~R.}
+\newblock {Crowds in two seconds: Enabling realtime crowd-powered interfaces}.
+\newblock In {\em Proceedings of the 24th annual ACM symposium on User
+  interface software and technology\/} (2011), ACM, pp.~33--42.
+
+\bibitem{Bernstein2010a}
+{\sc Bernstein, M.~S., Little, G., Miller, R.~C., Hartmann, B., Ackerman,
+  M.~S., Karger, D.~R., Crowell, D., and Panovich, K.}
+\newblock {Soylent: a word processor with a crowd inside}.
+\newblock In {\em Proceedings of the 23nd Annual ACM Symposium on User
+  Interface Software and Technology (UIST '10)\/} (2010), pp.~313--322.
+
+\bibitem{Boden2004}
+{\sc Boden, M.~A.}
+\newblock {\em {“The Story so far”. The Creative Mind: Myths and
+  Mechanisms.}}
+\newblock Routledge, 2004.
+
+\bibitem{Bolton1999}
+{\sc Bolton, M.~K.}
+\newblock {The Role Of Coaching in Student Teams: A “Just-in-Time” Approach
+  To Learning}.
+\newblock {\em Journal of Management Education 23\/} (1999), 233--250.
+
+\bibitem{Boud1995}
+{\sc Boud, D.}
+\newblock {\em {Enhancing learning through self-assessment}}.
+\newblock Kogan Page, London, 1995.
+
+\bibitem{BoulderColorado2016}
+{\sc {Boulder Colorado}, P.~B.}
+\newblock {Project BudBurst: An online database of plant phenological
+  observations}, 2016.
+
+\bibitem{Carroll1987}
+{\sc Carroll, J.~M., Smith-Kerker, P.~L., Ford, J.~R., and Mazur-Rimetz, S.~A.}
+\newblock {The minimal manual}.
+\newblock {\em Human-Computer Interaction 3}, 2 (1987), 123--153.
+
+\bibitem{Chandler2013}
+{\sc Chandler, D., and Kapelner, A.}
+\newblock {Breaking monotony with meaning: Motivation in crowdsourcing
+  markets}.
+\newblock {\em Journal of Economic Behavior and Organization 90\/} (2013),
+  123--133.
+
+\bibitem{Chase1973}
+{\sc Chase, W.~G., and Simon, H.~A.}
+\newblock {Perception in chess}.
+\newblock {\em Cognitive psychology 4}, 1 (1973), 55--81.
+
+\bibitem{Chen2016b}
+{\sc Chen, G., Davis, D., Krause, M., Aivaloglou, E., Hauff, C., and Houben,
+  G.-J.}
+\newblock {Can Learners be Earners? Investigating a Design to Enable MOOC
+  Learners to Apply their Skills and Earn Money in an Online Market Place}.
+\newblock {\em IEEE Transactions on Learning Technologies PP}, 99 (2016), 1.
+
+\bibitem{cheng2014catalyst}
+{\sc Cheng, J., and Bernstein, M.}
+\newblock {Catalyst: triggering collective action with thresholds}.
+\newblock In {\em Proceedings of the 17th ACM conference on Computer supported
+  cooperative work {\&} social computing\/} (2014), ACM, pp.~1211--1221.
+
+\bibitem{Chilton2015}
+{\sc Chilton, S.~N., Burton, J.~P., and Reid, G.}
+\newblock {Inclusion of fermented foods in food guides around the world}.
+\newblock {\em Nutrients 7}, 1 (2015), 390--404.
+
+\bibitem{Cho2012}
+{\sc Cho, I., and Blaser, M.}
+\newblock {The human microbiome: at the interface of health and disease.}
+\newblock {\em Nature Reviews Genetics 13}, 4 (2012), 260--270.
+
+\bibitem{Consortium2012}
+{\sc Consortium, T. H. M.~P.}
+\newblock {A framework for human microbiome research}.
+\newblock {\em Nature 486}, 7402 (2012), 215--221.
+
+\bibitem{Consortium2013}
+{\sc Consortium, T. H. M.~P.}
+\newblock {Structure, Function and Diversity of the Healthy Human Microbiome}.
+\newblock {\em Nature 486}, 7402 (2013), 207--214.
+
+\bibitem{Cooper2014}
+{\sc Cooper, C.~B., Shirk, J., and Zuckerberg, B.}
+\newblock {The invisible prevalence of citizen science in global research:
+  Migratory birds and climate change}.
+\newblock {\em PLoS ONE 9}, 9 (2014).
 
 \bibitem{Cooper2010}
 {\sc Cooper, S., Khatib, F., Treuille, A., and Al., E.}
 \newblock {Predicting protein structures with a multiplayer online game}.
 \newblock {\em Nature 466}, 7307 (2010), 756--760.
 
+\bibitem{Corbett1997}
+{\sc Corbett, A.~T., Koedinger, K.~R., and Anderson, J.~R.}
+\newblock {Intelligent tutoring systems}.
+\newblock {\em Handbook of human-computer interaction 5\/} (1997), 849--874.
+
+\bibitem{Coren2011}
+{\sc Coren, M.~J., and Company, F.}
+\newblock {Foldit Gamers Solve Riddle of HIV Enzyme within 3 Weeks}, 2011.
+
+\bibitem{Coviello2014}
+{\sc Coviello, L., Sohn, Y., Kramer, A.~D., Marlow, C., Franceschetti, M.,
+  Christakis, N.~A., and Fowler, J.~H.}
+\newblock {Detecting emotional contagion in massive social networks}.
+\newblock {\em PLoS ONE\/} (2014).
+
 \bibitem{crawford2017politics}
 {\sc Crawford, J.~T., and Jussim, L.}
 \newblock {\em {Politics of Social Psychology}}.
 \newblock Psychology Press, 2017.
+
+\bibitem{Crouch2001}
+{\sc Crouch, C.~H., and Mazur, E.}
+\newblock {Peer Instruction: Ten years of experience and results}.
+\newblock {\em American Journal of Physics 69}, 9 (sep 2001), 970.
+
+\bibitem{DanaLewis}
+{\sc {Dana Lewis}}.
+\newblock {Real-World Use of Open Source Artificial Pancreas Systems}.
+
+\bibitem{Dantoni2015}
+{\sc D'antoni, L., Kini, D., Alur, R., Gulwani, S., Viswanathan, M., and
+  Hartmann, B.}
+\newblock {How Can Automatic Feedback Help Students Construct Automata?}
+\newblock {\em ACM Trans. Comput.-Hum. Interact. 22}, 2 (2015), 9:1--9:24.
+
+\bibitem{Debelius2016}
+{\sc Debelius, J.~W., V{\'{a}}zquez-Baeza, Y., McDonald, D., Xu, Z., Wolfe, E.,
+  and Knight, R.}
+\newblock {Turning Participatory Microbiome Research into Usable Data: Lessons
+  from the American Gut Project.}
+\newblock {\em Journal of Microbiology {\&} Biology Education 17}, 1 (2016),
+  46--50.
+
+\bibitem{dow2012shepherding}
+{\sc Dow, S.~P., Kulkarni, A., Klemmer, S.~R., and Hartmann, B.}
+\newblock {Shepherding the crowd yields better work}.
+\newblock In {\em Proceedings of the ACM 2012 Conference on Computer Supported
+  Cooperative Work (CSCW '12)\/} (2012), ACM, pp.~1013--1022.
+
+\bibitem{dweck2016having}
+{\sc Dweck, C.}
+\newblock {What having a “growth mindset” actually means}.
+\newblock {\em Harvard Business Review 13\/} (2016), 213--226.
+
+\bibitem{Ebrahim2013}
+{\sc Ebrahim, I.~O., Shapiro, C.~M., Williams, A.~J., and Fenwick, P.~B.}
+\newblock {Alcohol and sleep I: effects on normal sleep}.
+\newblock {\em Alcoholism: Clinical and Experimental Research 37}, 4 (2013),
+  539--549.
+
+\bibitem{Engle2002}
+{\sc Engle, R.~W.}
+\newblock {Working memory capacity as executive attention}.
+\newblock {\em Current directions in psychological science 11}, 1 (2002),
+  19--23.
+
+\bibitem{Ernst2003}
+{\sc Ernst, E.}
+\newblock {Kombucha: a systematic review of the clinical evidence}.
+\newblock {\em Complementary Medicine Research 10}, 2 (2003), 85--87.
+
+\bibitem{Eveleigh2014}
+{\sc Eveleigh, A., Jennett, C., Blandford, A., and al, E.}
+\newblock {Designing for dabblers and deterring drop-outs in citizen science}.
+\newblock {\em 32nd annual ACM conference on Human factors in computing systems
+  - CHI '14\/} (2014), 2985--2994.
+
+\bibitem{Faridani2009a}
+{\sc Faridani, S., Lee, B., Glasscock, S., Rappole, J., Song, D., and Goldberg,
+  K.}
+\newblock {A Networked Telerobotic Observatory for Collaborative Remote
+  Observation of Avian Activity and Range Change}.
+\newblock {\em IFAC Proceedings Volumes 42}, 22 (2009), 56--61.
+
+\bibitem{Farzan2013}
+{\sc Farzan, R., and Kraut, R.~E.}
+\newblock {Wikipedia classroom experiment: bidirectional benefits of students'
+  engagement in online production communities}.
+\newblock In {\em Proceedings of the SIGCHI Conference on Human Factors in
+  Computing Systems (CHI '13)\/} (2013), pp.~783--792.
+
+\bibitem{gee2005semiotic}
+{\sc Gee, J.~P.}
+\newblock {Semiotic social spaces and affinity spaces}.
+\newblock {\em Beyond communities of practice language power and social context
+  214232\/} (2005).
+
+\bibitem{Gelman2011}
+{\sc Gelman, S.~A., and Legare, C.~H.}
+\newblock {Concepts and folk theories}.
+\newblock {\em Annu Rev Anthropol\/} (2011), 379--398.
+
+\bibitem{Gill2006}
+{\sc Gill, S., Pop, M., DeBoy, R., and Eckburg, P.}
+\newblock {Metagenomic analysis of the human distal gut microbiome}.
+\newblock {\em Science 312}, 5778 (2006), 1355--1359.
+
+\bibitem{Godleec7452}
+{\sc Godlee, F., Smith, J., and Marcovitch, H.}
+\newblock {Wakefield's article linking MMR vaccine and autism was fraudulent}.
+\newblock {\em BMJ 342\/} (2011).
+
+\bibitem{Gonzalez2004}
+{\sc Gonz{\'{a}}lez, V.~M., and Mark, G.}
+\newblock {Constant, constant, multi-tasking craziness: managing multiple
+  working spheres}.
+\newblock In {\em Proceedings of the SIGCHI conference on Human factors in
+  computing systems\/} (2004), ACM, pp.~113--120.
+
+\bibitem{Gray2012}
+{\sc Gray, J., Chambers, L., and Bounegru, L.}
+\newblock {\em {The data journalism handbook: How journalists can use data to
+  improve the news}}.
+\newblock O'Reilly Media, Inc., 2012.
+
+\bibitem{Hacker2014}
+{\sc Hacker, S. B.~H.}
+\newblock {\em {Duolingo: Learning a Language while Translating the Web. Ph.D
+  Dissertation}}.
+\newblock PhD thesis, Carnegie Mellon University, Pittsburgh, PA, 2014.
+
+\bibitem{hansen2015democratizing}
+{\sc Hansen, J.~D., and Reich, J.}
+\newblock {Democratizing education? Examining access and usage patterns in
+  massive open online courses}.
+\newblock {\em Science 350}, 6265 (2015), 1245--1248.
+
+\bibitem{Hattie2007}
+{\sc Hattie, J., and Timperley, H.}
+\newblock {The power of feedback [transfer argument]}.
+\newblock {\em Review of Educational Research 77}, 1 (2007), 81--112.
+
+\bibitem{Haukioja2008}
+{\sc Haukioja, A., S{\"{o}}derling, E., and Tenovuo, J.}
+\newblock {Acid Production from Sugars and Sugar Alcohols by Probiotic
+  Lactobacilli and Bifidobacteria in vitro}.
+\newblock {\em Caries Research 42}, 6 (2008).
+
+\bibitem{Havighurst1953}
+{\sc Havighurst, R.~J.}
+\newblock {Human development and education}.
+\newblock {\em Oxford, England: Longmans, Green.\/} (1953).
 
 \bibitem{Henrich2010a}
 {\sc Henrich, J., Heine, S.~J., and Norenzayan, A.}
 \newblock {Most People are not WEIRD}.
 \newblock {\em Nature 466}, July 2010 (2010).
 
+\bibitem{Hinds1999}
+{\sc Hinds, P.~J.}
+\newblock {The curse of expertise: The effects of expertise and debiasing
+  methods on prediction of novice performance.}
+\newblock {\em Journal of Experimental Psychology: Applied 5}, 2 (1999),
+  205--221.
+
+\bibitem{hui2014understanding}
+{\sc Hui, J.~S., Gerber, E.~M., and Gergle, D.}
+\newblock {Understanding and leveraging social networks for crowdfunding:
+  opportunities and challenges}.
+\newblock In {\em Proceedings of the 2014 conference on Designing interactive
+  systems\/} (2014), ACM, pp.~677--680.
+
+\bibitem{Jennett2014}
+{\sc Jennett, C., and Cox, A.~L.}
+\newblock {Eight Guidelines for Designing Virtual Citizen Science Projects}.
+\newblock {\em Second AAAI Conference on Human Computation and Crowdsourcing
+  (HCOMP '14)\/} (2014), 16--17.
+
+\bibitem{Karkar2017a}
+{\sc Karkar, R., Schroeder, J., Epstein, D.~A., Pina, L.~R., Scofield, J.,
+  Fogarty, J., Kientz, J.~A., Munson, S.~A., Vilardaga, R., and Zia, J.}
+\newblock {Tummytrials: a feasibility study of using self-experimentation to
+  detect individualized food triggers}.
+\newblock In {\em Proceedings of the 2017 CHI Conference on Human Factors in
+  Computing Systems\/} (2017), ACM, pp.~6850--6863.
+
+\bibitem{Kawrykow2012}
+{\sc Kawrykow, A., Roumanis, G., Kam, A., Kwak, D., Leung, C., Wu, C., Zarour,
+  E., Sarmenta, L., Blanchette, M., and Waldisp{\"{u}}hl, J.}
+\newblock {Phylo: A citizen science approach for improving multiple sequence
+  alignment}.
+\newblock {\em PLoS ONE 7}, 3 (2012).
+
+\bibitem{Kempton1986}
+{\sc Kempton, W.}
+\newblock {Two theories of home heat control}.
+\newblock {\em Cognitive Science 10}, 1 (1986), 75--90.
+
+\bibitem{Kim2015f}
+{\sc Kim, J.}
+\newblock {\em {Learnersourcing : Improving video learning with collective
+  learner activity. Ph.D Dissertation}}.
+\newblock Ph.d dissertation, Massachusetts Institute of Technology, Cambridge,
+  MA, 2015.
+
+\bibitem{kim2014crowdsourcing}
+{\sc Kim, J., Nguyen, P.~T., Weir, S., Guo, P.~J., Miller, R.~C., and Gajos,
+  K.~Z.}
+\newblock {Crowdsourcing step-by-step information extraction to enhance
+  existing how-to videos}.
+\newblock In {\em Proceedings of the SIGCHI Conference on Human Factors in
+  Computing Systems\/} (2014), ACM, pp.~4017--4026.
+
+\bibitem{Kim2014c}
+{\sc Kim, J., Nguyen, P.~T., Weir, S., Guo, P.~J., Miller, R.~C., and Gajos,
+  K.~Z.}
+\newblock {Crowdsourcing step-by-step information extraction to enhance
+  existing how-to videos}.
+\newblock {\em Proceedings of the 32nd annual ACM conference on Human factors
+  in computing systems - CHI '14\/} (2014), 4017--4026.
+
+\bibitem{Kittur2013}
+{\sc Kittur, A., Nickerson, J., and Bernstein, M.}
+\newblock {The Future of Crowd Work}.
+\newblock {\em Proc. CSCW '13\/} (2013), 1--17.
+
+\bibitem{Kizilcec2017b}
+{\sc Kizilcec, R.~F., Saltarelli, A.~J., Reich, J., and Cohen, G.~L.}
+\newblock {Closing global achievement gaps in MOOCs}.
+\newblock {\em Science 355}, 6322 (2017), 251--252.
+
+\bibitem{Knight2016}
+{\sc Knight, R., Metcalf, J., and Amato, K.}
+\newblock {Gut Check: Exploring Your Microbiome. Coursera.}, 2016.
+
+\bibitem{KnightLab2016a}
+{\sc KnightLab}.
+\newblock {American Gut - What's in your gut?}, 2016.
+
+\bibitem{KnightLab2016}
+{\sc KnightLab}.
+\newblock {American Gut Project. Login.}, 2016.
+
+\bibitem{koo2016guideline}
+{\sc Koo, T.~K., and Li, M.~Y.}
+\newblock {A guideline of selecting and reporting intraclass correlation
+  coefficients for reliability research}.
+\newblock {\em Journal of chiropractic medicine 15}, 2 (2016), 155--163.
+
+\bibitem{kornell2009optimising}
+{\sc Kornell, N.}
+\newblock {Optimising learning using flashcards: Spacing is more effective than
+  cramming}.
+\newblock {\em Applied Cognitive Psychology: The Official Journal of the
+  Society for Applied Research in Memory and Cognition 23}, 9 (2009),
+  1297--1317.
+
+\bibitem{Kotturi2015}
+{\sc Kotturi, Y., Kulkarni, C.~E., Bernstein, M.~S., and Klemmer, S.}
+\newblock {Structure and messaging techniques for online peer learning systems
+  that increase stickiness}.
+\newblock {\em Proceedings of the Second (2015) ACM Conference on Learning @
+  Scale - L@S '15\/} (2015), 31--38.
+
+\bibitem{Krieger2009}
+{\sc Krieger, M., Stark, E.~M., and Klemmer, S.~R.}
+\newblock {Coordinating tasks on the commons: designing for personal goals,
+  expertise and serendipity}.
+\newblock {\em Proceedings of the {\{}SIGCHI{\}} Conference on Human Factors in
+  Computing Systems\/} (2009), 1485--1494.
+
+\bibitem{Kulkarni2015b}
+{\sc Kulkarni, C., Bernstein, M., and Klemmer, S.}
+\newblock {PeerStudio: Rapid Peer Feedback Emphasizes Revision and Improves
+  Performance}.
+\newblock In {\em Learning at Scale\/} (2015).
+
+\bibitem{Kulkarni2013peer}
+{\sc Kulkarni, C., Wei, K.~P., Le, H., Chia, D., Papadopoulos, K., Cheng, J.,
+  Koller, D., and Klemmer, S.~R.}
+\newblock {Peer and self assessment in massive online classes}.
+\newblock {\em ACM Transactions on Computer-Human Interaction (TOCHI) 20}, 6
+  (2013), 33.
+
+\bibitem{Law2016}
+{\sc Law, E., Yin, M., Goh, J., Chen, K., Terry, M., and Gajos, K.~Z.}
+\newblock {Curiosity Killed the Cat , but Makes Crowdwork Better}.
+\newblock {\em Chi 2016\/} (2016).
+
+\bibitem{Law2016a}
+{\sc Law, E., Yin, M., Goh, J., Chen, K., Terry, M., and Gajos, K.~Z.}
+\newblock {Curiosity Killed the Cat, but Makes Crowdwork Better}.
+\newblock In {\em Proceedings of the SIGCHI Conference on Human Factors in
+  Computing Systems\/} (2016).
+
+\bibitem{Lee2016}
+{\sc Lee, D., Lo, J., Kim, M., and Paulos, E.}
+\newblock {Crowdclass: Designing classification-based citizen science learning
+  modules}.
+\newblock In {\em Proceedings of the Fourth AAAI Conference on Human
+  Computation and Crowdsourcing (HCOMP '16)\/} (2016).
+
+\bibitem{Lee2014}
+{\sc Lee, J., Kladwang, W., Lee, M., Cantu, D., Azizyan, M., Kim, H.,
+  Limpaecher, A., Gaikwad, S., Yoon, S., Treuille, A., and Das, R.}
+\newblock {RNA design rules from a massive open laboratory}.
+\newblock {\em Proceedings of the National Academy of Sciences 111}, 6 (2014),
+  2122--2127.
+
+\bibitem{Lee2015b}
+{\sc Lee, Y.-C., Lin, W.-C., Cherng, F.-Y., Wang, H.-C., Sung, C.-Y., and King,
+  J.-T.}
+\newblock {Using Time-Anchored Peer Comments to Enhance Social Interaction in
+  Online Educational Videos}.
+\newblock In {\em SIGCHI Conference on Human Factors in Computing Systems\/}
+  (2015), pp.~689--698.
+
+\bibitem{Lee2015}
+{\sc Lee, Y.-C., Lin, W.-C., Cherng, F.-Y., Wang, H.-C., Sung, C.-Y., and King,
+  J.-T.}
+\newblock {Using Time-Anchored Peer Comments to Enhance Social Interaction in
+  Online Educational Videos}.
+\newblock {\em Proceedings of the ACM CHI'15 Conference on Human Factors in
+  Computing Systems 1\/} (2015), 689--698.
+
+\bibitem{Levy2013}
+{\sc Levy, L., Jones, B., Robertson, S., and Price, E.~D.}
+\newblock {Health Mashups : Presenting Statistical Patterns between Wellbeing
+  Data and Context in Natural Language to Promote Behavior Change}.
+\newblock 1--27.
+
 \bibitem{Lewis2016}
 {\sc Lewis, D., and Leibrand, S.}
 \newblock {Real-World Use of Open Source Artificial Pancreas Systems}.
 \newblock {\em Journal of Diabetes Science and Technology 10}, 6 (2016).
 
+\bibitem{Mamykina2011}
+{\sc Mamykina, L., Manoim, B., Mittal, M., Hripcsak, G., and Hartmann, B.}
+\newblock {Design Lessons from the Fastest Q{\&}A Site in the West}.
+\newblock In {\em Proceedings of the SIGCHI Conference on Human Factors in
+  Computing Systems (CHI '11)\/} (2011), pp.~2857--2866.
+
 \bibitem{Martin2007}
 {\sc Martin, D.~W.}
 \newblock {\em {Doing psychology experiments}}.
 \newblock Cengage Learning., 2007.
+
+\bibitem{Mayer15490}
+{\sc Mayer, E.~A., Knight, R., Mazmanian, S.~K., Cryan, J.~F., and Tillisch,
+  K.}
+\newblock {Gut Microbes and the Brain: Paradigm Shift in Neuroscience}.
+\newblock {\em Journal of Neuroscience 34}, 46 (2014), 15490--15496.
+
+\bibitem{Mayer2004}
+{\sc Mayer, R.~E.}
+\newblock {Should There Be a Three-Strikes Rule Against Pure Discovery
+  Learning? The case for guided methods of instruction}.
+\newblock {\em American Psychologist 59}, 1 (2004), 14--19.
+
+\bibitem{McDonald2018a}
+{\sc McDonald, D., Hyde, E., Debelius, J.~W., Morton, J.~T., Gonzalez, A.,
+  Ackermann, G., Aksenov, A.~A., Behsaz, B., Brennan, C., and Chen, Y.}
+\newblock {American Gut: an Open Platform for Citizen Science Microbiome
+  Research}.
+\newblock {\em mSystems 3}, 3 (2018), e00031--18.
+
+\bibitem{Miyake1979a}
+{\sc Miyake, N., and Norman, D.~A.}
+\newblock {To Ask a Question , One Must Know Enough to Know What is Not Known}.
+
+\bibitem{NationalCouncilforVoluntaryOrganisations2018}
+{\sc {National Council for Voluntary Organisations}, U.}
+\newblock {Why Volunteer?}, 2018.
+
+\bibitem{NIH2015}
+{\sc NIH}.
+\newblock {NIH Clinical Trials Research and You}, 2015.
+
+\bibitem{Health2018}
+{\sc of~Health, N.~I.}
+\newblock {Colloidal Silver | NCCIH}, 2018.
+
+\bibitem{Pandey2017}
+{\sc Pandey, V., Amir, A., Debelius, J., Hyde, E.~R., Knight, R., and Klemmer,
+  S.}
+\newblock {Gut Instinct: Creating Scientific Theories with Online Learners}.
+\newblock In {\em 2017 CHI Conference on Human Factors in Computing Systems
+  (pp. 6825-6836). ACM.\/} (2017).
+
+\bibitem{Pandey2018}
+{\sc Pandey, V., Debelius, J., Hyde, E.~R., Kosciolek, T., Knight, R., and
+  Klemmer, S.}
+\newblock {Docent: transforming personal intuitions to scientific hypotheses
+  through content learning and process training}.
+\newblock In {\em Proceedings of the Fifth Annual ACM Conference on Learning at
+  Scale\/} (2018), ACM, p.~9.
+
+\bibitem{Ph.D.}
+{\sc Ph.D., M. J.~B.}
+\newblock {Alcohol and Sleep: What You Need to Know}.
+
+\bibitem{Reinecke2015}
+{\sc Reinecke, K., Arbor, A., and Gajos, K.~Z.}
+\newblock {LabintheWild : Conducting Large-Scale Online Experiments With
+  Uncompensated Samples}.
+\newblock In {\em Proceedings of the 18th ACM Conference on Computer Supported
+  Cooperative Work {\&} Social Computing\/} (2015).
+
+\bibitem{Resnick2011}
+{\sc Resnick, P., and Kraut, R.}
+\newblock {\em {Building Successful Online Communities: Evidence-based social
+  design}}.
+\newblock MIT Press, Cambridge, MA, 2011.
+
+\bibitem{Rittle-Johnson1999}
+{\sc Rittle-Johnson, B., and Alibali, M.~W.}
+\newblock {Conceptual and procedural knowledge of mathematics: Does one lead to
+  the other?}
+\newblock {\em Journal of Educational Psychology 91}, 1 (1999), 175--189.
+
+\bibitem{Savery1995}
+{\sc Savery, J.~R., and Duffy, T.~M.}
+\newblock {Problem based learning: An instructional model and its
+  constructivist framework}.
+\newblock {\em Educational Technology 35}, 5 (1995), 31--38.
+
+\bibitem{schon1984reflective}
+{\sc Sch{\"{o}}n, D.~A.}
+\newblock {\em {The reflective practitioner: How professionals think in
+  action}}, vol.~5126.
+\newblock Basic books, 1984.
+
+\bibitem{Shah2015}
+{\sc Shah, D.}
+\newblock {By The Numbers: MOOCS in 2015.}, 2015.
+
+\bibitem{Simon2004}
+{\sc Simon, M.~A., Tzur, R., Heinz, K., and Kinzel, M.}
+\newblock {Explicating a mechanism for conceptual learning: Elaborating the
+  construct of reflective abstraction.}
+\newblock {\em Journal for research in mathematics education\/} (2004),
+  305--329.
+
+\bibitem{Snow2008}
+{\sc Snow, R., Connor, B.~O., Jurafsky, D., Ng, A.~Y., Labs, D., and St, C.}
+\newblock {Cheap and fast - but is it good? Evaluation non-expert annotiations
+  for natural language tasks}.
+\newblock In {\em Proceedings of the Conference on Empirical Methods in Natural
+  Language Processing (EMNLP '08)\/} (2008), pp.~254--263.
+
+\bibitem{Teevan:2017:BWC:3059454.3059467}
+{\sc Teevan, J., and Yu, L.}
+\newblock {Bringing the Wisdom of the Crowd to an Individual by Having the
+  Individual Assume Different Roles}.
+\newblock In {\em Proceedings of the 2017 ACM SIGCHI Conference on Creativity
+  and Cognition\/} (New York, NY, USA, 2017), ACM, pp.~131--135.
+
+\bibitem{Tinati2015}
+{\sc Tinati, R., {Van Kleek}, M., Simperl, E., Luczak-R{\&}ouml, M., Sch,
+  Simpson, R., and Shadbolt, N.}
+\newblock {Designing for Citizen Data Analysis: A Cross-Sectional Case Study of
+  a Multi-Domain Citizen Science Platform}.
+\newblock {\em Proceedings of the SIGCHI Conference on Human Factors in
+  Computing Systems (CHI '15)}, April (2015), 4069--4078.
+
+\bibitem{VanderMeij1995}
+{\sc van~der Meij, H., and Carroll, J.~M.}
+\newblock {Principles and Heuristics for Designing Minimalist Instruction}.
+\newblock {\em Technical Communication 42}, 2 (1995), 243--261.
+
+\bibitem{VonAhn2006}
+{\sc von Ahn, L., Liu, R., and Blum, M.}
+\newblock {Peekaboom}.
+\newblock In {\em Proceedings of the SIGCHI Conference on Human Factors in
+  Computing Systems (CHI '06)\/} (2006), pp.~55--64.
+
+\bibitem{Ahn2008}
+{\sc von Ahn, L., Maurer, B., Mcmillen, C., Abraham, D., and Blum, M.}
+\newblock {reCAPTCHA: Human-Based Character Recognition via Web Security
+  Measures}.
+\newblock {\em Science 321}, 12 September 2008 (2008), 1465--1468.
+
+\bibitem{VonHippel2005a}
+{\sc von Hippel, E.}
+\newblock {\em {Democratizing innovation: The evolving phenomenon of user
+  innovation}}.
+\newblock MIT, 2005.
+
+\bibitem{Wikipedia}
+{\sc Wikipedia}.
+\newblock {Community Insights/2018 Report}.
+
+\bibitem{Wikipedia2018}
+{\sc Wikipedia}.
+\newblock {Bristol stool scale}, 2018.
+
+\bibitem{Wobbrock2018}
+{\sc Wobbrock, J.}
+\newblock {Designing, Running, and Analyzing Experiments}, 2018.
+
+\bibitem{Yang:2014:ARQ:2631775.2631809}
+{\sc Yang, J., Hauff, C., Bozzon, A., and Houben, G.-J.}
+\newblock {Asking the Right Question in Collaborative Q{\&}A Systems}.
+\newblock In {\em Proceedings of the 25th ACM Conference on Hypertext and
+  Social Media\/} (New York, NY, USA, 2014), HT '14, ACM, pp.~179--189.
+
+\bibitem{Yatsunenko2012}
+{\sc Yatsunenko, T., Rey, F.~E., Manary, M.~J., Trehan, I., Dominguez-Bello,
+  M.~G., Contreras, M., Magris, M., Hidalgo, G., Baldassano, R.~N., Anokhin,
+  A.~P., Heath, A.~C., Warner, B., Reeder, J., Kuczynski, J., Caporaso, J.~G.,
+  Lozupone, C.~A., Lauber, C., Clemente, J.~C., Knights, D., Knight, R., and
+  Gordon, J.~I.}
+\newblock {Human gut microbiome viewed across age and geography}.
+\newblock {\em Nature 486}, 7402 (2012), 222--227.
+
+\bibitem{Yu2012}
+{\sc Yu, L., Nickerson, J.~V., and Sakamoto, Y.}
+\newblock {Collective creativity: Where we are and where we might go}.
+\newblock {\em Collective Intelligence Conference\/} (2012), 1--8.
+
+\bibitem{Yu2006}
+{\sc Yu, Y., Stamberger, J., Manoharan, A., and Paepcke, A.}
+\newblock {EcoPod: a mobile tool for community based biodiversity collection
+  building}.
+\newblock In {\em Proceedings of the 6th ACM/IEEE-CS Joint Conference on
+  Digital Libraries (JCDL '06)\/} (2006), pp.~244--253.
+
+\bibitem{Zhang2015}
+{\sc Zhang, X., Zhang, D., Jia, H., Feng, Q., Wang, D., Liang, D., Wu, X., Li,
+  J., Tang, L., Li, Y., Lan, Z., Chen, B., Li, Y., Zhong, H., Xie, H., Jie, Z.,
+  Chen, W., Tang, S., Xu, X., Wang, X., Cai, X., Liu, S., Xia, Y., Li, J.,
+  Qiao, X., Al-Aama, J.~Y., Chen, H., Wang, L., Wu, Q.-j., Zhang, F., Zheng,
+  W., Li, Y., Zhang, M., Luo, G., Xue, W., Xiao, L., Li, J., Chen, W., Xu, X.,
+  Yin, Y., Yang, H., Wang, J., Kristiansen, K., Liu, L., Li, T., Huang, Q., Li,
+  Y., and Wang, J.}
+\newblock {The oral and gut microbiomes are perturbed in rheumatoid arthritis
+  and partly normalized after treatment}.
+\newblock {\em Nat Med 21}, 8 (aug 2015), 895--905.
+
+\bibitem{Zooniverse2007}
+{\sc Zooniverse}.
+\newblock {Galaxy Zoo}, 2007.
 
 \end{thebibliography}
