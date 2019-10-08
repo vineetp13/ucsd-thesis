@@ -7,13 +7,12 @@
 \end{quote}
 \vspace{0.25in}
 
-%to people for them to perform personally meaningful work.
-%My research prototypes collective systems for large-scale problems.
-%Worldwide, people use online health fora to share insights and look for answers
-%Iin short, to push people towards actively testing their ideas rather than just sharing them?  whether drinking kombucha really changes the gut constitution? In the absence of support and guidance, how can people do more? . 
+Social computing platforms have revolutionized how most people connect, communicate, and share. We increasingly connect with friends and strangers in different ways for a number of purposes. Friends and family can stay in constant touch with their loved ones. Strangers from different parts of the world discuss their ideas about their health. Increasingly, these connection opportunities have also translated to more active doing: people fund other's\'  ideas that traditional business places might balk at. Some have used social platforms to amplify their voice and bring about social changes. for instance, people in Sudan have taken down dictators [??]. By transforming how we communicate, share, and chat, social computing has become perhaps the greatest internet-fueled change of our times. 
 
-%\subsection{Social computing has done great things but... }
- Social computing platforms have revolutionized how most people connect, communicate, and share. We increasingly connect with friends and strangers in different ways for a number of purposes. Friends and family can stay in constant touch with their loved ones. Strangers from different parts of the world discuss their ideas about their health. Increasingly, these connection opportunities have also translated to more active doing: people fund other's\'  ideas that traditional business places might balk at. Some have used social platforms to amplify their voice and bring about social changes. for instance, people in Sudan have taken down dictators [??]. By transforming how we communicate, share, and chat, social computing has become perhaps the greatest internet-fueled change of our times. 
+%%interactive vis (social computing discussions) is awesome
+% people can do stuff with hypotheses (test them?)
+%    however, viz is hard (scientific work)
+%        programming toolkits needed and impose burden (support needed to get started, reduce burden, and …)
 
 However, the benefits of social computing are not distributed equally. While everyone has a voice, some have bigger loudspeakers than others: xx\% of most popular posts are from experts. While anyone can organize and bring changes, collective attempts to organize frequently fail. While anyone can learn from widely accessible research papers and articles, people create faulty insights from self-tracking and conspiracy theories abound. With this lens, social computing seems less transformative but rather a highly scaled up version of the offline reality of limited expertise people live in. 
 % 1 to 1 link with the first para
@@ -24,6 +23,13 @@ However, the benefits of social computing are not distributed equally. While eve
 %People have complementary knowledge in comparison to experts and are uninfected by expert biases; these insights are drawn from lived experience, both individual and collective.
 
 Specific to this dissertation: While social computing platforms have vastly succeeded at keeping people engaged and sharing, they barely support \textit {citizen-led enquiry}. People have strong personal motivations and contextual insights. People possess a remarkable ability to identify patterns and create theories from their experiences [??]. While most people have an amazing breadth and depth of ideas, they lack the expertise to implement these ideas. To create knowledge, they need mental scaffolds for organizing complex work, domain knowledge to compose and execute the steps, and ways to ask for help. Experts benefit from conceptual knowledge, professional training, pre-existing organizational structure for collaboration, and direct access to resources. Currently, citizens lack these resources. social computing platforms where people spend ridiculous times provide little support. 
+
+%this is the current state --  this is the big challenge, why is it a challenge
+%% however, scaling good teaching is hard - kulkarni
+%     this peer thing can be helpful (evidence from small studies)
+%        however, this is challenging — 2 causes
+%        interfaces need to provide scaffolding 
+
 
 \begin{figure}[b] 
   \centering
@@ -43,6 +49,20 @@ Consequently, this is unfortunate missed opportunity for both individuals and th
 Let''s reflect on this dual nature:  science can answer life-relevant questions but few know how to even get started. As a result, people fail to answer their questions and institutional science misses out on ideas from beyond the ivory tower. 
 
 %one line to summarize my work -- see other intro
+
+%two properties of classes help us - kulkarni
+%this thesis leverages these two properties and provides a new class of benefits etc... 
+
+%what helps us
+%1. the scientific method is structured
+%    1. even though creative and open-ended
+%2. roles: people take them online
+%    1. captures diversity — breadth
+%    2. micro-expertise supports this explicitly 
+%3. procedural learning: can teach people how to do things
+%    1. captures learning — depth
+
+
 This dissertation advances the design of social computing systems by integrating learning and collaboration to enable complex work such as generating and evaluating scientific theories. Over 600 people from 30 countries have self-organized to generate theories about the human microbiome and test them by running experiments. This dissertation raises the question: how can global communities create knowledge that meets their goals without waiting for experts to lead? 
 
 Gut Instinct emodies this insight and introduces a collaborative citizen science platform for people to transform lived exes into scientific theories. 
@@ -118,6 +138,10 @@ For example, GalaxyZoo volunteers discovered ‘green pea’
 galaxies overlooked by scientists who mistakenly assumed
 the green hue was merely an imaging artifact [54]. 
 
+
+% kulkarni -- "This assessment requires bothcommon-sense knowledge to understand student work and the expertise to assess tacit criteria such as “well-designed” or “well-modularized” that cannot be completely articulated. Indeed, teaching such tacit criteria is an important goal in open-ended domains like design"
+
+
 \textit{People lack a professional network to improve their work}. 
 Furthermore,  how do people ask others for help? Who do they reach out to?
 
@@ -155,6 +179,8 @@ This dissertation makes three types of contributions: theoretical perspectives/t
 \subsection{Theoretical  Techniques}
 Improving  work quality in social computing suggests deepening individual contributions and broadening participation by providing different contribution mechanisms.The former requires better learning tools and the latter requires better collaboration tools and dependency management. Consequently, this thesis' theoretical contributions include 1) principles to integrate guidance for complex tasks, and 2) ways to divide complex tasks into multiple roles or affordances.
 
+%“..adapts and extends techniques from xxx” -  arvind
+
 %system-led learning vs people-led
 Traditional systems think of knowledge as being provided by the people, while we being the knowledge from the system itself.
 
@@ -181,6 +207,14 @@ The individual, groups of people, and machines possess complementary strengths. 
 Given these complementary strengths and limitations, this dissertation 1) begins every task with a heavy-handed implementation by an individual personally invested in that idea, 2) improves it with others'' feedback, and finally, 3) runs the idea with the help of automated software. For all these steps, the system manages the interdependencies beneath the sheets to reduce pressure on people. Building on xx's hierarchy~\ref{??}, it aims to push collaboration more up.
 
 The efficacy of these techniques is borne out over multiple deployments. All these techniques have been put in systems as interfaces, intelligent backends, and so on... \\
+
+%\begin{figure}[t!] 
+%  \centering
+%    \includegraphics[width=1.0\textwidth]{figures/img/intro/1-contributions}
+%  \caption[Contributions of this dissertation]
+%{Contributions of this dissertation including empirical results theoretical perspectives/techniques, real-world systems, and multiple outcomes}
+%  \label{fig:contributions}
+%\end{figure}
 
 \subsection{User Interface and System Design}
 %User interfaces and system design for efficient implementation
@@ -242,17 +276,19 @@ s
 "double quotes"
 
 
-%%%%%%%%%%%
-%\begin{figure}[t!] 
-%  \centering
-%    \includegraphics[width=1.0\textwidth]{figures/img/intro/1-contributions}
-%  \caption[Contributions of this dissertation]
-%{Contributions of this dissertation including empirical results theoretical perspectives/techniques, real-world systems, and multiple outcomes}
-%  \label{fig:contributions}
-%\end{figure}
-
 %The techniques make the idea concrete; the system operationalizes the techniques and makes them work; and the outcomes discuss the successes and failures of our approach.
 
+%to people for them to perform personally meaningful work.
+%My research prototypes collective systems for large-scale problems.
+%Worldwide, people use online health fora to share insights and look for answers
+%Iin short, to push people towards actively testing their ideas rather than just sharing them?  whether drinking kombucha really changes the gut constitution? In the absence of support and guidance, how can people do more? . 
 
-
-
+%%1. novice-led
+%    1. no experts
+%    2. with other novices 
+%2. personally meaningful 
+%3. techniques
+%    1. expert work to social computing 
+%        1. ways to do that
+%4. output
+%    1. create new knowledge 

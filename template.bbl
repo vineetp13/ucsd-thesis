@@ -6,11 +6,15 @@
   design}}.
 \newblock National Academies Press, 2018.
 
-\bibitem{23andMe2016}
+\bibitem{23andme2016}
 {\sc 23andMe}.
 \newblock {Something to Chew On}.
 \newblock $\backslash$url{\{}https://blog.23andme.com/23andmeresearch/
   something-to-chew-on/{\}}, 2016.
+
+\bibitem{23andMe2017}
+{\sc 23andMe}.
+\newblock {Genetics 101}, 2017.
 
 \bibitem{Aleven2006}
 {\sc Aleven, V., Mclaren, B., Roll, I., and Koedinger, K.}
@@ -37,6 +41,11 @@
 \newblock {Student perspectives on rubric-referenced assessment}.
 \newblock {\em Educational {\&} Counseling Psychology Faculty Scholarship\/}
   (2005).
+
+\bibitem{Aronson2015}
+{\sc Aronson, S.~J., and Rehm, H.~L.}
+\newblock {Building the foundation for genomics in precision medicine}.
+\newblock {\em Nature 526\/} (oct 2015), 336.
 
 \bibitem{Audubon2016}
 {\sc Audubon}.
@@ -72,6 +81,11 @@
   To Learning}.
 \newblock {\em Journal of Management Education 23\/} (1999), 233--250.
 
+\bibitem{Bonifait2009}
+{\sc Bonifait, L., Chandad, F., and Grenier, D.}
+\newblock {Probiotics for oral health: myth or reality?.}
+\newblock {\em Journal of the Canadian Dental Association, 75(8).\/} (2009).
+
 \bibitem{Boud1995}
 {\sc Boud, D.}
 \newblock {\em {Enhancing learning through self-assessment}}.
@@ -81,6 +95,21 @@
 {\sc {Boulder Colorado}, P.~B.}
 \newblock {Project BudBurst: An online database of plant phenological
   observations}, 2016.
+
+\bibitem{Brandt2012}
+{\sc Brandt, L.}
+\newblock {Fecal transplantation for the treatment of Clostridium difficile
+  infection}.
+\newblock {\em Gastroenterology {\&} hepatology 8}, 3 (2012), 191--194.
+
+\bibitem{cardamone2009galaxy}
+{\sc Cardamone, C., Schawinski, K., Sarzi, M., Bamford, S.~P., Bennert, N.,
+  Urry, C.~M., Lintott, C., Keel, W.~C., Parejko, J., Nichol, R.~C., and
+  Others}.
+\newblock {Galaxy Zoo Green Peas: discovery of a class of compact extremely
+  star-forming galaxies}.
+\newblock {\em Monthly Notices of the Royal Astronomical Society 399}, 3
+  (2009), 1191--1205.
 
 \bibitem{Carroll1987}
 {\sc Carroll, J.~M., Smith-Kerker, P.~L., Ford, J.~R., and Mazur-Rimetz, S.~A.}
@@ -106,11 +135,24 @@
   Learners to Apply their Skills and Earn Money in an Online Market Place}.
 \newblock {\em IEEE Transactions on Learning Technologies PP}, 99 (2016), 1.
 
+\bibitem{chen2019cicero}
+{\sc Chen, Q., Bragg, J., Chilton, L.~B., and Weld, D.~S.}
+\newblock {Cicero: Multi-Turn, Contextual Argumentation for Accurate
+  Crowdsourcing}.
+\newblock In {\em Proceedings of the 2019 CHI Conference on Human Factors in
+  Computing Systems\/} (2019), ACM, p.~531.
+
 \bibitem{cheng2014catalyst}
 {\sc Cheng, J., and Bernstein, M.}
 \newblock {Catalyst: triggering collective action with thresholds}.
 \newblock In {\em Proceedings of the 17th ACM conference on Computer supported
   cooperative work {\&} social computing\/} (2014), ACM, pp.~1211--1221.
+
+\bibitem{chi1981expertise}
+{\sc Chi, M. T.~H., Glaser, R., and Rees, E.}
+\newblock {Expertise in problem solving.}
+\newblock Tech. rep., PITTSBURGH UNIV PA LEARNING RESEARCH AND DEVELOPMENT
+  CENTER, 1981.
 
 \bibitem{Chilton2015}
 {\sc Chilton, S.~N., Burton, J.~P., and Reid, G.}
@@ -121,6 +163,13 @@
 {\sc Cho, I., and Blaser, M.}
 \newblock {The human microbiome: at the interface of health and disease.}
 \newblock {\em Nature Reviews Genetics 13}, 4 (2012), 260--270.
+
+\bibitem{Choe2014}
+{\sc Choe, E.~K., Lee, N.~B., Lee, B., Pratt, W., and Kientz, J.~A.}
+\newblock {Understanding quantified-selfers' practices in collecting and
+  exploring personal data}.
+\newblock {\em Proceedings of the 32nd annual ACM conference on Human factors
+  in computing systems - CHI '14\/} (2014), 1143--1152.
 
 \bibitem{Consortium2012}
 {\sc Consortium, T. H. M.~P.}
@@ -234,6 +283,16 @@
 \newblock In {\em Proceedings of the SIGCHI Conference on Human Factors in
   Computing Systems (CHI '13)\/} (2013), pp.~783--792.
 
+\bibitem{Francis2006}
+{\sc Francis, S.~T., Head, K., Morris, P.~G., and Macdonald, I.~A.}
+\newblock {The effect of flavanol-rich cocoa on the fMRI response to a
+  cognitive task in healthy young people}.
+\newblock {\em Journal of cardiovascular pharmacology 47\/} (2006), S215--S220.
+
+\bibitem{Gawande2017}
+{\sc Gawande, A.}
+\newblock {The heroism of Incremental care}, 2017.
+
 \bibitem{gee2005semiotic}
 {\sc Gee, J.~P.}
 \newblock {Semiotic social spaces and affinity spaces}.
@@ -261,6 +320,11 @@
   working spheres}.
 \newblock In {\em Proceedings of the SIGCHI conference on Human factors in
   computing systems\/} (2004), ACM, pp.~113--120.
+
+\bibitem{Good2013}
+{\sc Good, B.~M., and Su, A.~I.}
+\newblock {Crowdsourcing for bioinformatics}.
+\newblock {\em Bioinformatics 29}, 16 (2013), 1925--1933.
 
 \bibitem{Gray2012}
 {\sc Gray, J., Chambers, L., and Bounegru, L.}
@@ -296,6 +360,13 @@
 \newblock {Human development and education}.
 \newblock {\em Oxford, England: Longmans, Green.\/} (1953).
 
+\bibitem{Head2017}
+{\sc Head, A., Glassman, E., Soares, G., Suzuki, R., Figueredo, L., and Antoni,
+  L.~D.}
+\newblock {Writing Reusable Code Feedback at Scale with Mixed-Initiative
+  Program Synthesis}.
+\newblock In {\em Learning@Scale 2017\/} (2017).
+
 \bibitem{Henrich2010a}
 {\sc Henrich, J., Heine, S.~J., and Norenzayan, A.}
 \newblock {Most People are not WEIRD}.
@@ -320,6 +391,23 @@
 \newblock {Eight Guidelines for Designing Virtual Citizen Science Projects}.
 \newblock {\em Second AAAI Conference on Human Computation and Crowdsourcing
   (HCOMP '14)\/} (2014), 16--17.
+
+\bibitem{Johnson-Laird1992a}
+{\sc Johnson-Laird, P.~N., and Oatley, K.}
+\newblock {Basic emotions, rationality, and folk theory}.
+\newblock {\em Cognition {\&} Emotion 6}, 3-4 (1992), 201--223.
+
+\bibitem{JordanRaddick2013}
+{\sc {Jordan Raddick}, M., Bracey, G., Gay, P.~L., and Al., E.}
+\newblock {Galaxy zoo: Motivations of citizen scientists}.
+\newblock {\em Astronomy Education Review 12}, 1 (2013), 1--41.
+
+\bibitem{kane2009s}
+{\sc Kane, G.~C.}
+\newblock {It's a Network, Not an Encyclopedia: A Social Network Perspective on
+  Wikipedia Collaboration.}
+\newblock In {\em Academy of management proceedings\/} (2009), vol.~2009,
+  Academy of Management Briarcliff Manor, NY 10510, pp.~1--6.
 
 \bibitem{Karkar2017a}
 {\sc Karkar, R., Schroeder, J., Epstein, D.~A., Pina, L.~R., Scofield, J.,
@@ -348,6 +436,13 @@
 \newblock Ph.d dissertation, Massachusetts Institute of Technology, Cambridge,
   MA, 2015.
 
+\bibitem{Kim2014e}
+{\sc Kim, J., Cheng, J., and Bernstein, M.~S.}
+\newblock {Ensemble: exploring complementary strengths of leaders and crowds in
+  creative collaboration}.
+\newblock In {\em Proceedings of the 17th ACM conference on Computer supported
+  cooperative work {\&} social computing\/} (2014), ACM, pp.~745--755.
+
 \bibitem{kim2014crowdsourcing}
 {\sc Kim, J., Nguyen, P.~T., Weir, S., Guo, P.~J., Miller, R.~C., and Gajos,
   K.~Z.}
@@ -364,10 +459,23 @@
 \newblock {\em Proceedings of the 32nd annual ACM conference on Human factors
   in computing systems - CHI '14\/} (2014), 4017--4026.
 
+\bibitem{Kirschner2008}
+{\sc Kirschner, P.~A., and {Van Merri{\"{e}}nboer}, J.}
+\newblock {Ten steps to complex learning a new approach to instruction and
+  instructional design}.
+\newblock 2008.
+
 \bibitem{Kittur2013}
 {\sc Kittur, A., Nickerson, J., and Bernstein, M.}
 \newblock {The Future of Crowd Work}.
 \newblock {\em Proc. CSCW '13\/} (2013), 1--17.
+
+\bibitem{kittur2012future}
+{\sc Kittur, A., Nickerson, J., Bernstein, M., Gerber, E., Shaw, A., Zimmerman,
+  J., Lease, M., and Horton, J.}
+\newblock {The future of crowd work}.
+\newblock In {\em ACM Conference on Computer Supported Coooperative Work (CSCW
+  2013)\/} (2013).
 
 \bibitem{Kizilcec2017b}
 {\sc Kizilcec, R.~F., Saltarelli, A.~J., Reich, J., and Cohen, G.~L.}
@@ -427,6 +535,20 @@
 \newblock {\em ACM Transactions on Computer-Human Interaction (TOCHI) 20}, 6
   (2013), 33.
 
+\bibitem{Lasecki2012}
+{\sc Lasecki, W., Miller, C., Sadilek, A., Abumoussa, A., Borrello, D.,
+  Kushalnagar, R., and Bigham, J.}
+\newblock {Real-time captioning by groups of non-experts}.
+\newblock {\em Proceedings of the 25th annual ACM symposium on User interface
+  software and technology - UIST '12\/} (2012), 23.
+
+\bibitem{lasecki2012real}
+{\sc Lasecki, W., Miller, C., Sadilek, A., Abumoussa, A., Borrello, D.,
+  Kushalnagar, R., and Bigham, J.}
+\newblock {Real-time captioning by groups of non-experts}.
+\newblock In {\em Proceedings of the 25th annual ACM symposium on User
+  interface software and technology\/} (2012), ACM, pp.~23--34.
+
 \bibitem{Law2016}
 {\sc Law, E., Yin, M., Goh, J., Chen, K., Terry, M., and Gajos, K.~Z.}
 \newblock {Curiosity Killed the Cat , but Makes Crowdwork Better}.
@@ -479,11 +601,37 @@
 \newblock {Real-World Use of Open Source Artificial Pancreas Systems}.
 \newblock {\em Journal of Diabetes Science and Technology 10}, 6 (2016).
 
+\bibitem{Li2010a}
+{\sc Li, I., Dey, A., and Forlizzi, J.}
+\newblock {A stage-based model of personal informatics systems}.
+\newblock {\em Proceedings of the 28th international conference on Human
+  factors in computing systems\/} (2010), 557.
+
+\bibitem{luther2009pathfinder}
+{\sc Luther, K., Counts, S., Stecher, K.~B., Hoff, A., and Johns, P.}
+\newblock {Pathfinder: an online collaboration environment for citizen
+  scientists}.
+\newblock In {\em Proceedings of the SIGCHI Conference on Human Factors in
+  Computing Systems\/} (2009), ACM, pp.~239--248.
+
+\bibitem{Mackay2007}
+{\sc Mackay, W.~E., Appert, C., Beaudouin-Lafon, M., Chapuis, O., Du, Y.,
+  Fekete, J.-D., and Guiard, Y.}
+\newblock {Touchstone: exploratory design of experiments}.
+\newblock {\em CHI '07 Proceedings of the SIGCHI Conference on Human Factors in
+  Computing System\/} (2007), 1425--1434.
+
 \bibitem{Mamykina2011}
 {\sc Mamykina, L., Manoim, B., Mittal, M., Hripcsak, G., and Hartmann, B.}
 \newblock {Design Lessons from the Fastest Q{\&}A Site in the West}.
 \newblock In {\em Proceedings of the SIGCHI Conference on Human Factors in
   Computing Systems (CHI '11)\/} (2011), pp.~2857--2866.
+
+\bibitem{Markus1991}
+{\sc Markus, H., and Kitayama, S.}
+\newblock {Culture and the self: Implications for cognition, emotion, and
+  motivation}.
+\newblock {\em Psychological Review 98}, 2 (1991), 224--253.
 
 \bibitem{Martin2007}
 {\sc Martin, D.~W.}
@@ -509,13 +657,39 @@
   Research}.
 \newblock {\em mSystems 3}, 3 (2018), e00031--18.
 
+\bibitem{McDonald2018}
+{\sc McDonald, D., Hyde, E.~R., Debelius, J.~W., Morton, J.~T., Gonzalez, A.,
+  Ackermann, G., Aksenov, A.~A., Behsaz, B., Brennan, C., Chen, Y., {DeRight
+  Goldasicha}, L., Dorrestein, P.~C., Dunn, R.~R., Fahimipourg, A.~K., Gaffney,
+  J., Gilbert, J.~A., Gogul, G., Green, J.~L., Hugenholtz, P., Humphrey, G.,
+  Huttenhower, C., Jackson, M.~A., Janssen, S., Jeste, D.~V., Jiang, L.,
+  Kelley, S.~T., Knights, D., Kosciolek, T., Ladau, J., Leach, J., Marotz, C.,
+  Meleshko, D., Melnik, A.~V., Metcalf, J.~L., Mohimani, H., Montassier, E.,
+  Navas-Molina, J., Nguyen, T.~T., Peddada, S., Pevzner, P., Pollard, K.~S.,
+  Rahnavard, G., Robbins-Pianka, A., Sangwan, N., Shorenstein, J., Smarr, L.,
+  Song, S.~J., Spector, T., Swafford, A.~D., Thackray, V.~G., Thompson, L.~R.,
+  Tripathi, A., Vazquez-Baeza, Y., Vrbanac, A., Wischmeyer, P., Wolfe, E., Zhu,
+  Q., and Knight, R.}
+\newblock {American Gut: an Open Platform for Citizen-Science Microbiome
+  Research}.
+\newblock {\em bioRxiv\/} (jan 2018).
+
 \bibitem{Miyake1979a}
 {\sc Miyake, N., and Norman, D.~A.}
 \newblock {To Ask a Question , One Must Know Enough to Know What is Not Known}.
 
+\bibitem{Munroe2009}
+{\sc Munroe, R.}
+\newblock {Correlation}, 2009.
+
 \bibitem{NationalCouncilforVoluntaryOrganisations2018}
 {\sc {National Council for Voluntary Organisations}, U.}
 \newblock {Why Volunteer?}, 2018.
+
+\bibitem{Nielsen2012}
+{\sc Nielsen, M.}
+\newblock {\em {Reinventing discovery: the new era of networked science.}}
+\newblock Princeton University, 2012.
 
 \bibitem{NIH2015}
 {\sc NIH}.
@@ -557,6 +731,13 @@
   design}}.
 \newblock MIT Press, Cambridge, MA, 2011.
 
+\bibitem{Retelny2014}
+{\sc Retelny, D., Robaszkiewicz, S., To, A., Lasecki, W.~S., Patel, J.,
+  Rahmati, N., Doshi, T., Valentine, M., and Bernstein, M.~S.}
+\newblock {Expert Crowdsourcing with Flash Teams}.
+\newblock {\em Proceedings of the 27th annual ACM symposium on User interface
+  software and technology - UIST '14\/} (2014), 75--85.
+
 \bibitem{Rittle-Johnson1999}
 {\sc Rittle-Johnson, B., and Alibali, M.~W.}
 \newblock {Conceptual and procedural knowledge of mathematics: Does one lead to
@@ -586,12 +767,25 @@
 \newblock {\em Journal for research in mathematics education\/} (2004),
   305--329.
 
+\bibitem{Singh:2018:CCD:3173574.3173806}
+{\sc Singh, D.~P., Lisle, L., Murali, T.~M., and Luther, K.}
+\newblock {CrowdLayout}.
+\newblock In {\em Proceedings of the 2018 CHI Conference on Human Factors in
+  Computing Systems - CHI '18\/} (New York, New York, USA, 2018), CHI '18, ACM
+  Press, pp.~1--14.
+
 \bibitem{Snow2008}
 {\sc Snow, R., Connor, B.~O., Jurafsky, D., Ng, A.~Y., Labs, D., and St, C.}
 \newblock {Cheap and fast - but is it good? Evaluation non-expert annotiations
   for natural language tasks}.
 \newblock In {\em Proceedings of the Conference on Empirical Methods in Natural
   Language Processing (EMNLP '08)\/} (2008), pp.~254--263.
+
+\bibitem{starbird2014rumors}
+{\sc Starbird, K., Maddock, J., Orand, M., Achterman, P., and Mason, R.~M.}
+\newblock {Rumors, false flags, and digital vigilantes: Misinformation on
+  twitter after the 2013 boston marathon bombing}.
+\newblock {\em IConference 2014 Proceedings\/} (2014).
 
 \bibitem{Teevan:2017:BWC:3059454.3059467}
 {\sc Teevan, J., and Yu, L.}
@@ -600,6 +794,12 @@
 \newblock In {\em Proceedings of the 2017 ACM SIGCHI Conference on Creativity
   and Cognition\/} (New York, NY, USA, 2017), ACM, pp.~131--135.
 
+\bibitem{Thomas2002}
+{\sc Thomas, M. J.~W.}
+\newblock {Learning within incoherent structures: The space of online
+  discussion forums}.
+\newblock {\em Journal of Computer Assisted Learning 18}, 3 (2002).
+
 \bibitem{Tinati2015}
 {\sc Tinati, R., {Van Kleek}, M., Simperl, E., Luczak-R{\&}ouml, M., Sch,
   Simpson, R., and Shadbolt, N.}
@@ -607,6 +807,20 @@
   a Multi-Domain Citizen Science Platform}.
 \newblock {\em Proceedings of the SIGCHI Conference on Human Factors in
   Computing Systems (CHI '15)}, April (2015), 4069--4078.
+
+\bibitem{V.S.Ramachandran1998}
+{\sc {V. S. Ramachandran}, {S. Blakeslee}, and Shah, N.}
+\newblock {\em {Phantoms in the brain: Probing the mysteries of the human
+  mind}}.
+\newblock New York: William Morrow., 1998.
+
+\bibitem{Valentine2017}
+{\sc Valentine, M.~A., Retelny, D., To, A., Rahmati, N., Doshi, T., and
+  Bernstein, M.~S.}
+\newblock {Flash organizations: Crowdsourcing complex work by structuring
+  crowds as organizations}.
+\newblock In {\em Proceedings of the 2017 CHI Conference on Human Factors in
+  Computing Systems\/} (2017), ACM, pp.~3523--3537.
 
 \bibitem{VanderMeij1995}
 {\sc van~der Meij, H., and Carroll, J.~M.}
@@ -625,11 +839,36 @@
   Measures}.
 \newblock {\em Science 321}, 12 September 2008 (2008), 1465--1468.
 
+\bibitem{VonHippel2005}
+{\sc von Hippel, E.}
+\newblock {Democratizing innovation: The evolving phenomenon of user
+  innovation}.
+\newblock {\em Journal fur Betriebswirtschaft 55}, 1 (2005), 63--78.
+
 \bibitem{VonHippel2005a}
 {\sc von Hippel, E.}
 \newblock {\em {Democratizing innovation: The evolving phenomenon of user
   innovation}}.
 \newblock MIT, 2005.
+
+\bibitem{wang2018exploring}
+{\sc Wang, N.-C., Hicks, D., and Luther, K.}
+\newblock {Exploring Trade-Offs Between Learning and Productivity in
+  Crowdsourced History}.
+\newblock {\em Proceedings of the ACM on Human-Computer Interaction 2}, CSCW
+  (2018), 178.
+
+\bibitem{Weisse2012}
+{\sc Weisse, A.~B.}
+\newblock {Self-experimentation and its role in medical research.}
+\newblock {\em From the Texas Heart Institute of St. Luke's Episcopal Hospital,
+  Texas Children's Hospital 39}, 1 (2012).
+
+\bibitem{Wicks2011}
+{\sc Wicks, P., Vaughan, T.~E., Massagli, M.~P., and Heywood, J.}
+\newblock {Accelerated clinical discovery using self-reported patient data
+  collected online and a patient-matching algorithm}.
+\newblock {\em Nature Biotechnology 29}, 5 (2011), 411--414.
 
 \bibitem{Wikipedia}
 {\sc Wikipedia}.
@@ -638,6 +877,12 @@
 \bibitem{Wikipedia2018}
 {\sc Wikipedia}.
 \newblock {Bristol stool scale}, 2018.
+
+\bibitem{willett2011commentspace}
+{\sc Willett, W., Heer, J., Hellerstein, J., and Agrawala, M.}
+\newblock {CommentSpace: structured support for collaborative visual analysis}.
+\newblock In {\em Proceedings of the SIGCHI conference on Human Factors in
+  Computing Systems\/} (2011), ACM, pp.~3131--3140.
 
 \bibitem{Wobbrock2018}
 {\sc Wobbrock, J.}
