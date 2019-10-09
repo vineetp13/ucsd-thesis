@@ -23,6 +23,13 @@
 \newblock {\em International Journal of Artificial Intelligence in Education
   16}, 2 (2006), 101--128.
 
+\bibitem{Althoff2017}
+{\sc Althoff, T., Sosi{\v{c}}, R., Hicks, J.~L., King, A.~C., Delp, S.~L., and
+  Leskovec, J.}
+\newblock {Large-scale physical activity data reveal worldwide activity
+  inequality}.
+\newblock {\em Nature 547}, 7663 (2017), 336--339.
+
 \bibitem{Amazon2016}
 {\sc Amazon}.
 \newblock {Mechanical Turk}.
@@ -85,6 +92,13 @@
 {\sc Bonifait, L., Chandad, F., and Grenier, D.}
 \newblock {Probiotics for oral health: myth or reality?.}
 \newblock {\em Journal of the Canadian Dental Association, 75(8).\/} (2009).
+
+\bibitem{Bonney2009}
+{\sc Bonney, R., Cooper, C.~B., Dickinson, J., Kelling, S., Phillips, T.,
+  Rosenberg, K.~V., and Shirk, J.}
+\newblock {Citizen Science: A Developing Tool for Expanding Science Knowledge
+  and Scientific Literacy}.
+\newblock {\em BioScience 59}, 11 (2009), 977--984.
 
 \bibitem{Boud1995}
 {\sc Boud, D.}
@@ -282,6 +296,10 @@
   engagement in online production communities}.
 \newblock In {\em Proceedings of the SIGCHI Conference on Human Factors in
   Computing Systems (CHI '13)\/} (2013), pp.~783--792.
+
+\bibitem{F.lux2019}
+{\sc F.lux}.
+\newblock f.lux: sleep research, 2019.
 
 \bibitem{Francis2006}
 {\sc Francis, S.~T., Head, K., Morris, P.~G., and Macdonald, I.~A.}
@@ -714,6 +732,12 @@
 \newblock In {\em Proceedings of the Fifth Annual ACM Conference on Learning at
   Scale\/} (2018), ACM, p.~9.
 
+\bibitem{Pandey}
+{\sc Pandey, V., Koul, T., Yang, C., McDonald, D., Knight, R., and Klemmer, S.}
+\newblock {Galileo: Scaling Citizen-led Experimentation with a Procedural
+  Training Platform}.
+\newblock {\em In Submission\/}.
+
 \bibitem{Ph.D.}
 {\sc Ph.D., M. J.~B.}
 \newblock {Alcohol and Sleep: What You Need to Know}.
@@ -724,6 +748,12 @@
   Uncompensated Samples}.
 \newblock In {\em Proceedings of the 18th ACM Conference on Computer Supported
   Cooperative Work {\&} Social Computing\/} (2015).
+
+\bibitem{Reinecke2014a}
+{\sc Reinecke, K., and Gajos, K.~Z.}
+\newblock {Quantifying visual preferences around the world}.
+\newblock In {\em Proceedings of the SIGCHI Conference on Human Factors in
+  Computing Systems\/} (2014), ACM, pp.~11--20.
 
 \bibitem{Resnick2011}
 {\sc Resnick, P., and Kraut, R.}
@@ -839,17 +869,17 @@
   Measures}.
 \newblock {\em Science 321}, 12 September 2008 (2008), 1465--1468.
 
-\bibitem{VonHippel2005}
-{\sc von Hippel, E.}
-\newblock {Democratizing innovation: The evolving phenomenon of user
-  innovation}.
-\newblock {\em Journal fur Betriebswirtschaft 55}, 1 (2005), 63--78.
-
 \bibitem{VonHippel2005a}
 {\sc von Hippel, E.}
 \newblock {\em {Democratizing innovation: The evolving phenomenon of user
   innovation}}.
 \newblock MIT, 2005.
+
+\bibitem{VonHippel2005}
+{\sc von Hippel, E.}
+\newblock {Democratizing innovation: The evolving phenomenon of user
+  innovation}.
+\newblock {\em Journal fur Betriebswirtschaft 55}, 1 (2005), 63--78.
 
 \bibitem{wang2018exploring}
 {\sc Wang, N.-C., Hicks, D., and Luther, K.}
