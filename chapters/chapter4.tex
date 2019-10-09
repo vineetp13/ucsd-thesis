@@ -1,7 +1,11 @@
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \chapter{Collaboratively generating hypotheses}
+\begin{figure}[h] 
+  \centering
+  \includegraphics[width=1.0\textwidth]{figures/docent/fig-0.png}
+  \caption[The Docent Learn-Train-Ask workflow]
+{The Docent Learn-Train-Ask workflow.\index{docent-0}}
+  \label{fig:docent-0}
+\end{figure}
 
 \textit{People’s lived experiences provide intuitions about health.
 Can they transform these personal intuitions into testable hypotheses
@@ -23,6 +27,24 @@ These results highlight the promise of performing personally
 meaningful scientific work using massive online learning
 systems}
 
+%%%%%%%%%%%%%
+Thinking like a scientist involves generating useful questions,
+operationalizing them as hypotheses, and testing them
+with experiments. While people generate (implicit) intuitions
+from lived experiences, transforming tacit knowledge into
+explicit questions is not easy. People don’t always realize the
+extent of their knowledge and even when they do, asking questions 
+that can be answered by others to yield clear, actionable
+insights is hard. For instance, people often bury
+questions in long entries (Figure~\ref{fig:docent_1}. Transforming intuitions
+into falsifiable questions is a key skill for scientists and designers
+alike. How can people create questions that are novel
+(contain new information), useful (relate to and potentially
+extend existing scientific knowledge), easy to answer, and
+specific (relate to only one topic)? Such questions can
+potentially accelerate research in nascent scientific domains,
+such as the human microbiome.
+
 This paper contributes (1) the Learn-Train-Ask method for
 people to perform personally meaningful scientific work by
 sharing personal insights and receiving feedback from
@@ -38,7 +60,7 @@ online participants from 27 countries — including participants
 from the American Gut Project, Open Humans,
 Coursera, and Reddit — signed up to share personally-relevant
 questions about the human microbiome. Participants
-created 399 questions, 75 (19%) of which microbiome experts
+created 399 questions, 75 (19\%) of which microbiome experts
 found novel. Participants with access to process training
 generated hypotheses of better quality. Access to
 learning materials improved the questions’ microbiome-specific
@@ -46,67 +68,75 @@ knowledge. These results highlight the promise of performing
 personally-meaningful scientific work using
 massive online learning systems.
 
-\subsection{Can people be scientists rather than just sensors?}
 
+%\begin{figure}[h] 
+%  \centering
+%  \includegraphics[width=1.0\textwidth]{figures/docent/fig-1.png}
+%  \caption[]
+%{This post to a Mayo Clinic forum shows how people
+%seeking advice online combine many ideas into one post..\index{docent-1}}
+%  \label{fig:docent-1}
+%\end{figure}
 
-\subsubsection{Asking useful questions requires conceptual understanding}
-Thinking like a scientist involves generating useful questions,
-operationalizing them as hypotheses, and testing them
-with experiments. While people generate (implicit) intuitions
-from lived experiences, transforming tacit knowledge into
-explicit questions is not easy. People don’t always realize the
-extent of their knowledge and even when they do, asking questions 
-that can be answered by others to yield clear, actionable
-insights is hard. For instance, people often bury
-questions in long entries~\ref{docent_1}. Transforming intuitions
-into falsifiable questions is a key skill for scientists and designers
-alike. How can people create questions that are novel
-(contain new information), useful (relate to and potentially
-extend existing scientific knowledge), easy to answer, and
-specific (relate to only one topic)? Such questions can
-potentially accelerate research in nascent scientific domains,
-such as the human microbiome.
-
-\begin{figure}[h] 
+\begin{wrapfigure}{r}{0.5\textwidth}
   \centering
-  \includegraphics[width=1.0\textwidth]{figures/docent/fig-1.png}
-  \caption[]
+  \includegraphics[width=0.5\textwidth]{figures/docent/fig-1.png}
+  \caption[Post to a Mayo Clinic forum]
 {This post to a Mayo Clinic forum shows how people
 seeking advice online combine many ideas into one post..\index{docent-1}}
   \label{fig:docent-1}
-\end{figure}
+\end{wrapfigure}
 
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{The Docent Social Computing System}
 The Docent social computing system enables people to create specific, personal hypotheses by providing: content learning \& process training; a guided question-asking interface; and an online collaboration platform. Docent was designed via multiple iterations of early pilot studies. Docent’s pilot participants were ~50 lead users of the American Gut Project \& Health Data Exploration workshop (hdexplore.calit2.net). Early participants used the website to provide in-person feedback about the interface. As the sys-tem matured, later participants provided both explicit online \& in-person feedback along with usage data that led to a number of improvements. For instance, a pilot session led to the idea to enable editing others’ questions to improve clarity (especially for non-native English speakers).
 
-The Docent web application is built with Meteor (meteor.com), and extends Gut Instinct~\cite{Pandey2017} that also leverages learning materials, but does not address causal theory generation. The front-end uses BlazeJS (blazejs.org) and is styled with Materialize (materialize.css). It is BSD open source at http://gutinstinct.ucsd.edu.
+The Docent web application is built with Meteor (meteor.com), and extends Gut Instinct~\cite{Pandey2017} that also leverages learning materials, but does not address causal theory generation. The front-end uses BlazeJS (blazejs.org) and is styled with Materialize (materialize.css).
 
 \subsection{Learn-Train-Ask: From Intuitions to Hypotheses}
 Docent embodies three main principles. The first is two-way integration of learning and asking questions for improved conceptual understanding of the microbiome. Novel, domain-specific work (such as asking questions for micro-biome discovery) needs to integrate a novel idea with existing knowledge, perhaps even using specific terms/metrics in the process (e.g. Bristol stool scale for quality of bowel movement). To forge a two-way link between learning and asking questions, Docent provides online lectures and feed-back on the questions people create using scientific material. For instance, for a question about the effects of probiotics on mood among people suffering from gastrointestinal diseases, Docent would provide feedback using lectures about probiotics, gastrointestinal diseases, and the gut-brain axis.
 The two attributes that training questions seek to model are a) that others can answer them, and b) that each addresses a single topic. Training helps participants get a feel for how precise questions should be: overly vague and overly specific terms both reduce a question’s utility. To link many ideas with one cause, a sequence of questions can iteratively refine a hypothesis space. For instance, a question linking probiotics use to bowel movements might begin by asking how frequently people consume probiotics and in which form, following up by asking about bowel movements.
-Third, Docent provides clear success criteria: creating useful questions. Docent converts question-asking and answering into an engaging social interaction by enabling people to participate in multiple ways, such as by asking questions, adding follow-ups, editing questions to improve clarity, or responding to questions. A new user can access the entire Docent system only after adding a question. 
+Third, Docent provides clear success criteria: creating useful questions. Docent converts question-asking and answering into an engaging social interaction by enabling people to participate in multiple ways, such as by asking questions, adding follow-ups, editing questions to improve clarity, or responding to questions. A new user can access the entire Docent system only after adding a question.
 
-\subsection{Learn content: Integrate Concepts with Insights}
-Docent’s learn module teaches people about the gut microbiome using online lectures, lifestyle questions, feedback from scientific material on questions, and guessing potential mechanisms (Figure 2). We describe each below. 
-
-Online lectures to improve conceptual understanding: The human microbiome is nascent, yet fast-growing. There is a lot of room for new contributions, but few people have up-to-date and accurate knowledge, even to the extent that it exists. People ask more questions when the learning material causes inconsistencies in their understanding of a topic~\cite{Miyake1979a}. Since few people know about the microbiome, Docent uses introductory learning material curated from Gut Check, a Coursera MOOC ~\cite{Knight2016}, rather than scientific papers that may be too abstruse. Apart from introductory material about the microbiome, Docent also provides learning material about specialized topics, such as gastrointestinal diseases \& the gut-brain axis, to engage people in guided discovery learning based on their interests and health conditions (Figure 2B).
- Personal questions to improve reflection: Prompting participants to explicitly reflect on the learning topic can increase curiosity and question-quality~\cite{Aleven2006, Law2016}. Before watching a lecture about the microbiome, Docent invites people to answer questions that make them reflect on the connection between the learning material and their lifestyle (Figure 2A).
-Guessing a mechanism to reflect on question and knowledge: Docent asks people to guess mechanistic explanations for how the microbiome can play a role in answering their questions (Figure 2C). This is intended to help users learn by connecting personal observations with existing knowledge~\cite{Simon2004}.
-Feedback from scientific material: Rapid, relevant feedback improves quality~\cite{Hattie2007}. The first author provided links to scientific papers and web content in response to people’s questions. To integrate questions with Docent’s learning material, they also received feedback on their questions using links to the Coursera MOOC lecture hosted on Docent (Figure 2D). Participants also added scientific papers to questions. 
-
-\begin{figure}[h] 
+\begin{wrapfigure}{r}{0.5\textwidth}
   \centering
-  \includegraphics[width=1.0\textwidth]{figures/docent/fig-2.png}
-  \caption[]
+  \includegraphics[width=0.5\textwidth]{figures/docent/fig-2.png}
+  \caption[User flow of Docent learning module]
 {User flow of Docent learning module. Participants reflect on their lifestyle by (A) answering a personal question before (B) watching an online lecture about probiotics and the microbiome. Participants (C) must propose a mechanism when adding a question and (D) they receive feedback from scientific material on their questions. Probiotics was one of 16 topics for which Docent provided ~5min long expert lectures.\index{docent-2}}
   \label{fig:docent-2}
-\end{figure}
+\end{wrapfigure}
+ 
+\subsection{Learn content: Integrate Concepts with Insights}
+Docent’s learn module teaches people about the gut microbiome using online lectures, lifestyle questions, feedback from scientific material on questions, and guessing potential mechanisms (Figure~\ref{fig:docent-2}). We describe each below. 
+
+%\begin{figure}[h] 
+%  \centering
+%  \includegraphics[width=1.0\textwidth]{figures/docent/fig-2.png}
+%  \caption[User flow of Docent learning module]
+%{User flow of Docent learning module. Participants reflect on their lifestyle by (A) answering a personal question before (B) watching an online lecture about probiotics and the microbiome. Participants (C) must propose a mechanism when adding a question and (D) they receive feedback from scientific material on their questions. Probiotics was one of 16 topics for which Docent provided ~5min long expert lectures.\index{docent-2}}
+%  \label{fig:docent-2}
+%\end{figure}
+
+Online lectures to improve conceptual understanding: The human microbiome is nascent, yet fast-growing. There is a lot of room for new contributions, but few people have up-to-date and accurate knowledge, even to the extent that it exists. People ask more questions when the learning material causes inconsistencies in their understanding of a topic~\cite{Miyake1979a}. Since few people know about the microbiome, Docent uses introductory learning material curated from Gut Check, a Coursera MOOC ~\cite{Knight2016}, rather than scientific papers that may be too abstruse. Apart from introductory material about the microbiome, Docent also provides learning material about specialized topics, such as gastrointestinal diseases \& the gut-brain axis, to engage people in guided discovery learning based on their interests and health conditions (Figure~\ref{fig:docent-2}B).
+
+ Personal questions to improve reflection: Prompting participants to explicitly reflect on the learning topic can increase curiosity and question-quality~\cite{Aleven2006, Law2016}. Before watching a lecture about the microbiome, Docent invites people to answer questions that make them reflect on the connection between the learning material and their lifestyle (Figure~\ref{fig:docent-2}A).
+
+Guessing a mechanism to reflect on question and knowledge: Docent asks people to guess mechanistic explanations for how the microbiome can play a role in answering their questions (Figure~\ref{fig:docent-2}C). This is intended to help users learn by connecting personal observations with existing knowledge~\cite{Simon2004}.
+
+Feedback from scientific material: Rapid, relevant feedback improves quality~\cite{Hattie2007}. The first author provided links to scientific papers and web content in response to people’s questions. To integrate questions with Docent’s learning material, they also received feedback on their questions using links to the Coursera MOOC lecture hosted on Docent (Figure~\ref{fig:docent-2}D). Participants also added scientific papers to questions. 
 
 \subsection{Process training: From Intuitions to Scientific Questions}
-Docent uses three components to help people ask useful questions: a training guide, expert examples, and a question-asking checklist (Figure 3). 
+Docent uses three components to help people ask useful questions: a training guide, expert examples, and a question-asking checklist (Figure~\ref{fig:docent-3}). 
 
-Training guide to identify useful features: New Docent participants must add a question before accessing the entire system (learning, training, and the GutBoard). Before asking a second question, however, a user needs to complete the training guide: people learn about five features of successful questions; train by identifying these features in two sample questions (Figure 3A,B); and then immediately ask a question. Training draws on successful techniques from crowd work and peer assessment by using gold standards~\cite{Kittur2013} and rubrics~\cite{Andrade2005}. When adding a question, a checklist reminds participants about the features of good questions (Figure 3D).
+\begin{figure}[b] 
+  \centering
+  \includegraphics[width=1.0\textwidth]{figures/docent/fig-3.png}
+  \caption[The Docent training process]
+{The Docent training process. People (A) learn what makes a question useful, (B) practice on sample questions, and (C) read expert-curated questions. (D) When asking a question, a checklist reminds people to ensure their question meets the criteria for useful questions. Answerability was one of 5 features for which Docent provided training.\index{docent-3}}
+  \label{fig:docent-3}
+\end{figure}
+
+Training guide to identify useful features: New Docent participants must add a question before accessing the entire system (learning, training, and the GutBoard). Before asking a second question, however, a user needs to complete the training guide: people learn about five features of successful questions; train by identifying these features in two sample questions (Figure~\ref{fig:docent-3}A,B); and then immediately ask a question. Training draws on successful techniques from crowd work and peer assessment by using gold standards~\cite{Kittur2013} and rubrics~\cite{Andrade2005}. When adding a question, a checklist reminds participants about the features of good questions (Figure~\ref{fig:docent-3}D).
 
 \subsection{Ask well-framed questions }
 Good questions specify a cause and associated effects.
@@ -118,27 +148,20 @@ Good questions specify a cause and associated effects.
 \textit{Cues to improve question quality}: These cues comprise alert messages when people add long or short options; notes about details needed in their questions; and restricting people from adding a question without providing a potential mechanism or comment.
 
 \subsection{GutBoard: Crowd responses, Discussion, Expert feedback}
-The GutBoard is designed for quick question traversal, easy response, and collaboration. Only the top-level question from each question is displayed: if a user is not interested in, say probiotics, they can simply skip that set. However, to access follow-ups, people need to answer the top-level question by selecting from the existing options or adding their own. To focus people’s attention on specific questions, the first author starred promising questions that people can access from the Starred tab (Figure 4). Starring signifies that a question is likely of high quality or broad interest, and helps focus participants’ answering efforts on them. Docent also enables people to bookmark questions of interest, so they can visit them again. 
+The GutBoard is designed for quick question traversal, easy response, and collaboration. Only the top-level question from each question is displayed: if a user is not interested in, say probiotics, they can simply skip that set. However, to access follow-ups, people need to answer the top-level question by selecting from the existing options or adding their own. To focus people’s attention on specific questions, the first author starred promising questions that people can access from the Starred tab (Figure~\ref{fig:docent-4}). Starring signifies that a question is likely of high quality or broad interest, and helps focus participants’ answering efforts on them. Docent also enables people to bookmark questions of interest, so they can visit them again. 
 
 To de-incentivize lurking and increase engagement, the GutBoard shows only one question at a time; we call this sequential access. When people could see multiple questions simultaneously (parallel access), they skimmed through many questions without interacting with them. 
 
-\begin{figure}[h] 
+\begin{wrapfigure}{r}{0.5\textwidth}
   \centering
-  \includegraphics[width=1.0\textwidth]{figures/docent/fig-3.png}
-  \caption[]
-{The Docent training process. People (A) learn what makes a question useful, (B) practice on sample questions, and (C) read expert-curated questions. (D) When asking a question, a checklist reminds people to ensure their question meets the criteria for useful questions. Answerability was one of 5 features for which Docent provided training.\index{docent-3}}
-  \label{fig:docent-3}
-\end{figure}
-
-\begin{figure}[h] 
-  \centering
-  \includegraphics[width=1.0\textwidth]{figures/docent/fig-4.png}
-  \caption[xxxx]
+  \includegraphics[width=0.5\textwidth]{figures/docent/fig-4.png}
+  \caption[Participants can see follow-up questions, add new options, new follow-up questions, edit the question, guess potential mechanisms, and bookmark]
 {After answering a top-level question, participants can see follow-up questions, add new options, new follow-up questions, edit the question, guess potential mechanisms, and bookmark. A star (added by an expert) shows that this question may be promising for further enquiry by people.\index{docent-4}}
   \label{fig:docent-4}
-\end{figure}
+\end{wrapfigure}
 
-\section{Study Hypotheses}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Hypotheses: Effect of Learning and Training on Question Quality}
 Learn-Train-Ask scaffolds collaborative scientific question generation. We tested the following hypotheses in the context of brainstorming potential causal relationships in the human gut microbiome.
 
 \textbf{H1. Access to learning improves question’s content.}
@@ -147,7 +170,7 @@ While people’s questions are based on their experiences and curiosity, alignin
 \textbf{H2. Just-in-time training improves question’s structure.}
 We hypothesize that training helps people create useful questions for receiving feedback as well as for generating insights for researchers. A question is deemed to have good structure if it is easy for other participants to answer and focuses on one topic.
 
-\section{STUDY: SCAFFOLDS FOR BETTER QUESTIONS}
+\section{Study: Scaffolds for Better Questions}
 A between-subjects study compared the participants’ question quality across four conditions: Learn, Train, Neither and Both. In the Learn condition, participants saw online lectures, answered personal questions, guessed mechanisms, and received feedback from scientific material on their questions (provided by the first author). The Train condition provided participants access to a training guide, expert examples, and checklist. In the Neither condition, participants did not have access to either the Learn or Train step, while in the Both condition they had access to both. All participants had access to the question-asking and GutBoard collaboration module (with required condition-appropriate adjustments — e.g., participants in Learn and Both conditions were asked to guess the mechanism for their question, while participants in the other two conditions were asked to add a discussion comment). The GutBoard content was unique to the participants for a specific condition, to ensure that participants were not influenced by behavior in other conditions. 
 
 \subsection{Method}
@@ -164,16 +187,15 @@ Raters were instructed to assign points for structure if it asked participants a
 \subsection{Results}
 344 participants completed the baseline exercise, continuing to the condition-specific intervention (Learn, Train, Both, or Neither). Participants who asked follow-on questions were scored as described above; those who did not were scored as 0. Table 2 shows, for each condition, the total number of participants, the number that provided questions, the total question points, and the average score across all participants. The overall quality of the questions generated in the combined Train+Learn condition is the highest (0.56 points) and appears to stand out from the others. We used a permutation test (a kind of bootstrapping method) to assess the statistical reliability of this apparent interaction, namely, whether the combined Learn-Train condition produces better questions than is expected from the independent main effects of the Learn and Train conditions. Indeed, a permutation test with 10,000 replications found that the observed differences in question points are different than the expected differences (generated by the main-effect marginals) as they fall outside the 95\% confidence interval [-24.5, 24.5], p <.05. The three score components (structure, content, and creativity) were pairwise weakly correlated (r=0.32, p < 0.02; r=0.19, p < 0.17; r=0.33, p < 0.01). 
 
-
 \begin{figure}[h] 
   \centering
   \includegraphics[width=1.0\textwidth]{figures/docent/fig-5.png}
-  \caption[]
-{Training improved the overall question quality (p <.05) but learning did not (p < 0.1). H1: Training marginally improved question structure (p <.06). H2: Learning improved question content (p <.05).\index{docent-5}}
+  \caption[Training improved the overall question quality but learning did not]
+{Training improved the overall question quality (p <.05) but learning did not (p $<$ 0.1). H1: Training marginally improved question structure (p <.06). H2: Learning improved question content (p <.05).\index{docent-5}}
   \label{fig:docent-5}
 \end{figure}
 
-\textit{Total question points}: Training improved overall question quality (M=0.31, vs. M=0.47); a permutation test with 10,000 replications found that the observed difference in question points are different than the expected differences as they fell outside the 95\% CI[-19.5, 19.5], p <.05. Learning did not improve overall question quality (M=0.32, vs. M=0.46); a permutation test with 10,000 replications found that the observed differences in question points are not different than the expected differences as they did not fall outside the 95\% CI[-29.5, 29.5], p < 0.1. (Figure 5)
+\textit{Total question points}: Training improved overall question quality (M=0.31, vs. M=0.47); a permutation test with 10,000 replications found that the observed difference in question points are different than the expected differences as they fell outside the 95\% CI[-19.5, 19.5], p <.05. Learning did not improve overall question quality (M=0.32, vs. M=0.46); a permutation test with 10,000 replications found that the observed differences in question points are not different than the expected differences as they did not fall outside the 95\% CI[-29.5, 29.5], p < 0.1. (Figure~\ref{fig:docent-5})
 
 \textit{Structure}: H1: Did access to training material (Train and Both conditions) improve the structure of questions relative to not having access (Learn and Neither conditions)? Training marginally improved question structure (M=0.21, vs. M=0.29); a permutation test with 10,000 replications found that the observed difference in question structure points are different than the expected differences as they did not fall outside the 95\% CI[-9.5, 9.5], p <.06.
 
@@ -181,6 +203,7 @@ Raters were instructed to assign points for structure if it asked participants a
 
 \textit{Creativity}: Did training or learning material (Learn and Both conditions) impact the creativity score of questions relative to not having access (Train and Neither conditions)? Neither training (M=0.04 vs. M=0.07; 10,000-replication permutation test 95\% CI[-4, 4], p < 0.08) nor learning (M=0.05 vs. M=0.07; 10,000-replication permutation test 95\% CI[-4, 4], p < 0.2) improved the creativity score.
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Discussion}
 \subsection{The effect of learning and training on questions}
 As a check of random assignment, participants’ required pre-intervention question was of comparable quality in all conditions. Participants in the Both condition scored higher total question points after the intervention. Training en-forced a tutorial when asking a question, and the add-question module presented heuristics for asking better ques-tions. This tight integration may have enabled people to focus their questions on a specific topic and frame their questions to be answerable by others. Moreover, the pres-ence of learning material might have provided a useful setup and improved participant engagement leading to greater number of questions, and question points.
@@ -197,16 +220,16 @@ Personal health was a big motivator; 78\% of questions pertained to diseases (e.
 \subsection{How novel are the questions?}
 75 of the 399 questions were found to be novel by the American Gut Project researchers. Novelty was defined as “Is there a chance the world will learn something?” The probiotic-sugar question above is novel because no published work addresses it directly. Other work on the sugar-microbiome relationship establishes plausibility~\cite{Haukioja2008}. Such questions meet Docent’s primary objective: to uncover insights about topics where people’s lived experiences provide them more knowledge than lab experts. Docent-like citizen science platforms can leverage people’s lived experience to identify novel questions that experts have missed out and to evaluate these questions.
 
-\begin{figure}[h] 
+\begin{figure}[t] 
   \centering
   \includegraphics[width=1.0\textwidth]{figures/docent/fig-6.png}
-  \caption[]
-{Percentage of role types for the 68 participants in the Both condition who added at least one question. The Leader formed 1\% of participants but contributed 19\% of the answers and 49\% of all collaborative activity (adding follow-ups, editing others’ question, adding options). Dropouts formed 65\% of participants and added one question each (57\% of all questions) but contributed to only 13\% of collaborative work. .\index{docent-6}}
+  \caption[Distribution of role types]
+{Distribution of role types for the 68 participants in the Both condition who added at least one question. The Leader formed 1\% of participants but contributed 19\% of the answers and 49\% of all collaborative activity (adding follow-ups, editing others’ question, adding options). Dropouts formed 65\% of participants and added one question each (57\% of all questions) but contributed to only 13\% of collaborative work. .\index{docent-6}}
   \label{fig:docent-6}
 \end{figure}
 
 \subsection{Emergent behavior, Engagement, and Growth}
-Docent offers more avenues for active collaboration than traditional web fora. People can create questions, answer and edit questions, create follow-ups, and guess potential mechanisms. Participants added a total of 2424 answers, 74 follow-up questions, 466 new options and 358 mechanism/ discussion comments. Discussion comments fell into three types, sorted by popularity: (a) sharing personal insights; (b) sharing potential mechanisms for the question; and (c) providing links to related online resources. People edited others’ questions 119 times. Most edits were done by leaders and collaborators who attempted to clarify the question. None of the edits were reverted by the authors hinting that the edits were acceptable to them. Different ways to contribute creates different informal roles and behavior patterns in social computing systems, from leaders who perform all the activities to lurkers who may watch but not actively engage in collaborative activities (Table 4). Figure 6 shows the work distribution by roles in the Both condition.
+Docent offers more avenues for active collaboration than traditional web fora. People can create questions, answer and edit questions, create follow-ups, and guess potential mechanisms. Participants added a total of 2424 answers, 74 follow-up questions, 466 new options and 358 mechanism/ discussion comments. Discussion comments fell into three types, sorted by popularity: (a) sharing personal insights; (b) sharing potential mechanisms for the question; and (c) providing links to related online resources. People edited others’ questions 119 times. Most edits were done by leaders and collaborators who attempted to clarify the question. None of the edits were reverted by the authors hinting that the edits were acceptable to them. Different ways to contribute creates different informal roles and behavior patterns in social computing systems, from leaders who perform all the activities to lurkers who may watch but not actively engage in collaborative activities (Table 4). Figure~\ref{fig:docent-6} shows the work distribution by roles in the Both condition.
 
 Prior citizen science platforms have demonstrated lurker and dabbler behavior~\cite{Eveleigh2014}. Since people perform work on citizen science platforms, they require a prominent “circuit of engagement” [38]. Systems research comprises many choices; some we evaluate, others follow from prior work, \& some are hunches. To counter lurker behavior, Docent employs three techniques: First, Docent encourages members’ self-selection using a strategy that hides Docent’s content (lectures, training, and the GutBoard) until people add one question. Making even small contributions makes people feel more vested in the effort as a part of a community and removes their fear of performing a novel activity~\cite{Resnick2011}. Extending these ideas can be useful for future work. Second, the GutBoard’s continuous question updates provides social translucence~\cite{Resnick2011}. Third, Docent sends regular email and social media updates to engage the community.
 
@@ -229,6 +252,7 @@ Diversity brings another design challenge. Diverse participants interpret prompt
 
 \textit{Validating hypotheses shared by participants}: One early benefit of our work is that American Gut researchers are using the best Docent questions to potentially add/revise the metadata catalogue in the American Gut Project. Moreover, with the right online support, citizens can design and run experiments to test some of the hypotheses (e.g. probiotics reduces sugar cravings). Scaling causal reasoning could transform many domains. One interested party is the non-profit Open Humans platform where people volunteer their personal data (e.g., microbiome/genomic data) and provide access to researchers to use their data.
 
+%%%%%%%%%%%%%%%%
 \section{Conclusion}
 This paper investigated integrating learning and training with online scientific work. Experts rated 75 of 399 questions as potentially scientifically novel. Participants with access to process training generated hypotheses of better quality. Access to learning materials improved the questions’ microbiome-specific knowledge.  The Learn-Train-Ask method can be applied towards next steps in the scientific process, namely designing and running experiments. This study also illustrates the challenges of designing a social computing system that engages voluntary participants in performing personally-relevant scientific work. Such online experiences also naturally provide a problem-based learning setup for better learner engagement. Intui-tions gathered from a large online crowd can significantly scale up scientific inquiry by augmenting scientific expertise with insights and know-how drawn from the lived experiences of diverse individual people. We believe that dual-objective online systems that combine learning with personally meaningful work can enable people to meet their needs.
 
