@@ -67,6 +67,7 @@ Galileo requires three roles for each experiment: designer, reviewer, and partic
 \subsubsection{Design an Experiment from an Intuition}
 People have many, often poorly-framed, hypotheses. Galileo’s design workflow helps people harvest and sharpen them (Figure 2). Examples illustrate possible choices and how they relate; templates provide structure; and embedded videos explicate technical issues. Such procedural support can improve on-task performance~\cite{Pandey2018}. A final self-review step provides an overview of the experiment. To keep the platform safe, the primary author receives daily updates of platform activity. The design workflow does not mandate double-blindness or the use of placebo; designers can choose to specify these details.
 
+\subsubsection{Review the Design via Feedback from Others}
 \begin{wrapfigure}{r}{0.5\textwidth}
   \centering
   \includegraphics[width=0.5\textwidth]{figures/galileo/galileo-2-review}
@@ -74,16 +75,16 @@ People have many, often poorly-framed, hypotheses. Galileo’s design workflow h
 {Reviewers walk through an experiment providing binary rubric assessments. A No response prompts reviewers to provide concerns and suggestions.\index{galileo-2-review}}
   \label{fig:galileo-2-review}
 \end{wrapfigure}
-
-\subsubsection{Review the Design via Feedback from Others}
 Galileo experiments require at least two reviews before they can be run. The designer invites the reviewers, who might be online community members, a teacher, or anyone else who can provide useful feedback. Upon receiving reviews, the designer edits the experiment to address any issues. For research purposes, Galileo logs version changes. Reviewers provide both binary assessment and written responses to specific questions (Figure 3). These questions cover structure (e.g., accounting for confounds), pragmatics (e.g., measuring the real-world cause/effect), and participant experience (e.g., data reminder time). Reviewers are ineligible to be participants in the same experiment. Similarly, creators may not review their own experiment. 
 
 \subsubsection{Run an Experiment using Procedural Support}
-To launch an experiment, its designer shares a unique URL with potential participants. Galileo automatically manages four activities to reduce bias and workload: 
-1 Randomized placement of people into conditions~\cite{Martin2007}.
-2 Maintain a per-experiment participant map ([usernames]$\rightarrow$ [exp$\textunderscore$id]) for anonymity
-3 Collect and clean data (sending data collection messages and reminders at time-zone appropriate times, parsing the responses, updating participant and experimenter views). 
-4 Prompt experimenters to perform tasks when conditions are met (e.g., setting the start date when enough participants have joined or reminding participants with missing data). 
+To launch an experiment, its designer shares a unique URL with potential participants. Galileo automatically manages four activities to reduce bias and workload:
+\begin{enumerate}
+\item Randomized placement of people into conditions~\cite{Martin2007}.
+\item Maintain a per-experiment participant map ([usernames]$\rightarrow$ [exp$\textunderscore$id]) for anonymity
+\item Collect and clean data (sending data collection messages and reminders at time-zone appropriate times, parsing the responses, updating participant and experimenter views). 
+\item Prompt experimenters to perform tasks when conditions are met (e.g., setting the start date when enough participants have joined or reminding participants with missing data). 
+\end{enumerate}
 
 \begin{wrapfigure}{r}{0.5\textwidth}
   \centering
@@ -96,7 +97,7 @@ To launch an experiment, its designer shares a unique URL with potential partici
 Participation comprises following instructions (e.g., drink kombucha) and providing self-report responses to platform queries (Figure 4). The current implementation supports email, SMS, and WhatsApp. Self-reports provide the primary data collection mechanism. Participants can optionally answer follow-up questions that capture contex-tual insights. Galileo logs responses to a MongoDB database. Galileo presents participant data to experimenters using participant ID rather than real name or username. When the experiment ends, participants receive a summary of results. Participants can anonymously discuss the experiment at the end, so the experimenter can learn from their feedback. 
 
 The experimenter’s dashboard lists tasks: answer clarifying questions, remind/thank participants, or look at trends in data (Figure 5). Experiments have a minimum participation count; there’s no upper limit to the number of participants. People who sign up after a cohort begins are added to a waitlist.
-The Galileo web application uses the Meteor (meteor.com) framework for synchronization, Jade for the front end (jade-lang.com), Materialize for styling (materializecss.com), and Twilio as the text message gateway (twilio.com). Galileo can be used at <URL>; its open source is at <URL>. 
+The Galileo web application uses the Meteor (meteor.com) framework for synchronization, Jade for the front end (jade-lang.com), Materialize for styling (materializecss.com), and Twilio as the text message gateway (twilio.com).
 
 
 \begin{figure}[t] 
@@ -139,16 +140,16 @@ To investigate whether procedural support helps novices design experiments, a be
 Procedural training, when successful, helps people solve unique problems with similar structure. It is perhaps best studied in K-12 mathematics instruction~\cite{Rittle-Johnson1999}. We hypothe-size that participants who use interactive procedural support create better experiment designs than those who watch videos on the topic. 
 
 \subsection{Method}
-Participants were randomly assigned to one of two condi-tions: Videos or Galileo (Figure 6). The Videos condition provided a playlist of videos about experiment design from a Coursera MOOC that operationalized the task-specific concepts~\cite{Wobbrock2018}. The Galileo condition provided participants access to Galileo. Both provided the same content for creating a structurally-sound experiment. Moreover, participants were provided instructions that the resources (videos/Galileo) described the attributes that their designs should possess. Scripted study instructions ensured the same manipulation. 
+Participants were randomly assigned to one of two conditions: Videos or Galileo (Figure 6). The Videos condition provided a playlist of videos about experiment design from a Coursera MOOC that operationalized the task-specific concepts~\cite{Wobbrock2018}. The Galileo condition provided participants access to Galileo. Both provided the same content for creating a structurally-sound experiment. Moreover, participants were provided instructions that the resources (videos/Galileo) described the attributes that their designs should possess. Scripted study instructions ensured the same manipulation. 
 
 The study asked participants to compose an experimental design for a personal intuition of their choosing. Each condition provided informational resources and a means to document their design (videos with a text document, or procedural support with inline text fields). Participants were told that there was no lower or upper time limit. Each session comprised the following steps: consent, design task, survey, and interview. Participants could also use web resources-- such as Wikipedia--and many did. The interview asked participants about confidence in their experiment design abilities and their experience using the system. The interview was tailored to participants’ behavior and survey responses: for example, if a participant did not watch some videos, the interviewer asked why. An independent rater (a professor who teaches experiment design) blind to condition rated each participant’s experiment using the rubric (Table 3)
 
 Two conditions for experiment. In the Videos condition, participants accessed videos about experiment design. In the Galileo condition, participants accessed Galileo tool (which included the videos if participants wanted to see them). Both conditions provided the same content.
 
-\begin{figure}[h] 
+\begin{figure}[t] 
   \includegraphics[width=0.5\textwidth]{figures/galileo/galileo-study-1}
   \includegraphics[width=0.5\textwidth]{figures/galileo/galileo-study-2}
-  \caption[]
+  \caption[Two conditions for experiment: Videos and Galileo]
 {Two conditions for experiment. In the Videos condition, participants accessed videos about experiment design. In the Galileo condition, participants accessed Galileo tool (which included the videos if participants wanted to see them). Both conditions provided the same content. \index{galileo-study-1}}
   \label{fig:galileo-study}
 \end{figure}
@@ -156,12 +157,13 @@ Two conditions for experiment. In the Videos condition, participants accessed vi
 %%%% TABLE 1 %%%%
 \vspace{0.25in}
 \begin{table}[!ht]
-\caption[Demography info for 72 participants (all undergraduate students). Some participants did not complete portions of the survey.]{Demography info for 72 participants (all undergraduate students). Some participants did not complete portions of the survey.}
+\caption[Demography info for 72 participants (all undergraduate students)] 
+{Demography info for 72 participants (all undergraduate students). Some participants did not complete portions of the survey.}
 
 \vspace{-0.25in}
 \begin{center}
 %\begin{tabular}{c >{\em}c c}
-\begin{tabular}{|>{\bf}p{1in}|p{1in}|p{1in}|}
+\begin{tabular}{|>{\bf}p{1in}|p{1.5in}|p{1.5in}|}
 \hline
 Nationality	&	USA=37		&	China=11\\
 			&	No Answer = 6	&	Others = 18\\
@@ -185,57 +187,47 @@ learning		&	1 class=11	&	2-5 classes=12\\
 \subsection{Participants}
 \textit{Recruitment}: 72 participants were recruited from a Western US Research University (Table 2). 11 had no prior experience with experiment design; 61 had taken a course or equivalent. Expertise was counterbalanced across condi-tions.   
 
-\subsection{Rubric for design-quality criteria for structure }
-
 %%%% TABLE 2 %%%%
 \vspace{0.25in}
 \begin{table}[!ht]
-\caption[]{Rubric for design-quality criteria for structure}
+\caption[Rubric for design-quality criteria for structure]
+{Rubric for design-quality criteria for structure}
 
 \vspace{-0.25in}
 \begin{center}
 \begin{tabular}{|p{1in}|p{2in}|p{3in}|}
-
 \hline
 Structure: 13 points &  \\
-
 \hline
 Hypothesis: 3 points & Is the cause/relation/effect specific?  \\
-
 \hline
 Measurement: 2 points & Are the cause and effect manipulated/measured correctly? \\
-
 \hline
 Conditions: 3 points  & Are the control and experi-mental conditions appropriate? 2pts \\
  & Do the conditions differ in manipulating the cause? 1pt \\
-
 \hline
 Steps: 2 points  & Are experimental steps clear for control/experimental conditions?  \\
-
 \hline
 Criteria: 2 points & Are the exclusion criteria correct and complete? Are the inclusion criteria correct? \\
-
 \hline
 Can the overall experiment be run as is? 1 point \\
-
 \hline
 \end{tabular}
 \end{center}
 \label{tab:rubric1}
 \end{table}
 
-
 \subsection{Measures}
 The independent variable is access to Galileo/Videos. The study scored experiments via a 13-question rubric (Figure X), and recorded time taken. A blind-to-condition expert (a regular instructor of large, undergraduate courses on experiment design) provided the scores. Qualitative measures included how participants used the tool, where they faced challenges, and a post-experiment survey. A non-parametric Mann-Whitney test assessed the effect of condition on design quality. 
 
 \subsection{Results}
 
-\begin{figure}[h] 
+\begin{wrapfigure}{r}{0.5\textwidth}
   \includegraphics[width=0.5\textwidth]{figures/galileo/galileo-study1-7}
-  \caption[]
-{Access to Galileo improved the quality of experiment design. \index{galileo-study-1}}
+  \caption[Access to Galileo improved the quality of experiment design]
+{Access to Galileo improved the quality of experiment design\index{galileo-study-1}}
   \label{fig:galileo-result}
-\end{figure}
+\end{wrapfigure}
 
 Galileo participants created higher-quality experiments (M = 11.3) than Videos participants (M = 5.6); Mann–Whitney U = 108, n1 = n2 = 36, p < 0.005 (Figure 7). Of the 36 designs rated in the top half, 29 were from Galileo condition. Galileo participants performed better on five out of six sections (all except hypothesis). There was no significant difference in the amount of time participants spent creating an experiment in the Videos (M = 30.8 mins) vs Galileo (M = 29.0 mins) conditions; Mann–Whitney U = 734, n1 = n2 = 36, p = 0.33 two-sided. 
 
@@ -262,7 +254,8 @@ Participants were recruited via online publicity. One recruitment focus was peop
 %%%% TABLE 3 %%%%
 \vspace{0.25in}
 \begin{table}[!ht]
-\caption[]{Rubric for design-quality criteria for Structure, Content, and Novelty}
+\caption[Rubric for design-quality criteria for Structure, Content, and Novelty]
+{Rubric for design-quality criteria for Structure, Content, and Novelty}
 
 \vspace{-0.25in}
 \begin{center}
@@ -307,15 +300,15 @@ The mean score for the experiment was 10.3/13. On average, people scored higher 
 \begin{figure}[h] 
 \centering
   \includegraphics[width=1.0\textwidth]{figures/galileo/galileo-study2-1}
-  \caption[]
-{A) Most experiments were structurally-sound, scoring high on the structure rubric. B) Most experiments drew from personal experiences.. \index{galileo-study2-1}}
+  \caption[Results: Most experiments were structurally-sound and drew from personal experiences]
+{A) Most experiments were structurally-sound, scoring high on the structure rubric. B) Most experiments drew from personal experiences \index{galileo-study2-1}}
   \label{fig:galileo-result2}
 \end{figure}
 
 \begin{figure}[h] 
   \includegraphics[width=0.66\textwidth]{figures/galileo/galileo-study2-2}
   \includegraphics[width=0.33\textwidth]{figures/galileo/galileo-study2-3}
-  \caption[]
+  \caption[Result: Review comments were distributed across all components of experimental design]
 {Summary of review A) Review comments were broadly distributed across all components of experimental design. B) Review comments ranged from 3 chars “yes” to 871 char long descriptions. C) The longest review comment described multiple problems with an experimental design while providing numerous actionable suggestions. \index{galileo-study2-2}}
   \label{fig:galileo-result2-2}
 \end{figure}
@@ -330,7 +323,7 @@ The most common comments sought improving structural correctness (38\%) by reque
 \begin{figure}[h] 
 \centering
   \includegraphics[width=1.0\textwidth]{figures/galileo/galileo-study3}
-  \caption[]
+  \caption[Three communities—Kombucha, Open Humans, Beer—designed and ran experiments]
 {Three communities—Kombucha, Open Humans, Beer—designed and ran experiments; each ran for a week. The flags represent participants’ nationality. \index{galileo-study3}}
   \label{fig:galileo-result3}
 \end{figure}
@@ -338,15 +331,15 @@ The most common comments sought improving structural correctness (38\%) by reque
 \begin{figure}[h] 
 \centering
   \includegraphics[width=0.5\textwidth]{figures/galileo/galileo-study3-1}
-  \caption[]
-{After signing up, a smaller fraction of people participated in Kombucha (68\%) and Open Humans (63\%) experiments than Beer (90\%). However, those who participated reported greater adherence in Kombucha (92\%) and Open Humans (83\%) compared to Open Humans (50\%). Reasons for non-adherence included being busy, annual leave, and brewers needing to check on the taste of Kombucha. \index{galileo-study3-1}}
+  \caption[Dropout and Adherence Rates across the three experiments]
+{Dropout and Adherence Rates across the three experiments. After signing up, a smaller fraction of people participated in Kombucha (68\%) and Open Humans (63\%) experiments than Beer (90\%). However, those who participated reported greater adherence in Kombucha (92\%) and Open Humans (83\%) compared to Open Humans (50\%). Reasons for non-adherence included being busy, annual leave, and brewers needing to check on the taste of Kombucha. \index{galileo-study3-1}}
   \label{fig:galileo-result3-1}
 \end{figure}
 
 \begin{figure}[h] 
 \centering
   \includegraphics[width=0.5\textwidth]{figures/galileo/galileo-study3-2}
-  \caption[]
+  \caption[Participants in the kombucha experiment reported an overall positive experience]
 {Participants in the kombucha experiment reported an overall positive experience expressing an interest to participant in another similar experiment (23/32). Most found the instructions easy to follow (28/32) and the reminders sent at appropriate times (25/32). \index{galileo-study3-2}}
   \label{fig:galileo-result3-2}
 \end{figure}
