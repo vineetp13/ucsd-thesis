@@ -1,5 +1,9 @@
 \chapter{Collaboratively generating ideas}
-\noindent \textit{Learners worldwide collectively spend millions of hours per week testing their skills on assignments with known answers. Might some of this time fruitfully be spent posing and exploring novel questions? This chapter investigates an approach for learners to contribute scientific ideas. The Gut Instinct system embodies this approach, hosting online learning materials and invites learners to collaboratively brainstorm potential influences on people’s microbiome. A between-subjects experiment compared the performance of participants who engaged in just learning, just contributing, or a combination. Participants in the learning condition scored highest on a summative test. Participants in both the contribution and combined conditions generated novel, useful questions; there was not a significant difference between the two. Though participants in the combined condition both learned and contributed, this setting did not exhibit an additive benefit, such as better learning in the combined condition. These results highlight the promise and difficulty of double-bottom-line learning experiences}
+
+\begin{quote}
+\emph{Learners worldwide collectively spend millions of hours per week testing their skills on assignments with known answers. Might some of this time fruitfully be spent posing and exploring novel questions? This chapter investigates an approach for learners to contribute scientific ideas. The Gut Instinct system embodies this approach, hosting online learning materials and invites learners to collaboratively brainstorm potential influences on people’s microbiome. A between-subjects experiment compared the performance of participants who engaged in just learning, just contributing, or a combination. Participants in the learning condition scored highest on a summative test. Participants in both the contribution and combined conditions generated novel, useful questions; there was not a significant difference between the two. Though participants in the combined condition both learned and contributed, this setting did not exhibit an additive benefit, such as better learning in the combined condition. These results highlight the promise and difficulty of double-bottom-line learning experiences.}
+\end{quote}
+\vspace{0.25in}
 
 %\begin{figure}[h] 
 %  \centering
@@ -12,13 +16,21 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{The Promise of Citizen Science with Learners}
 
-\begin{wrapfigure}{r}{0.5\textwidth}
+%\begin{wrapfigure}{r}{0.5\textwidth}
+%  \centering
+%  \includegraphics[width=0.5\textwidth]{figures/gutinstinct/gi-1.png}
+%  \caption[A dual objective: integrating citizen science and online learning]
+%{A dual objective: integrating citizen science and online learning\index{gi-1}}
+%  \label{fig:gi-1}
+%\end{wrapfigure}
+
+\begin{figure}[h]
   \centering
   \includegraphics[width=0.5\textwidth]{figures/gutinstinct/gi-1.png}
   \caption[A dual objective: integrating citizen science and online learning]
 {A dual objective: integrating citizen science and online learning\index{gi-1}}
   \label{fig:gi-1}
-\end{wrapfigure}
+\end{figure}
 
 People worldwide have theories about their health, environment, interpersonal interactions, and myriad other topics~\cite{Gelman2011}. Some of these folk theories encapsulate generalizable insights and wisdom; many others are completely false; and some are in between~\cite{Kempton1986}. How might we harvest and assess such intuitive theories to extend human knowledge, especially in domains where science is limited?  Worldwide, students collectively spend millions of hours a week testing their skills on assignments with known answers~\cite{Shah2015}. This community could be a potentially powerful resource. Repurposing even a small fraction of this effort towards scientific inquiry could pay significant dividends. 
 
@@ -26,10 +38,11 @@ Our intuition is that scientific crowdsourcing will most usefully contribute to 
 
 The main contribution of this chapter is \textit {demonstrating that a crowd of online non-expert learners can collaboratively perform useful scientific work}. To investigate its efficacy in practice, we have built a web system, Gut Instinct, which brings together learners to perform useful collaborative brainstorming on a citizen science project while developing expertise. A between-subjects experiment compared three variations of Gut Instinct: a contribution focus, a learning focus, and a combined condition. Participants did indeed perform useful creative work. For example, they generated 10 distinct questions that mirror recent scientific discoveries~\cite{KnightLab2016}. However, the combined condition did not show additive benefits. 
 
-%\begin{figure}[h] 
+%\begin{wrapfigure}{r}{0.5\textwidth}
 %  \centering
-%  \includegraphics[width=1.0\textwidth]{figures/gutinstinct/gi-2.png}
-%  \caption[]
+%  \includegraphics[width=0.5\textwidth]{figures/gutinstinct/gi-2.png}
+%  \caption[Crowd systems/techniques place different emphasis on
+%work and learning]
 %{Crowd systems/techniques place different emphasis on
 %work and learning. Some, like Mechanical Turk~\cite{Amazon2016}, emphasize
 %work over learning. Crowd approaches also vary in their motivation.
@@ -37,11 +50,11 @@ The main contribution of this chapter is \textit {demonstrating that a crowd of 
 %to perform altruistic work while having fun. Gut Instinct helps
 %participants learn about the gut microbiome while contributing
 %towards the altruistic purpose of helping researchers better
-%understand it.\index{gi-2}    Refs for the fig: ~\cite{Chen2016b}   }
+%understand it.\index{gi-2}    \textbf{Refs for the fig: ~\cite{Chen2016b}}}
 %  \label{fig:gi-2}
-%\end{figure}
+%\end{wrapfigure}
 
-\begin{wrapfigure}{r}{0.5\textwidth}
+\begin{figure}[h]
   \centering
   \includegraphics[width=0.5\textwidth]{figures/gutinstinct/gi-2.png}
   \caption[Crowd systems/techniques place different emphasis on
@@ -55,7 +68,7 @@ participants learn about the gut microbiome while contributing
 towards the altruistic purpose of helping researchers better
 understand it.\index{gi-2}    \textbf{Refs for the fig: ~\cite{Chen2016b}}}
   \label{fig:gi-2}
-\end{wrapfigure}
+\end{figure}
 
 \subsection{Leveraging Crowdsourcing Successes}
 Collectively aggregating many people’s responses can produce faster, better, and more reliable results---at much larger scale---than lone individuals can, at least when errors and biases are independent events~\ref{surowiecki2005wisdom}. Canonical crowdsourcing tasks have clear right or wrong answers – like whether two images represent the same product, whether an image region contains a feature, or what street number is written on a sign.
@@ -119,13 +132,21 @@ Gut Instinct is a web application built with Meteor (http://www.meteor.com). The
 \subsection{Curating content based on topics}
 Gut Instinct provides expert-approved learning material including online lectures, science articles and research papers. Participants add articles they feel are useful, which can be fact-checked by experts. The gut microbiome is an active area of research with new results being generated rapidly. A popular MOOC provides an introduction to science the gut microbiome including its relation to some lifestyle choices~\cite{Knight2016}. Popular online articles about the microbiome are split between providing correct, useful information and clickbait articles without scientific validity.
 
-\begin{wrapfigure}{R} {0.5\textwidth}
+%\begin{wrapfigure}{R} {0.5\textwidth}
+%  \centering
+%  \includegraphics[width=0.5\textwidth]{figures/gutinstinct/gi-4.png}
+%  \caption[A question on Topics page for diet to test understanding of the learning material]
+%{A question on Topics page for diet to test understanding of the learning material \index{gi-4}}
+%  \label{fig:gi-4}
+%\end{wrapfigure}
+
+\begin{figure}[h]
   \centering
-  \includegraphics[width=0.5\textwidth]{figures/gutinstinct/gi-4.png}
+  \includegraphics[width=0.7\textwidth]{figures/gutinstinct/gi-4.png}
   \caption[A question on Topics page for diet to test understanding of the learning material]
 {A question on Topics page for diet to test understanding of the learning material \index{gi-4}}
   \label{fig:gi-4}
-\end{wrapfigure}
+\end{figure}
 
 Gut Instinct organizes the learning material based on topics such as diet or antibiotics. A topic-based classification of learning material provides two advantages: (a) People can deeply focus on the topics that interest them, and (b) Topics related to specific lifestyle aspects can trigger specific questions. The topics pages include videos and articles about diet, antibiotics, probiotics, physiology, and genetics based on vetted content from online sources. Quick multiple-choice questions with detailed feedback at every topic page help people test their understanding (Figure~\ref{fig:gi-4}). Overall, these elements of the interface form the learning part of the system. 
 
@@ -171,13 +192,21 @@ Gut Instinct provides different tutorials, articles, and expert examples to help
 Gut Instinct employs several best practices for increasing high-quality contributions~\cite{Jennett2014, Resnick2011}. It provides cues to teach participants to generate good questions. All parts of the Add Question box contained sample questions to help participants frame their questions that could be useful to them and to gut microbiome researchers (Figure~\ref{fig:gi_5}). To reduce user confusion, GutBoard was seeded with expert questions that set norms for the nature of questions. To provide a clear call to action, GutBoard was the default landing page and the only place to add or view questions. Every page had a tour that users could invoke anytime to learn its interface.
 
 %todo-uncomment -- don't know what's wrong
-\begin{wrapfigure}{b} {0.5\textwidth}
+%\begin{wrapfigure}{b} {0.5\textwidth}
+%  \centering
+%  \includegraphics[width=0.5\textwidth]{figures/gutinstinct/gi-5.png}
+%  \caption[An example of a nudge used in Gut Instinct]
+%{An example of a nudge used in Gut Instinct to remind people of their role as a citizen scientist in raising interesting questions about the gut microbiome \index{gi-5}}
+%  \label{fig:gi-5}
+%\end{wrapfigure} 
+
+\begin{figure}[h]
   \centering
   \includegraphics[width=0.5\textwidth]{figures/gutinstinct/gi-5.png}
   \caption[An example of a nudge used in Gut Instinct]
 {An example of a nudge used in Gut Instinct to remind people of their role as a citizen scientist in raising interesting questions about the gut microbiome \index{gi-5}}
   \label{fig:gi-5}
-\end{wrapfigure} 
+\end{figure} 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Experiment: Work, Learning, \& Combined}
@@ -210,7 +239,7 @@ After web usage, two independent raters (experts in human microbiome) rated the 
 %\setlength{\tabcolsep}{10pt} % Default value: 6pt
 \renewcommand{\arraystretch}{1.5} % Default value: 1
 %\begin{tabular}{c >{\em}c c}
-\begin{tabular}{|>{\bf}p{1.5in}|p{1.5in}|p{1.5in}|}
+\begin{tabular}{>{\bf}p{1.5in}p{1.5in}p{1.5in}}
 \hline
 Nationality	&	Indian = 22	&	Non-Indian = 22\\
 Gender		&	Female = 7	&	Male = 37\\
@@ -263,15 +292,19 @@ Engagement: The mean length of lab session was ~20 min (varying from 9-40 min). 
 \begin{center}
 %\setlength{\tabcolsep}{10pt} % Default value: 6pt
 \renewcommand{\arraystretch}{1.5} % Default value: 1
-\begin{tabular}{|p{1in}|p{1in}|p{1in}|p{1in}|p{1in}|}
+%\begin{tabular}{|p{1in}|p{1in}|p{1in}|p{1in}|p{1in}|}
+\begin{tabular}{p{1in}p{1in}p{1in}p{1in}p{1.5in}}
 \hline
-Measures(mean values)	& Combined &	Contribute	& Learn	& {\it p} \\
-\multicolumn{5}{|l|}{\bf No difference in quality or quantity of questions across Combined or Contribute conditions}   \\
+\textit{Measures (mean values)}	& \textit{Combined} &	\textit{Contribute}	& \textit{Learn}	& {\it p} \\
+%\multicolumn{5}{|l|}{\bf No difference in quality or quantity of questions across Combined or Contribute}   \\
+\multicolumn{5}{l}{\bf No difference in quality or quantity of questions across Combined or Contribute}   \\
 Quality of questions (2-6 scale)  &	3.5 &	3.93	&-	& $<$ .23\\
 \# of questions/\# of participants &	14/14 &	15/15 &	- &	-\\
-\multicolumn{2}{|l|}{\bf  Working reduced test scores}  & & & \\
-Test score (max: 12 points) & 4.38	& 3.93 & 5.92 & L $<$ .5, W $<$ .03 \\
-\multicolumn{5}{|l|}{\bf Learning or contributing did not have a significant effect on time spent in lab }   \\
+%\multicolumn{2}{|l|}{\bf  Working reduced test scores}  & & & \\
+\multicolumn{2}{l}{\bf  Working reduced test scores}  & & & \\
+Test score (max: 12 pts) & 4.38	& 3.93 & 5.92 & L $<$ .5, W $<$ .03 \\
+%\multicolumn{5}{|l|}{\bf Learning or contributing did not have a significant effect on time spent in lab }   \\
+\multicolumn{5}{l}{\bf Learning or contributing did not have a significant effect on time spent in lab }   \\
 Time taken in lab session (min) & 22.5 & 16.7 & 26.8 & L $<$ .07, W $<$ .17\\
 \# of discussion comments & 35 & 35 & 10 & - \\
 \hline
@@ -355,5 +388,4 @@ Many other fields may benefit from the diverse contexts that online citizen scie
 This chapter investigated techniques for integrating learning and citizen science for the benefit of both. For us, the most striking result is that users contributed many causal questions of sufficient novelty and importance that they only recently have emerged in the literature. It is possible that other of the causal questions will be borne out in the future. This study also illustrates the challenges of double-bottom-line work. Specifically, these dual objectives can be in tension rather than being additive. The chapter describes the Gut Instinct system and suggests strategies that may help the dual objectives enhance each other. Looking forward, we hope the approach introduced here will find value in other domains especially where the science is nascent and/or contextual information is key. The knowledge of science impacts a diverse planet; in the future, this diverse community may importantly contribute to it.
 
 
-
-
+This chapter, in part, includes portions of material as it appears in \emph{Gut Instinct: Creating Scientific Theories with Online Learners} by Vineet Pandey, Amnon Amir, Justine W. Debelius, Embriette R. Hyde, Tomasz Kosciolek, Rob Knight, and Scott R. Klemmer in the proceedings of the ACM Conference on Human Factors in Computing Systems (CHI 2017). The dissertation author was the primary investigator and author of this paper.

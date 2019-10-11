@@ -7,7 +7,8 @@
   \label{fig:docent-0}
 \end{figure}
 
-\textit{People’s lived experiences provide intuitions about health.
+\begin{quote}
+\emph{People’s lived experiences provide intuitions about health.
 Can they transform these personal intuitions into testable hypotheses
 that could inform both science and their lives? This
 paper introduces an online learning architecture and provides
@@ -25,7 +26,10 @@ hypotheses of better quality. Access to learning materials improved
 the questions’ microbiome-specific knowledge.
 These results highlight the promise of performing personally 
 meaningful scientific work using massive online learning
-systems}
+systems.}
+\end{quote}
+\vspace{0.25in}
+
 
 %%%%%%%%%%%%%
 \section{NEEDS A SUBSECTION HERE}
@@ -69,24 +73,23 @@ knowledge. These results highlight the promise of performing
 personally-meaningful scientific work using
 massive online learning systems.
 
-
-%\begin{figure}[h] 
-%  \centering
-%  \includegraphics[width=1.0\textwidth]{figures/docent/fig-1.png}
-%  \caption[]
-%{This post to a Mayo Clinic forum shows how people
-%seeking advice online combine many ideas into one post..\index{docent-1}}
-%  \label{fig:docent-1}
-%\end{figure}
-
-\begin{wrapfigure}{r}{0.5\textwidth}
+\begin{figure}[h]
   \centering
-  \includegraphics[width=0.5\textwidth]{figures/docent/fig-1.png}
+  \includegraphics[width=0.6\textwidth]{figures/docent/fig-1.png}
   \caption[Post to a Mayo Clinic forum]
 {This post to a Mayo Clinic forum shows how people
 seeking advice online combine many ideas into one post..\index{docent-1}}
   \label{fig:docent-1}
-\end{wrapfigure}
+\end{figure}
+
+%\begin{wrapfigure}{r}{0.5\textwidth}
+%  \centering
+%  \includegraphics[width=0.5\textwidth]{figures/docent/fig-1.png}
+%  \caption[Post to a Mayo Clinic forum]
+%{This post to a Mayo Clinic forum shows how people
+%seeking advice online combine many ideas into one post..\index{docent-1}}
+%  \label{fig:docent-1}
+%\end{wrapfigure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{The Docent Social Computing System}
@@ -99,24 +102,24 @@ Docent embodies three main principles. The first is two-way integration of learn
 The two attributes that training questions seek to model are a) that others can answer them, and b) that each addresses a single topic. Training helps participants get a feel for how precise questions should be: overly vague and overly specific terms both reduce a question’s utility. To link many ideas with one cause, a sequence of questions can iteratively refine a hypothesis space. For instance, a question linking probiotics use to bowel movements might begin by asking how frequently people consume probiotics and in which form, following up by asking about bowel movements.
 Third, Docent provides clear success criteria: creating useful questions. Docent converts question-asking and answering into an engaging social interaction by enabling people to participate in multiple ways, such as by asking questions, adding follow-ups, editing questions to improve clarity, or responding to questions. A new user can access the entire Docent system only after adding a question.
 
-\begin{wrapfigure}{r}{0.5\textwidth}
-  \centering
-  \includegraphics[width=0.5\textwidth]{figures/docent/fig-2.png}
-  \caption[User flow of Docent learning module]
-{User flow of Docent learning module. Participants reflect on their lifestyle by (A) answering a personal question before (B) watching an online lecture about probiotics and the microbiome. Participants (C) must propose a mechanism when adding a question and (D) they receive feedback from scientific material on their questions. Probiotics was one of 16 topics for which Docent provided ~5min long expert lectures.\index{docent-2}}
-  \label{fig:docent-2}
-\end{wrapfigure}
+%\begin{wrapfigure}{r}{0.5\textwidth}
+%  \centering
+%  \includegraphics[width=0.5\textwidth]{figures/docent/fig-2.png}
+%  \caption[User flow of Docent learning module]
+%{User flow of Docent learning module. Participants reflect on their lifestyle by (A) answering a personal question before (B) watching an online lecture about probiotics and the microbiome. Participants (C) must propose a mechanism when adding a question and (D) they receive feedback from scientific material on their questions. Probiotics was one of 16 topics for which Docent provided ~5min long expert lectures.\index{docent-2}}
+%  \label{fig:docent-2}
+%\end{wrapfigure}
  
 \subsection{Learn content: Integrate Concepts with Insights}
 Docent’s learn module teaches people about the gut microbiome using online lectures, lifestyle questions, feedback from scientific material on questions, and guessing potential mechanisms (Figure~\ref{fig:docent-2}). We describe each below. 
 
-%\begin{figure}[h] 
-%  \centering
-%  \includegraphics[width=1.0\textwidth]{figures/docent/fig-2.png}
-%  \caption[User flow of Docent learning module]
-%{User flow of Docent learning module. Participants reflect on their lifestyle by (A) answering a personal question before (B) watching an online lecture about probiotics and the microbiome. Participants (C) must propose a mechanism when adding a question and (D) they receive feedback from scientific material on their questions. Probiotics was one of 16 topics for which Docent provided ~5min long expert lectures.\index{docent-2}}
-%  \label{fig:docent-2}
-%\end{figure}
+\begin{figure}[h] 
+  \centering
+  \includegraphics[width=0.7\textwidth]{figures/docent/fig-2.png}
+  \caption[User flow of Docent learning module]
+{User flow of Docent learning module. Participants reflect on their lifestyle by (A) answering a personal question before (B) watching an online lecture about probiotics and the microbiome. Participants (C) must propose a mechanism when adding a question and (D) they receive feedback from scientific material on their questions. Probiotics was one of 16 topics for which Docent provided ~5min long expert lectures.\index{docent-2}}
+  \label{fig:docent-2}
+\end{figure}
 
 Online lectures to improve conceptual understanding: The human microbiome is nascent, yet fast-growing. There is a lot of room for new contributions, but few people have up-to-date and accurate knowledge, even to the extent that it exists. People ask more questions when the learning material causes inconsistencies in their understanding of a topic~\cite{Miyake1979a}. Since few people know about the microbiome, Docent uses introductory learning material curated from Gut Check, a Coursera MOOC ~\cite{Knight2016}, rather than scientific papers that may be too abstruse. Apart from introductory material about the microbiome, Docent also provides learning material about specialized topics, such as gastrointestinal diseases \& the gut-brain axis, to engage people in guided discovery learning based on their interests and health conditions (Figure~\ref{fig:docent-2}B).
 
@@ -153,13 +156,21 @@ The GutBoard is designed for quick question traversal, easy response, and collab
 
 To de-incentivize lurking and increase engagement, the GutBoard shows only one question at a time; we call this sequential access. When people could see multiple questions simultaneously (parallel access), they skimmed through many questions without interacting with them. 
 
-\begin{wrapfigure}{r}{0.5\textwidth}
+%\begin{wrapfigure}{r}{0.5\textwidth}
+%  \centering
+%  \includegraphics[width=0.5\textwidth]{figures/docent/fig-4.png}
+%  \caption[Participants can see follow-up questions, add new options, new follow-up questions, edit the question, guess potential mechanisms, and bookmark]
+%{After answering a top-level question, participants can see follow-up questions, add new options, new follow-up questions, edit the question, guess potential mechanisms, and bookmark. A star (added by an expert) shows that this question may be promising for further enquiry by people.\index{docent-4}}
+%  \label{fig:docent-4}
+%\end{wrapfigure}
+
+\begin{figure}[h]
   \centering
   \includegraphics[width=0.5\textwidth]{figures/docent/fig-4.png}
   \caption[Participants can see follow-up questions, add new options, new follow-up questions, edit the question, guess potential mechanisms, and bookmark]
 {After answering a top-level question, participants can see follow-up questions, add new options, new follow-up questions, edit the question, guess potential mechanisms, and bookmark. A star (added by an expert) shows that this question may be promising for further enquiry by people.\index{docent-4}}
   \label{fig:docent-4}
-\end{wrapfigure}
+\end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Hypotheses: Effect of Learning and Training on Question Quality}
@@ -183,7 +194,7 @@ Recruitment: Participants were recruited via online publicity. To invite people 
 \subsection*{Measures}
 Dependent variables comprised structure, content, and creativity of questions (Table~\ref{d-tab:rubric1}). American Gut researchers with multiple years of post-PhD expertise independently rated all 399 questions. (330 questions were rated by three; 69 were rated by two). The average ICC measure for 3 raters was 0.48 with 95\% CI[0.42,0.54], (F (328,656) = 3.73, p$<$.001). Raters agreed that evaluating novelty was difficult since the nascent microbiome literature is rapidly growing.
 
-%%%% TABLE 1 %%%%
+%%%% TABLE 2 %%%%
 \vspace{0.25in}
 \begin{table}[!ht]
 \caption[The five question quality criteria]
@@ -192,10 +203,9 @@ maybe, 1: yes). The 5-point sum represents overall quality.}
 
 \vspace{-0.25in}
 \begin{center}
-\begin{tabular}{p{1.75in}p{4.5in}}
-%\hline
-%\textbf{Structure: 13 points} &  \\
-%\hline
+\renewcommand{\arraystretch}{1.5} % Default value: 1
+\begin{tabular}{p{1in}p{4.5in}}
+\hline
 Criteria & Operationalized as \\
 \textit{Structure} 	& \textbf{Answerable}: Is it a question about the participant? \\
  				& \textbf{Specific}: Does it ask about only one topic? \\
@@ -204,6 +214,7 @@ Criteria & Operationalized as \\
 				& \textbf{Novel}: Is there a chance the world will learn something? \\
 
 \textit{Creativity} 	& Is it reasonably interesting/creative? \\
+\hline
 \end{tabular}
 \end{center}
 \label{d-tab:rubric1}
@@ -211,7 +222,7 @@ Criteria & Operationalized as \\
 
 Raters were instructed to assign points for structure if it asked participants about a specific topic that they could answer. For example, \textit{How often do you consume fermented foods?} was rated as both answerable by participants and specific, while, \textit{Does our modern agricultural system affect our microbiome?} was neither answerable nor specific. Question content was the sum of insightfulness and novelty. Insightfulness addressed the quality of the microbiome content in the questions. Novelty was assessed as the potential to create new knowledge in the microbiome field and operationalized as the lack of research papers about the specific question. For example, \textit{Does consuming bone broth improve digestion?} was rated as both insightful and novel, while, \textit{Can microbiome cure cancer?} was neither insightful nor novel. Broad questions related to well-studied topics or those fishing for links with the microbiome, such as the difference between generic vegetarian and meat-based diet were not deemed novel. A question was considered creative if it suggested an interesting idea without necessarily drawing it from personal experience. 
 
-%%%% TABLE 2 %%%%
+%%%% TABLE 3 %%%%
 \vspace{0.25in}
 \begin{table}[!ht]
 \caption[Participants with both learning and training
@@ -224,29 +235,38 @@ than the other three conditions}
 
 \vspace{-0.25in}
 \begin{center}
-\begin{tabular}{p{1in}p{2in}p{2in}}
-%\hline
-%\textbf{Structure: 13 points} &  \\
-%\hline
+\renewcommand{\arraystretch}{1.5} % Default value: 1
+\begin{tabular}{p{1.5in}p{2in}p{2in}}
+\hline
 				& \textit{No Learn} 		& \textit{Learn} \\
 \textit{No Train} 	& \textbf{25.5} question points from (\textbf{13} of) \textbf{91} people (M= 0.28) 
 				& \textbf{31.5} question points from (\textbf{14} of) \textbf{90} people (M= 0.35) \\
 
 \textit{Train} 	& \textbf{26.5} question points from (\textbf{7} of) \textbf{74} people (M= 0.36)
 			& \textbf{50} question points from (\textbf{16} of) \textbf{89} people (M= 0.56) \\
+\hline
 \end{tabular}
 \end{center}
 \label{d-tab:results1}
 \end{table}
 
 \subsection*{Results}
-\begin{wrapfigure}{r}{0.5\textwidth}
+
+\begin{figure}[h]
   \centering
-  \includegraphics[width=0.5\textwidth]{figures/docent/fig-5.png}
+  \includegraphics[width=0.6\textwidth]{figures/docent/fig-5.png}
   \caption[Training improved the overall question quality but learning did not]
 {Training improved the overall question quality (p <.05) but learning did not (p $<$ 0.1). H1: Training marginally improved question structure (p <.06). H2: Learning improved question content (p <.05).\index{docent-5}}
   \label{fig:docent-5}
-\end{wrapfigure}
+\end{figure}
+
+%\begin{wrapfigure}{r}{0.5\textwidth}
+%  \centering
+%  \includegraphics[width=0.5\textwidth]{figures/docent/fig-5.png}
+%  \caption[Training improved the overall question quality but learning did not]
+%{Training improved the overall question quality (p <.05) but learning did not (p $<$ 0.1). H1: Training marginally improved question structure (p <.06). H2: Learning improved question content (p <.05).\index{docent-5}}
+%  \label{fig:docent-5}
+%\end{wrapfigure}
 
 344 participants completed the baseline exercise, continuing to the condition-specific intervention (Learn, Train, Both, or Neither). Participants who asked follow-on questions were scored as described above; those who did not were scored as 0. Table~\ref{d-tab:results1} shows, for each condition, the total number of participants, the number that provided questions, the total question points, and the average score across all participants. The overall quality of the questions generated in the combined Train+Learn condition is the highest (0.56 points) and appears to stand out from the others. We used a permutation test (a kind of bootstrapping method) to assess the statistical reliability of this apparent interaction, namely, whether the combined Learn-Train condition produces better questions than is expected from the independent main effects of the Learn and Train conditions. Indeed, a permutation test with 10,000 replications found that the observed differences in question points are different than the expected differences (generated by the main-effect marginals) as they fall outside the 95\% confidence interval [-24.5, 24.5], p$ <$.05. The three score components (structure, content, and creativity) were pairwise weakly correlated (r=0.32, p$ <$ 0.02; r=0.19, p$ <$ 0.17; r=0.33, p$ <$ 0.01). 
 
@@ -258,10 +278,7 @@ than the other three conditions}
 
 \textit{Creativity}: Did training or learning material (Learn and Both conditions) impact the creativity score of questions relative to not having access (Train and Neither conditions)? Neither training (M=0.04 vs. M=0.07; 10,000-replication permutation test 95\% CI[-4, 4], p < 0.08) nor learning (M=0.05 vs. M=0.07; 10,000-replication permutation test 95\% CI[-4, 4], p < 0.2) improved the creativity score.
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Discussion}
-
-%%%% TABLE 3 %%%%
+%%%% TABLE 4 %%%%
 \vspace{0.25in}
 \begin{table}[!ht]
 \caption[Examples of questions created by participants]
@@ -270,18 +287,22 @@ than the other three conditions}
 \vspace{-0.25in}
 \begin{center}
 \renewcommand{\arraystretch}{1.5}
-\begin{tabular}{p{1.75in}p{4.5in}}
+\begin{tabular}{p{1in}p{4.5in}}
+\hline
 Quality & Sample Question \\
 \textit{High} 		& Have you ever eaten raw pumpkin seeds to eliminate parasites? (Structure: 2, Content: 1, Creativity: 1) \\
 
 \textit{Medium} 	& Do you get constipated when stressed? (Structure: 2, Content: 0.5, Creativity: 0.5) \\
 
 \textit{Low} 		& Does day of the week influence good vs. bad microbiota? (Structure: 1, Content: 0, Creativity: 0) \\
+\hline
 \end{tabular}
 \end{center}
 \label{d-tab:results2}
 \end{table}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Discussion}
 \subsection{The effect of learning and training on questions}
 As a check of random assignment, participants’ required pre-intervention question was of comparable quality in all conditions. Participants in the Both condition scored higher total question points after the intervention. Training en-forced a tutorial when asking a question, and the add-question module presented heuristics for asking better ques-tions. This tight integration may have enabled people to focus their questions on a specific topic and frame their questions to be answerable by others. Moreover, the presence of learning material might have provided a useful setup and improved participant engagement leading to greater number of questions, and question points.
 
@@ -297,9 +318,9 @@ Personal health was a big motivator; 78\% of questions pertained to diseases (e.
 \subsection{How novel are the questions?}
 75 of the 399 questions were found to be novel by the American Gut Project researchers. Novelty was defined as “Is there a chance the world will learn something?” The probiotic-sugar question above is novel because no published work addresses it directly. Other work on the sugar-microbiome relationship establishes plausibility~\cite{Haukioja2008}. Such questions meet Docent’s primary objective: to uncover insights about topics where people’s lived experiences provide them more knowledge than lab experts. Docent-like citizen science platforms can leverage people’s lived experience to identify novel questions that experts have missed out and to evaluate these questions.
 
-\begin{figure}[t] 
+\begin{figure}[h] 
   \centering
-  \includegraphics[width=1.0\textwidth]{figures/docent/fig-6.png}
+  \includegraphics[width=0.7\textwidth]{figures/docent/fig-6.png}
   \caption[Distribution of role types]
 {Distribution of role types for the 68 participants in the Both condition who added at least one question. The Leader formed 1\% of participants but contributed 19\% of the answers and 49\% of all collaborative activity (adding follow-ups, editing others’ question, adding options). Dropouts formed 65\% of participants and added one question each (57\% of all questions) but contributed to only 13\% of collaborative work. .\index{docent-6}}
   \label{fig:docent-6}
@@ -318,13 +339,15 @@ answered questions}
 \vspace{-0.25in}
 \begin{center}
 \renewcommand{\arraystretch}{1.5}
-\begin{tabular}{p{1.75in}p{4.5in}}
+\begin{tabular}{p{1in}p{4.5in}}
+\hline
 Role & Actions\\
 \textit{Leader} 		& Add questions, answer \& edit others’ questions, add follow-ups, discuss \\
 \textit{Helper} 		&  Add \& answer questions, add follow-ups\\
 \textit{Participator} 	&  Answer questions\\
 \textit{Lurker} 		&  Add questions but no collaborative work\\
 \textit{Dropout} 	&  Add a question; never return\\
+\hline
 \end{tabular}
 \end{center}
 \label{d-tab:results2}
@@ -358,4 +381,5 @@ Diversity brings another design challenge. Diverse participants interpret prompt
 \section{Conclusion}
 This paper investigated integrating learning and training with online scientific work. Experts rated 75 of 399 questions as potentially scientifically novel. Participants with access to process training generated hypotheses of better quality. Access to learning materials improved the questions’ microbiome-specific knowledge.  The Learn-Train-Ask method can be applied towards next steps in the scientific process, namely designing and running experiments. This study also illustrates the challenges of designing a social computing system that engages voluntary participants in performing personally-relevant scientific work. Such online experiences also naturally provide a problem-based learning setup for better learner engagement. Intui-tions gathered from a large online crowd can significantly scale up scientific inquiry by augmenting scientific expertise with insights and know-how drawn from the lived experiences of diverse individual people. We believe that dual-objective online systems that combine learning with personally meaningful work can enable people to meet their needs.
 
+This chapter, in part, includes portions of material as it appears in \emph{Docent: Transforming Personal Intuitions to Scientific Hypotheses through Content Learning and Process Training} by Vineet Pandey, Justine W. Debelius, Embriette R. Hyde, Tomasz Kosciolek, Rob Knight, and Scott R. Klemmer in the proceedings of the ACM Conference on Learning at Scale (L@S 2018). The dissertation author was the primary investigator and author of this paper.
 
