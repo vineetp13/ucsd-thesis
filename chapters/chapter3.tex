@@ -3,15 +3,17 @@
 \begin{quote}
 \emph{Learners worldwide collectively spend millions of hours per week testing their skills on assignments with known answers. Might some of this time fruitfully be spent posing and exploring novel questions? This chapter investigates an approach for learners to contribute scientific ideas. The Gut Instinct system embodies this approach, hosting online learning materials and invites learners to collaboratively brainstorm potential influences on people’s microbiome. A between-subjects experiment compared the performance of participants who engaged in just learning, just contributing, or a combination. Participants in the learning condition scored highest on a summative test. Participants in both the contribution and combined conditions generated novel, useful questions; there was not a significant difference between the two. Though participants in the combined condition both learned and contributed, this setting did not exhibit an additive benefit, such as better learning in the combined condition. These results highlight the promise and difficulty of double-bottom-line learning experiences.}
 \end{quote}
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.5\textwidth]{figures/gutinstinct/gi-1.png}
+  \caption[A dual objective: integrating citizen science and online learning]
+{A dual objective: integrating citizen science and online learning\index{gi-1}}
+  \label{fig:gi-1}
+\end{figure}
+
 \vspace{0.25in}
 
-%\begin{figure}[h] 
-%  \centering
-%  \includegraphics[width=1.0\textwidth]{figures/gutinstinct/gi-1.png}
-%  \caption[]
-%{A dual objective: integrating citizen science and online learning\index{gi-1}}
-%  \label{fig:gi-1}
-%\end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{The Promise of Citizen Science with Learners}
@@ -23,15 +25,6 @@
 %{A dual objective: integrating citizen science and online learning\index{gi-1}}
 %  \label{fig:gi-1}
 %\end{wrapfigure}
-
-\begin{figure}[h]
-  \centering
-  \includegraphics[width=0.5\textwidth]{figures/gutinstinct/gi-1.png}
-  \caption[A dual objective: integrating citizen science and online learning]
-{A dual objective: integrating citizen science and online learning\index{gi-1}}
-  \label{fig:gi-1}
-\end{figure}
-
 People worldwide have theories about their health, environment, interpersonal interactions, and myriad other topics~\cite{Gelman2011}. Some of these folk theories encapsulate generalizable insights and wisdom; many others are completely false; and some are in between~\cite{Kempton1986}. How might we harvest and assess such intuitive theories to extend human knowledge, especially in domains where science is limited?  Worldwide, students collectively spend millions of hours a week testing their skills on assignments with known answers~\cite{Shah2015}. This community could be a potentially powerful resource. Repurposing even a small fraction of this effort towards scientific inquiry could pay significant dividends. 
 
 Our intuition is that scientific crowdsourcing will most usefully contribute to domains where science is nascent and/or highly contextual. Knowledge of the human microbiome is both. While everyone has a gut full of microbes, its causal influences remain largely unknown. The Human Microbiome Project and other studies have begun revealing its diversity and impacts~\cite{Consortium2012, Consortium2013}. The world could benefit greatly from a more comprehensive understanding of the microbiome, what influences its composition, and the impact our gut has on our health. Understanding how people live may help build causal models. For example, rheumatoid arthritis patients have altered gut and oral bacteria~\cite{Zhang2015}. Might changing their gut reduce their symptoms? As in many scientific domains, people’s initial intuitions about what affects their gut are often poor. Does this improve with education? Could learners collectively advance human understanding in this domain? This chapter explores the potential of coupling online citizen science with learning materials to create scientific questions (Figure~\ref{fig:gi-1}). 
@@ -56,7 +49,7 @@ The main contribution of this chapter is \textit {demonstrating that a crowd of 
 
 \begin{figure}[h]
   \centering
-  \includegraphics[width=0.5\textwidth]{figures/gutinstinct/gi-2.png}
+  \includegraphics[width=0.7\textwidth]{figures/gutinstinct/gi-2.png}
   \caption[Crowd systems/techniques place different emphasis on
 work and learning]
 {Crowd systems/techniques place different emphasis on
@@ -71,7 +64,7 @@ understand it.\index{gi-2}    \textbf{Refs for the fig: ~\cite{Chen2016b}}}
 \end{figure}
 
 \subsection{Leveraging Crowdsourcing Successes}
-Collectively aggregating many people’s responses can produce faster, better, and more reliable results---at much larger scale---than lone individuals can, at least when errors and biases are independent events~\ref{surowiecki2005wisdom}. Canonical crowdsourcing tasks have clear right or wrong answers – like whether two images represent the same product, whether an image region contains a feature, or what street number is written on a sign.
+Collectively aggregating many people’s responses can produce faster, better, and more reliable results---at much larger scale---than lone individuals can, at least when errors and biases are independent events~\cite{Surowiecki2005}. Canonical crowdsourcing tasks have clear right or wrong answers – like whether two images represent the same product, whether an image region contains a feature, or what street number is written on a sign.
 
 Distributing labor redundantly across multiple workers also guards against individual shortcomings~\cite{Snow2008}. For example, workers using the Soylent crowd-powered document editor found a typo late in a paper that eluded all eight authors and six reviewers~\cite{Bernstein2010a}. Why? In later pages, fatigue can reduce attention to detail. Because individual crowd workers saw only a small piece of the document, their collective attention to detail remained constant throughout. This illustrates how a collection of novices offers complementary contributions to experts, often in small but nonetheless useful ways. 
 
@@ -96,7 +89,7 @@ goals include fun (e.g., Peekaboom~\cite{VonAhn2006}), authentication
 (reCAPTCHA~\cite{Ahn2008}), and learning (Duolingo~\cite{Hacker2014}). Under the
 hood, these tasks simultaneously label images, transcribe
 text, and translate phrases. Such crowd work can also bootstrap machine learning~\cite{Bernstein2012c}. This paper is distinct from prior
-work (Figure~\ref{fig:gi_2}) in leveraging people’s individual lived
+work (Figure~\ref{fig:gi-2}) in leveraging people’s individual lived
 experience, knowledge, context, and folk theories, rather
 than treating people as interchangeable respondents.
 
@@ -117,7 +110,7 @@ We test these hypotheses in the context of brainstorming potential causal relati
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{The Gut Instinct System}
-Gut Instinct is a collaborative system with a dual objective: help people learn about the gut microbiome, and catalyze the creation of a list of factors that may be associated with gut microbiome differences (Figure~\ref{fig:gi_3}). People anonymously post questions about lifestyle and health for peers to answer. Learners both ask \& answer questions, there are
+Gut Instinct is a collaborative system with a dual objective: help people learn about the gut microbiome, and catalyze the creation of a list of factors that may be associated with gut microbiome differences (Figure~\ref{fig:gi-3}). People anonymously post questions about lifestyle and health for peers to answer. Learners both ask \& answer questions, there are
 no distinct workers. These questions and discussions provide researchers cues to build associations between lifestyle and the microbiome.
 Gut Instinct is a web application built with Meteor (http://www.meteor.com). The front-end uses Angular (http://www.angularjs.org) and is stylized with Materialize (http://www.materialize.css).
 
@@ -150,46 +143,14 @@ Gut Instinct provides expert-approved learning material including online lecture
 
 Gut Instinct organizes the learning material based on topics such as diet or antibiotics. A topic-based classification of learning material provides two advantages: (a) People can deeply focus on the topics that interest them, and (b) Topics related to specific lifestyle aspects can trigger specific questions. The topics pages include videos and articles about diet, antibiotics, probiotics, physiology, and genetics based on vetted content from online sources. Quick multiple-choice questions with detailed feedback at every topic page help people test their understanding (Figure~\ref{fig:gi-4}). Overall, these elements of the interface form the learning part of the system. 
 
-%\begin{figure}[h] 
-%  \centering
-%  \includegraphics[width=1.0\textwidth]{figures/gutinstinct/gi-3.png}
-%  \caption[]
-%{A question on Topics page for diet to test understanding of the learning material \index{gi-3}}
-%  \label{fig:gi-3}
-%\end{figure}
-
-%\begin{figure}[h] 
-%  \centering
-%  \includegraphics[width=1.0\textwidth]{figures/gutinstinct/gi-4.png}
-%  \caption[]
-%{An example of a nudge used in Gut Instinct to remind people of their role as a citizen scientist in raising interesting questions about the gut microbiome \index{gi-4}}
-%  \label{fig:gi-4}
-%\end{figure}
-
-%\begin{wrapfigure}{R} {0.5\textwidth}
-%  \centering
-%  \includegraphics[width=0.5\textwidth]{figures/gutinstinct/gi-5.png}
-%  \caption[Gut Instinct is a web system to learn about the gut microbiome and create causal theories about gut microbiome]
-%{ Gut Instinct is a web system to learn about the gut microbiome and create causal theories about gut microbiome (a) A discussion board where learners add their questions and discuss them with other learners (b) "Add question" box for people to add their own questions, (c) A tutorial video showing how gut microbiome varies across countries with different food habits~\cite{Yatsunenko2012} \index{gi-5}}
-%  \label{fig:gi-5}
-%\end{wrapfigure}
-
-%\begin{wrapfigure}{R} {0.5\textwidth}
-%  \centering
-%  \includegraphics[width=0.5\textwidth]{figures/gutinstinct/gi-6.png}
-%  \caption[Three conditions for experiment]
-%{Three conditions for experiment. (a) Contribute condition where participants read some general articles about microbiome and added questions and answered others’ questions (b) Learn condition where participants saw curated topic videos (e.g. about diet) and answered practice problems from a Coursera class~\cite{Knight2016} (c) Combined condition where participants saw curated topic video, and added questions and answered others’ questions \index{gi-6}}
-%  \label{fig:gi_6}
-%\end{wrapfigure}
-
 \subsection{GutBoard: Discussing and answering questions}
-The GutBoard provides a discussion board with user-generated questions tagged by topics (Figure~\ref{fig:gi_3}(a)). People can browse questions, answer them, or participate in discussions. GutBoard presents unanswered questions first. The most popular questions (in terms of discussion comments) bubble to the top of the board.
+The GutBoard provides a discussion board with user-generated questions tagged by topics (Figure~\ref{fig:gi-3}(a)). People can browse questions, answer them, or participate in discussions. GutBoard presents unanswered questions first. The most popular questions (in terms of discussion comments) bubble to the top of the board.
  
 \subsection{Adding questions}
-Gut Instinct provides different tutorials, articles, and expert examples to help users contribute. Gut Instinct requires that questions have a two-part structure: a yes/no question followed by an open-ended elaboration. For example, the yes/no question “Do you take any meal replacements such as protein powders?” might be followed by “Do you take them on a daily basis?” This structure addresses two problems we witnessed with pilot users: (a) Some questions were actually multiple different questions, confusing readers (b) Readers had to read every question in full to understand what was being asked, even if the topic was not relevant to them. With this structure, every question has a single focused topic. Participants can also start a discussion about the question and provide relevant tags. “Add Question” box in Figure~\ref{fig:gi_3}(b) shows the interface.
+Gut Instinct provides different tutorials, articles, and expert examples to help users contribute. Gut Instinct requires that questions have a two-part structure: a yes/no question followed by an open-ended elaboration. For example, the yes/no question “Do you take any meal replacements such as protein powders?” might be followed by “Do you take them on a daily basis?” This structure addresses two problems we witnessed with pilot users: (a) Some questions were actually multiple different questions, confusing readers (b) Readers had to read every question in full to understand what was being asked, even if the topic was not relevant to them. With this structure, every question has a single focused topic. Participants can also start a discussion about the question and provide relevant tags. “Add Question” box in Figure~\ref{fig:gi-3}(b) shows the interface.
 
 \subsubsection{Nudges to think creatively and to stay on task}
-Gut Instinct employs several best practices for increasing high-quality contributions~\cite{Jennett2014, Resnick2011}. It provides cues to teach participants to generate good questions. All parts of the Add Question box contained sample questions to help participants frame their questions that could be useful to them and to gut microbiome researchers (Figure~\ref{fig:gi_5}). To reduce user confusion, GutBoard was seeded with expert questions that set norms for the nature of questions. To provide a clear call to action, GutBoard was the default landing page and the only place to add or view questions. Every page had a tour that users could invoke anytime to learn its interface.
+Gut Instinct employs several best practices for increasing high-quality contributions~\cite{Jennett2014, Resnick2011}. It provides cues to teach participants to generate good questions. All parts of the Add Question box contained sample questions to help participants frame their questions that could be useful to them and to gut microbiome researchers (Figure~\ref{fig:gi-5}). To reduce user confusion, GutBoard was seeded with expert questions that set norms for the nature of questions. To provide a clear call to action, GutBoard was the default landing page and the only place to add or view questions. Every page had a tour that users could invoke anytime to learn its interface.
 
 %todo-uncomment -- don't know what's wrong
 %\begin{wrapfigure}{b} {0.5\textwidth}
@@ -210,14 +171,14 @@ Gut Instinct employs several best practices for increasing high-quality contribu
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Experiment: Work, Learning, \& Combined}
-A between-subjects experiment compared the work and learning performance of participants across three different conditions: \textit{Contribute}, \textit{Learn} and \textit{Combined} (Figure~\ref{fig:gi_6}). In the Learn condition, participants were provided learning material and some practice problems, both curated from the Coursera microbiome class~\cite{Knight2016}). In the Contribute condition, they had access to brief pop-science articles to know basic details about the gut microbiome, and GutBoard for creating questions. In the Combined condition, subjects had access to both learning material from Coursera and the GutBoard. The GutBoard content was common to both conditions that used it (Contribute and Combined).
+A between-subjects experiment compared the work and learning performance of participants across three different conditions: \textit{Contribute}, \textit{Learn} and \textit{Combined} (Figure~\ref{fig:gi-6}). In the Learn condition, participants were provided learning material and some practice problems, both curated from the Coursera microbiome class~\cite{Knight2016}). In the Contribute condition, they had access to brief pop-science articles to know basic details about the gut microbiome, and GutBoard for creating questions. In the Combined condition, subjects had access to both learning material from Coursera and the GutBoard. The GutBoard content was common to both conditions that used it (Contribute and Combined).
 
 \begin{figure}[h]
   \centering
   \includegraphics[width=1.0\textwidth]{figures/gutinstinct/gi-6.png}
   \caption[Three conditions for experiment]
 {Three conditions for experiment. (a) Contribute condition where participants read some general articles about microbiome and added questions and answered others’ questions (b) Learn condition where participants saw curated topic videos (e.g. about diet) and answered practice problems from a Coursera class~\cite{Knight2016} (c) Combined condition where participants saw curated topic video, and added questions and answered others’ questions \index{gi-6}}
-  \label{fig:gi_6}
+  \label{fig:gi-6}
 \end{figure}
 
 \subsection*{Method}
@@ -232,7 +193,7 @@ After web usage, two independent raters (experts in human microbiome) rated the 
 %%%% TABLE 2 %%%%
 \vspace{0.25in}
 \begin{table}[!ht]
-\caption[Demography info for 44 participants. Some participants did not complete portions of survey]{Demography info for 44 participants. Some participants did not complete portions of survey}
+\caption[Demography information for 44 participants]{Demography information for 44 participants. Some participants did not complete portions of survey}
 
 \vspace{-0.25in}
 \begin{center}
@@ -257,10 +218,10 @@ Current		& 	Undergraduate = 3	& Ph.D. = 29\\
 \end{table}
 
 \subsection*{Participants}
-44 participants were recruited from a Southern California university (Table~\ref{tab:gi-demo}). Participants were novices in terms of their knowledge of the human microbiome. Random assignment balanced g ender and nationality across conditions. There were equal numbers of women---and equal numbers of men---in each condition. Where not evenly divisible by 3, one condition had one more or fewer. 
+44 participants were recruited from a Southern California university (Table~\ref{tab:gi-demo}). Participants were novices in terms of their knowledge of the human microbiome. Random assignment balanced gender and nationality across conditions. There were equal numbers of women---and equal numbers of men---in each condition. Where not evenly divisible by 3, one condition had one more or fewer. 
 
 \subsection*{Measures}
-Dependent variables comprised work (number of questions contributed, novelty and usefulness measured by blind, independent raters); learning (score on summative test); and engagement (time spent during lab session, and number of discussion comments during web usage). Qualitative measures included how participants used the tool, where they got stuck, how they collected info, which questions they engaged with, and a post-experiment survey.
+Dependent variables comprised work (number of questions contributed, novelty and usefulness measured by blind, independent raters); learning (score on summative test); and engagement (time spent during lab session, and number of discussion comments during web usage). Qualitative measures included how participants used the tool, where they got stuck, how they collected information, which questions they engaged with, and a post-experiment survey.
 
 \subsection*{Results}
 Analysis of variance estimated the effect of working, learning and the work-learn interaction. Two condition comparisons used a Mann-Whitney U test with the corresponding independent variable (learning or working). 
@@ -273,13 +234,22 @@ Analysis of variance estimated the effect of working, learning and the work-lear
   \label{fig:gi-7}
 \end{figure}
 
-\textit{Work}: Did access to Coursera learning material (Combined) impact quantity and quality of questions relative to not having access (Contribute)? The Combined participants generated questions of similar novelty and usefulness (M = 3.5) as Contribute participants (M = 3.93), Mann–Whitney U = 79, n1 = 14, n2 = 15, p < 0.23 two-tailed (Figure~\ref{fig:gi_7}a). Figure~\ref{fig:gi_8} shows two examples of questions rated by experts. Ten of the 29 questions mirrored questions found on the American Gut survey. Half of the participants’ questions (14 of 29) asked about diet. Participants in Combined and Contribute conditions generated a total of 14 and 15 questions, respectively, averaging one question per participant (see Figure~\ref{fig:gi_9}). 
+\textit{Work}: Did access to Coursera learning material (Combined) impact quantity and quality of questions relative to not having access (Contribute)? The Combined participants generated questions of similar novelty and usefulness (M = 3.5) as Contribute participants (M = 3.93), Mann–Whitney U = 79, n1 = 14, n2 = 15, p $<$ 0.23 two-tailed (Figure~\ref{fig:gi-7}a). Figure~\ref{fig:gi-8} shows two examples of questions rated by experts. Ten of the 29 questions mirrored questions found on the American Gut survey. Half of the participants’ questions (14 of 29) asked about diet. Participants in Combined and Contribute conditions generated a total of 14 and 15 questions, respectively, averaging one question per participant (see Figure~\ref{fig:gi-9}). 
 
 \textit{Learning}: Did participants instructed to ask questions (Contribute \& Combined) score differently than those who were not (Learning)? Did access to learning videos (Learning \& Combined conditions) impact quiz scores relative to not having access (Contribute)? A two-factor ANOVA estimated these effects, finding significantly lower scores for those requested to ask questions. By contrast, access to learning materials did not yield a significant difference in quiz score.
 
-The Learn participants performed scored higher (M = 5.93) on Learning test than participants in Combined (M = 4.38) or Contribute (M = 3.93) conditions. An analysis of variance showed that this effect was significant for working, F(1, 39) = 5.22, p < 0.03, but not for learning, F(1, 39) = 0.46, p < 0.5 (Figure~\ref{fig:gi_7}b). The effect size for working was small (Cohen’s effect size d = .11).
+The Learn participants performed scored higher (M = 5.93) on Learning test than participants in Combined (M = 4.38) or Contribute (M = 3.93) conditions. An analysis of variance showed that this effect was significant for working, F(1, 39) = 5.22, p $<$ 0.03, but not for learning, F(1, 39) = 0.46, p $<$ 0.5 (Figure~\ref{fig:gi-7}b). The effect size for working was small (Cohen’s effect size d = .11).
 
-Engagement: The mean length of lab session was ~20 min (varying from 9-40 min). Learn participants spent marginally more time (M = 26.9 min) in the lab session than participants in Combined (M = 22.5 min) or Contribute (M = 16.7 min) conditions. An analysis of variance showed that this effect wasn’t significant for either Learning F(1, 41) = 3.40, p < 0.07 or working F(1, 41) = 1.95, p < 0.17, (Figure~\ref{fig:gi_7}c). Combined and Contribute participants contributed 35 discussion comments each; Learn participants contributed 10 discussion comments.
+\begin{figure}[h] 
+  \centering
+  \includegraphics[width=0.48\textwidth]{figures/gutinstinct/gi-8a.png}
+  \includegraphics[width=0.48\textwidth]{figures/gutinstinct/gi-8b.png}
+  \caption[Examples of questions added by participants]
+{An example of a good and bad question added by participants. Soylent question was scored 5/6 (2 on novelty and 3 on usefulness) while the belly question was rated 2/6 (1 on novelty and 1 on usefulness) \index{gi-8}}
+  \label{fig:gi-8}
+\end{figure}
+
+\textit{Engagement}: The mean length of lab session was ~20 min (varying from 9-40 min). Learn participants spent marginally more time (M = 26.9 min) in the lab session than participants in Combined (M = 22.5 min) or Contribute (M = 16.7 min) conditions. An analysis of variance showed that this effect wasn’t significant for either Learning F(1, 41) = 3.40, p $<$ 0.07 or working F(1, 41) = 1.95, p $<$ 0.17, (Figure~\ref{fig:gi-7}c). Combined and Contribute participants contributed 35 discussion comments each; Learn participants contributed 10 discussion comments.
 
 38 of 40 correspondents reported prior use of online courses, varying from occasional use of online learning material to taking more than five online classes. Preliminary analyses found no effects for gender and nationality (Indian or non-Indian), so these were excluded from further analyses. Table~\ref{tab:gi-results1} summarizes results from the experiment. 
 
@@ -312,15 +282,6 @@ Time taken in lab session (min) & 22.5 & 16.7 & 26.8 & L $<$ .07, W $<$ .17\\
 \end{center}
 \label{tab:gi-results1}
 \end{table}
-
-\begin{figure}[h] 
-  \centering
-  \includegraphics[width=0.48\textwidth]{figures/gutinstinct/gi-8a.png}
-  \includegraphics[width=0.48\textwidth]{figures/gutinstinct/gi-8b.png}
-  \caption[Examples of questions added by participants]
-{An example of a good and bad question added by participants. Soylent question was scored 5/6 (2 on novelty and 3 on usefulness) while the belly question was rated 2/6 (1 on novelty and 1 on usefulness) \index{gi-8}}
-  \label{fig:gi-8}
-\end{figure}
 
 \begin{figure}[h] 
   \centering
@@ -360,7 +321,7 @@ That participants asked many questions about diet and none about genetics is con
 \textit{Does browsing displace contributing?}
 Participants spent most of the lab session browsing discussions and learning material. By our observation, later participants spent more time using the system in the lab. Despite spending more time browsing discussions, we think later participants added fewer questions. Participants mentioned that browsing and answering questions felt like “contributing” without putting in a lot of effort. Participants also reported that they had to break a mental barrier to publicly post a discussion comment or question. 
 
-\subsection{Limitations}
+\subsection*{Limitations}
 Participants could login as little or as many times as they wished. One participant commented that even though she had some ideas to add, she was conscious of disclosing information about her personal life (participants were anonymous). It may be that using the tool in an experiment made them more cautious of what they added or commented.
 As a web application, participants assumed comparable facilities to forum/ discussion sites like Quora. This exemplifies a challenge of testing research prototypes: the absence of production-level features can change participants’ impressions and possibly their behavior.
 
