@@ -1,52 +1,27 @@
 \chapter{Related Work}
 \begin{quote}
-\emph{This chapter summarizes related work in citizen science, crowdsourcing, and  lead-user innovation that informs the design of systems in this thesis. The key contribution of this thesis is integrarting learning in social computing to enable complex work. }This work does three things: 1) Provides an overview of the many successes of citizen science and suggests novel opportunities,  2) We then discuss lead-user innovation and how people meet their needs, and how that can be scaled to social work, and 3) We then show how integrating learning in crowdsourcing can help -- learnersourcing etc.. 
+\emph{This chapter summarizes research in citizen science, lead-user innovation, and social computing that inform the design of systems in this dissertation. Citizen scientists have successfully solved expert-defined problems as sensors or algorithms. However, public involvement in scientific endeavors fail to provide a true participatory experience that is citizen-led and personally meaningful. Lead-user innovation provides a complementary setup. Lived experience, a tight feedback loop, and strong personal motivation enable people to create different and sometimes better products than experts; however, lead users rarely have access to training, conceptual knowledge, and pre-existing organizational structure for collaboration and support. Finally, people on social computing and crowdsourcing platforms perform many useful activities but complex work requires expert guidance or feedback. This dissertation provides ways to integrate learning in social computing to enable deeper contributions for complex work; this integration is minimal and does not require experts.} 
 \end{quote}
-\vspace{0.25in}
 
-%\begin{wrapfigure}{r}{0.5\textwidth}
-%  \centering
-%  \includegraphics[width=0.5\textwidth]{figures/2-related/venn.png}
-%  \caption[Contributions to Citizen science, lead-user innovation, and social computing]
-%{This dissertation draws from and contributes to citizen science, lead-user innovation, and social computing\index{related-1}}
-%  \label{fig:related-1}
-%\end{wrapfigure}
+%Professionals have the advantages of training, conceptual knowledge, and pre-existing organizational structure for collaboration and support; however, lead users rarely have access to such systematic support.
 
 \begin{figure}[h] 
   \centering
-  \includegraphics[width=0.5\textwidth]{figures/2-related/venn.png}
+  \includegraphics[width=0.4\textwidth]{figures/2-related/venn.png}
   \caption[]
 {This dissertation draws from and contributes to citizen science, lead-user innovation, and social computing\index{related-1}}
   \label{fig:related-1}
 \end{figure}
 
-
 \vspace{0.25in}
 
-This chapter provides an overview of related research; chapters dedicated to specific systems discuss additional research that informs that design of those systems.
-
-this chapter starts by providing a lay of land of the current situation in citizen science and expeirmentation and then provides more stuff…. 
-then we learn how lead users do great work and draw from that
-finally, we discuss how social computing does these hings.. 
-
- This thesis explores integrating learning in social computing for complex, creative work with two goals in mind: efficacy of the resulting systems (i.e. usability, correctness, and existential evidence) and generality of the underlying techniques upon which the tools are built.
-
-So, we find that there are three main challenges for citizen science: 1) make it personally meaningful, 2) deepen the contributions that citizens can make.
-3. 1. Improve the quality of poor contributions — and improve the quality of max contributions 
-    1. — hockey stick curve 
-
-
-
+This chapter provides an overview of related research; chapters dedicated to specific systems discuss additional research that informs that design of those systems.This dissertation explores integrating learning in social computing for complex, creative work with two goals in mind: efficacy of the resulting systems (i.e. usability, correctness, and existential evidence) and generality of the underlying techniques upon which the tools are built.
 
 Complex work using social computing requires two things:
 1) lowers the threshold for complex work, and 
 2) inject learning to accomplish these smaller tasks
 
-This thesis demonstrates how to inject learning in social computing systems
--- rather than divide into many small pieces (microtasks), build capacity among people. 
-
-%“Lead users are rarely experts by themselves. They are novices who find themselves at the right place, with the right tools (that they might have created themselves), and who have the courage to follow through.” Lead users have created different—and in some cases better designs— than experts. 
-
+%So, we find that there are three main challenges for citizen science: 1) make it personally meaningful, 2) deepen the contributions that citizens can make. 3. 1. Improve the quality of poor contributions — and improve the quality of max contributions     1. — hockey stick curve 
 %%%%%%
 \section{Science is increasingly networked but misses people’s lived experience }
 Science is increasingly networked, multidisciplinary, and
@@ -66,6 +41,9 @@ scientific papers~\cite{Good2013}; labeling galaxies~\cite{JordanRaddick2013};
 folding protein structures ~\cite{Cooper2010} and providing microbiome 
 samples~\cite{McDonald2018}, CPU cycles (worldcommunitygrid.org), or 
 personal data (openhumans.org). 
+Efforts to expand participation in scientific research are bearing fruit: Lab in the Wild 
+recruits anyone with an internet connection for behavioral studies~\cite{Reinecke2015}; All of Us aims 
+to recruit one million Americans from all strata of society (allofus.nih.gov). 
 
 Often, when citizens participate in science, it is as “embedded sensors” that 
 are aggregated by experts. Public involvement in scientific endeavors continues
@@ -79,18 +57,14 @@ synthesizing RNA molecules in EteRNA~\cite{Lee2014}, and aligning
 nucleotide sequences in Phylo~\cite{Kawrykow2012}. At their
 best, these citizen science platforms yield novel insights.
 For example, Foldit players discovered protein structures
-that helped scientists understand how the AIDS virus reproduces~\cite{Coren2011}.
-
-Efforts to expand participation in scientific research are bearing fruit: Lab in the Wild 
-recruits anyone with an internet connection for behavioral studies~\cite{Reinecke2015}; All of Us aims 
-to recruit one million Americans from all strata of society (allofus.nih.gov). Distributed 
+that helped scientists understand how the AIDS virus reproduces~\cite{Coren2011}.Distributed 
 data contributions from people around the world—browsing online~\cite{Coviello2014}, using activity trackers, and joining scientific projects—have enabled valuable insights on topics including 
 obesity~\cite{Althoff2017}, aesthetic preferences~\cite{Reinecke2014a}, sleep~\cite{F.lux2019}, and the human microbiome~\cite{McDonald2018a}. \textbf{This dissertation 
-draws on the idea of people using their complementary insights and cognitive surplus towards 
-expert-led scientific work}~\cite{Bonney2009}.
+draws on the idea of people using  cognitive surplus to collaboratively answer scientific questions}~\cite{Bonney2009}.
 
-Different people provide different expertise that can vet claims and 
-fix mistakes~\cite{kane2009s}. Collaboration benefits creativity when it brings different
+%Different people provide different expertise that can vet claims and  fix mistakes~\cite{kane2009s}.
+
+Collaboration benefits creativity when it brings different
  perspectives that build on each other; it impedes creativity (or worse, causes regression) 
 when—through groupthink—it spreads biases rather than removing them~\cite{starbird2014rumors}. 
 A humbling example of the power of fresh eyes: volunteer citizen scientists identified a new class of 
@@ -111,7 +85,8 @@ biases independent, while not stifling original ideas for bottom-up knowledge cr
 
 %\subsection{Citizen Scientists: From Collectors to Experimenters}
 \subsection{Opportunity: Can people be scientists rather than just sensors?}
-Citizens have successfully solved expert-defined problems as sensors or algorithms. For long, citizen scientists have been amateurs who contribute scientific work - typically a) under the guidance of experts, b)  on large projects, and c) that are intractable with existing scientific resources.
+Citizens have successfully solved expert-defined problems as sensors or algorithms with a 
+row-filling model of contribution rather than enjoying truly independent, participatory experience. 
 In the quest to get people to track, measure, accumulate, or
 sort both digital and analog data, citizen science has overlooked the massive 
 opportunity of leveraging people’s unique advantages: our skills as reflective, 
@@ -123,7 +98,6 @@ diet. These may be observational theories~\cite{Kempton1986}, folk theories
 passed in a family/culture across generations~\cite{Gelman2011}, or ideas
 brainstormed in online communities~\cite{23andme2016}. Perhaps, these intuitions 
 can provide a starting point for personally meaningful scientific work that also assists the scientific community.
-Citizen science for long has continued work with this row-filling model of contribution rather than providing a truly independent, participatory experience. 
 
 When are such personal experiences worth paying attention
 to? For every intuition proven right, many more may be
@@ -172,33 +146,23 @@ randomized controlled trial), and also procedural knowledge
 consume cocoa beforehand~\cite{Francis2006}). \textbf{This dissertation explores how
 online learning and process training systems, combined with
 peer collaboration, can help people learn similar skills that
-can be useful in scientific and design domains}.
+can be useful in scientific domains}.
+%So, we find that there are three main challenges for citizen science: 1) make it personally meaningful, 2) deepen the contributions that citizens can make. 3. 1. Improve the quality of poor contributions — and improve the quality of max contributions     1. — hockey stick curve 
 
-So, we find that there are three main challenges for citizen science: 1) make it personally meaningful, 2) deepen the contributions that citizens can make.
-3. 1. Improve the quality of poor contributions — and improve the quality of max contributions 
-    1. — hockey stick curve 
+WOULDN'T IT BE GREAT TO HAVE PEOPLE DESIGN AND RUN EXPERIMENTS AS AN INSTANCE OF COMPLEX SCIENTIFIC WORK
+
+Link to lead users -- people already doing personally meaningful work.. 
 
 %%%%%%%%%%%%%%%%%%
-\section{Lead users Succeed when People Know What to Do and How to Do It}
--- Techniques and systems to build expertise in people (toolkit?)
-Contribution: People haven't thought about lead/end users as communities. This thesis does.
+\section{Lead users Succeed When They Know What to Do and How to Do It}
+%“Lead users are rarely experts by themselves. They are novices who find themselves at the right place, with the right tools (that they might have created themselves), and who have the courage to follow through.” Lead users have created different—and in some cases better designs— than experts. 
 
-%todo-fix cites
 Lead-user innovation is both an inspiration and an application area for this work. Lead users are
-users of a product (or service) who experience advanced needs unmet by existing products. The
+users of a product (or service) who experience advanced needs unmet by existing products~\cite{VonHippel2005}. The
 power of lead-user innovation is that lived experience, a tight feedback loop, and strong personal
-motivation can yield different and sometimes better products than experts [32]. For example, diabetes
-patients have improved insulin delivery [47] and snowboarders have improved their binding
-ergonomics. Personal needs and challenges can be highly motivating, inspiring people to
-measure and seek correlations to improve their lives [55].
-
-Sometimes, having a different background than experts can be beneficial. Shared knowledge is great when it’s right, but blocks progress when wrong. When false assumptions limit experts, at least some novices are likely to be “uninfected”. For example, GalaxyZoo volunteers discovered ‘green pea’ galaxies overlooked by scientists who mistakenly assumed the green hue was merely an imaging artifact~\cite{Tinati2015}. The converse also holds, and much more often: novices are also “uninfected” by all the knowledge that enables experts to innovate. In a large distributed community, there’s often someone who happens to have important relevant knowledge, usually drawing on a relevant but distant domain. Such distributed efforts are a type of lead-user innovation~\cite{VonHippel2005a}. Having many people work on the same problem increases the odds that one will break through. Drawing on secondary expertise as inspiration can be an important agent of creativity because almost by definition, the combination is rare~\cite{Boden2004}. Open \& crowd innovation builds up on contributions by diverse online participants, and a ‘bubbling up’ process for strong ideas~\cite{Yu2012}. Our novel contribution is an explicit integration of learning.
-
-%Crowd workers perform better when they understand their efforts’ importance. For example, Mechanical Turk workers analyzing radiology images performed better when told of the medical purpose: finding cancerous tumors~\cite{Chandler2013}. Motivation can also be personal. For example, 23andMe is a genetic testing site and online service that includes a discussion board. On this forum, a user reported disliking the sounds of others eating. She’s not alone; a 23andMe survey found 16,000 users with the same condition and a predictive genetic similarity among them~\cite{23andMe2016}.
-
-
-\subsection{Lead users hack and track}
-Lead users~\cite{VonHippel2005} collaborate online to build software
+motivation can yield different and sometimes better products than experts [??32]. For example, diabetes
+patients have improved insulin delivery [??47] and snowboarders have improved their binding
+ergonomics. Lead users also collaborate online to build software
 (github.com), create novel hardware \& reference designs
 (openaps.org), and share personal data (quantifiedself.com,
 openhumans.org). Some go further still, e.g., the transcranial
@@ -221,13 +185,13 @@ and discuss on fora. Some even use online lectures to understand
 concepts of genes, phenotypes, and microbiota they
 may not have perused otherwise~\cite{23andMe2017, Knight2016}. 
 
+\subsection{Opportunity: Providing lead users the expertise to tackle complex knowledge work}
 \textbf{Lead users have an advantage when the key ingredient is experience intensive; experts retain the
-advantage for solution-intensive innovations} [32]. Professionals have the advantages of training,
-conceptual knowledge, pre-existing organizational structure for collaboration and support, and
-direct access to resources. However, community-driven approaches to understand personal
+advantage for solution-intensive innovations} [32].  Sometimes, having a different background than experts can be beneficial. Shared knowledge is great when it’s right, but blocks progress when wrong. When false assumptions limit experts, at least some novices are likely to be “uninfected”. For example, GalaxyZoo volunteers discovered ‘green pea’ galaxies overlooked by scientists who mistakenly assumed the green hue was merely an imaging artifact~\cite{Tinati2015}. The converse also holds, and much more often: novices are also “uninfected” by all the knowledge that enables experts to innovate. In a large distributed community, there’s often someone who happens to have important relevant knowledge, usually drawing on a relevant but distant domain. Having many people work on the same problem increases the odds that one will break through. Drawing on secondary expertise as inspiration can be an important agent of creativity because almost by definition, the combination is rare~\cite{Boden2004}. 
+
+Community-driven approaches to understand personal
 health and well-being largely reside outside the realm
-of institutional science and medicine. While some fads and
-beliefs are questionable at best, on occasion these communities
+of institutional science and medicine. While some fads and beliefs are questionable at best, on occasion communities
 break new ground that may provide widespread value,
 such as fecal transplants to alleviate Clostridium difficile infection
 symptoms~\cite{Brandt2012}. Some doctors recommend that patients
@@ -239,17 +203,14 @@ researchers and clinicians with useful patient data
 crack scientific puzzles about the working of the mind~\cite{V.S.Ramachandran1998},
 heart, and microbes~\cite{Weisse2012}. 
 
-However, despite many of these successes-- made possible by trial and error-- lead users might have 
-a limited mental model of how to perform complex, structured work. 
+However, despite knowing that personal needs and challenges can be highly motivating, performing complex work requires a lot of trial and error. Especially for complex knowledge work, knowing and correctly implementing the genre of work is imp. 
+Professionals have the advantages of training,
+conceptual knowledge, pre-existing organizational structure for collaboration and support, and
+direct access to resources. Lead users have to create these resources themselves. 
+While lead users have succeeded by trial and error, they might have  a limited mental model of how to perform complex, structured work.  Supporting this would be great; this dissertation provides an explicit integration of learning.
 
-Let's now see how  current social computing systems tackle this.... 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Complex, Creative work}
-
-xxxx
-
-\subsection {Example: Experimentation is difficult}
+\subsection {The difficulty of experimentation}
 While public contributions have supported institutional science; it’s rare for citizens to design
 their own experiments. A number of health and behavioral research projects enlist citizens as helpers (e.g., HabitLab [43]). 
 CivilServant enables online communities’ 
@@ -275,10 +236,13 @@ requires managing multiple processes such as random
 assignment, anonymizing participant details, and sending
 instructions and reminders for data collection.
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \textbf{This dissertation provides a general workflow for anyone to transform their intuition to an experimental design; 
 our work focuses on controlled experiments as opposed to self-tracking or informal iteration}.
 
-\subsection{Social Computing and Crowdsourcing Architectures for Complex Work}
+But to understand that let's look at social computing ideas...
+
+\section{Social Computing and Crowdsourcing Architectures for Complex Work}
 Canonical crowdsourcing breaks larger tasks into microtasks; algorithms specify the division,
 dependency, and agglomeration activities while workers perform small tasks supported by task-specific
 guidelines~\cite{kittur2012future}. Systems like Foldit and EteRNA powerfully show 
@@ -303,10 +267,14 @@ reduces overhead and increases consistency; 3) people can decide their contribut
 However, experts are expensive, in short supply, and sometimes prone to groupthink. 
 How might groups of novices perform complex work like experimentation?
 
+Carefully-constructed interfaces can aid novices with task-specific expertise to solve problems 
+that only experts previously could. Foldit introduced 3D game for specifying low-energy protein 
+structures via direct manipulation~\cite{Cooper2010}. Making a challenge visually salient is an 
+effective way to on-board novices. \textbf{This dissertation explores scaffolds that are more structural than visual}.
+
+
 \subsection{Supporting novice inquiry}
-Lived experience, a tight feedback loop, and strong personal motivation can yield different 
-and sometimes better ideas than experts~\cite{VonHippel2005}. Prior work has explored 
-collaborative hypothesis generation and testing on pre-existing data sets
+Prior work has explored  collaborative hypothesis generation and testing on pre-existing data sets
 ~\cite{luther2009pathfinder,willett2011commentspace}. This dissertation offers a 
 complementary contribution: enabling citizens to generate data on topics of personal interest.
 
@@ -319,10 +287,6 @@ task-specific guidelines~\cite{lasecki2012real}. From these systems, our work dr
 idea of dividing experimentation into multiple tasks—some self-sourced, others 
 crowd-sourced; and introduce just-in-time domain expertise to perform these tasks. 
 
-Carefully-constructed interfaces can aid novices with task-specific expertise to solve problems 
-that only experts previously could. Foldit introduced 3D game for specifying low-energy protein 
-structures via direct manipulation~\cite{Cooper2010}. Making a challenge visually salient is an 
-effective way to on-board novices. This dissertation explores scaffolds that are more structural than visual.
 
 %%%%%%%
 %%building up solution space - more work
@@ -334,7 +298,7 @@ Cicero provide guidelines and static rules that workers use these to reason abou
  and improve network layouts~\cite{chen2019cicero, Singh:2018:CCD:3173574.3173806}. 
 Others like CrowdSCIM and Crowdclass scaffold pre-task interventions~\cite{Lee2016,wang2018exploring}. 
 While learning resources proliferate on the internet, it's rarely provided at the \textit{point of action}. 
-.
+
 Creative, open-ended work has rich pedagogical value. Online work, like 
 online learning, requires appropriate scaffoldings, such as rubrics
 ~\cite{Boud1995, Kulkarni2013peer}, decision trees~\cite{Lee2016,Yu2006}, 
@@ -400,7 +364,7 @@ among others. Currently, the survey questions are handpicked
 by a small group of scientists. Can opening up the
 question-asking process to the world yield additional insights?
 How can people’s situated knowledge supplement institutional
-science? Herein lies the opportunity for \textit{Docent}.
+science? Herein lies the opportunity for \textit{Gut Instinct}.
 
 %todo-remove copied text
 
@@ -410,4 +374,6 @@ The human gut microbiome is the community of microbes (and their gene products) 
 \subsubsection{People hold the key to understanding the gut microbiome}
 The structure of the human microbiome is influenced by many factors, including age, genetics, diet, and xenobiotic and antibiotic use~\cite{Gill2006}. The gut microbiome in particular plays an important role in metabolism and immune system development, and some microbiome dysbioses have been associated with diseases such as obesity, inflammatory bowel disease, type I and type II diabetes, autism, multiple sclerosis, and malnutrition~\cite{Cho2012}. The human microbiome is impossible to understand without information about its host~\cite{Debelius2016} and many influence factors remain unknown. Teaching people about the gut microbiome and having them guess associations between the microbiome and health and disease states can potentially accelerate the process of discovering links between diet, disease, and lifestyle factors and the gut microbiome.
 
+
+%Crowd workers perform better when they understand their efforts’ importance. For example, Mechanical Turk workers analyzing radiology images performed better when told of the medical purpose: finding cancerous tumors~\cite{Chandler2013}. Motivation can also be personal. For example, 23andMe is a genetic testing site and online service that includes a discussion board. On this forum, a user reported disliking the sounds of others eating. She’s not alone; a 23andMe survey found 16,000 users with the same condition and a predictive genetic similarity among them~\cite{23andMe2016}.
 
