@@ -4,14 +4,15 @@
 
 
 \begin{quote}
-\emph{Social computing platforms enable people to do many interesting things but provide little to no support for deeper work. Current online platforms (like Facebook) are built on insights from psychology about capturing people’s attention. This dissertation instead takes a more socially responsible approach by integrating learning theory and collaboration for people to perform complex work such as generating and evaluating scientific theories. This has the potential to diversify the stakeholders and contributors to our future society.}
+\emph{Social computing platforms enable people to connect and share but provide little to no support for deeper work. This dissertation provides a novel approach for complex work by introducing procedural guidance in social computing. Systems instantiating this approach integrate theories from learning, collaboration, and interface design. Supporting people in personally meaningful activities such as generating and evaluating scientific theories provides multiple advantages: people can answer their own questions, the world can learn something new, and our future society can potentially have more diverse stakeholders and contributors.}
 \end{quote}
 \vspace{0.25in}
 
-Social computing platforms have revolutionized how people connect, communicate, and share. Friends and family stay in constant touch and learn about both significant and mundane life events. Strangers from around the world discuss ideas about topics of interest. Increasingly, these opportunities to connect and share have also translated to more active doing: people fund ideas that traditional business places might balk at [??]. Others have used social platforms to bring attention to important social, political, and economic questions. By altering how we communicate, share, and chat, social platforms are perhaps the prime candidate for internet-fueled change in human behavior and self-organization. However, the benefits of social computing are not distributed equally. 
+Social computing platforms have revolutionized how people connect, communicate, and share. Friends and family stay in constant touch about both significant and mundane life events. Strangers from around the world discuss ideas about topics of mutual interest. Increasingly, these opportunities to connect and share have also translated to more active doing: people fund ideas that traditional business places might balk at [??]. Others have used social platforms to bring attention to important social, political, and economic questions [??]. By altering how we communicate and chat, social platforms have cemented a central place in our professional, personal, and leisure activities. However, the benefits of social computing are not distributed equally. 
 %for instance, people in Sudan have taken down dictators [??]. 
 
-Every internet user has a voice but some amplify them better than others: xx\% of most popular posts are from experts. While anyone can organize an online group on a topic of interest, collective attempts to bring changes fail frequently. Furthermore, widely accessible research papers and articles provide useful learning materials but evidence-based rational discourse is the exception, not the norm. These examples suggest that simply connecting people is not the answer; there's an underlying missing input. Viewed through this lens, social computing seems less a transformative panacea but more of a highly scaled up version of the offline reality that people live in. What is missing? Social computing platforms have vastly succeeded at keeping people engaged and sharing but they barely support \textit {citizen-led enquiry}.
+Every internet user has a voice but some amplify them better than others: xx\% of the most popular posts on Twitter are from experts. Widely accessible research papers and articles provide useful learning materials; however, evidence-based rational discourse on online fora are an exception, not the norm. Social computing platforms have vastly succeeded at keeping people engaged with careful interface design but they barely support \textit {citizen-led enquiry}. These examples suggest that simply connecting people is not enough for successful citizen-led work. Absent tools to build expertise, social computing seems less of a transformative panacea. How might people succeed at their goals using online systems?
+%While anyone can create an online group on a topic of interest, most online communities fail to sustain this interest beyond a few weeks [??]. 
 %When people discuss people create faulty insights from self-tracking and conspiracy theories abound.
 % 1 to 1 link with the first para
 
@@ -25,7 +26,7 @@ Every internet user has a voice but some amplify them better than others: xx\% o
 
 %People have complementary knowledge in comparison to experts and are uninfected by expert biases; these insights are drawn from lived experience, both individual and collective.
 %Specific to this dissertation: 
-People have strong personal motivations and contextual insights; they possess a remarkable ability to identify patterns and create theories from their experiences~\cite{Gelman2011}. While most people have an amazing breadth and depth of ideas, they lack the expertise to implement these ideas. To create knowledge, they need mental scaffolds for organizing complex work, domain knowledge to compose and execute the steps, and ways to ask for help. Experts benefit from conceptual knowledge, professional training, pre-existing organizational structure for collaboration, and direct access to resources. Currently, citizens lack these resources and social platforms do not change that. Enabling peoplt to learn to perform personally meanignful work can help them answer their own questions. People's ideas can catalyze creating new knowledge that we are missing out on. Consequently, this is a missed opportunity for both individuals and the world at large.  How might online systems support citizen-led knowledge work? 
+People have strong personal motivations and contextual insights; they possess a remarkable ability to identify patterns and create theories from their lived experiences~\cite{Gelman2011}. While people have an amazing breadth and depth of ideas, they lack the expertise to implement these ideas. To create knowledge, they need mental scaffolds for organizing complex work, domain knowledge to compose and execute the steps, and ways to ask for help. Experts benefit from conceptual knowledge, professional training, pre-existing organizational structure for collaboration, and direct access to resources. Currently, citizens lack these resources. By performing personally meaningful work, people can answer their own questions and their ideas can catalyze creating new knowledge. As a result, both individuals and the world at large have missed out on this this opportunity for useful work. How might online systems support citizen-led knowledge work? 
 
 %this is the current state --  this is the big challenge, why is it a challenge
 %% however, scaling good teaching is hard - kulkarni
@@ -48,7 +49,7 @@ People have strong personal motivations and contextual insights; they possess a 
 %3. procedural learning: can teach people how to do things
 %    1. captures learning — depth
 
-This dissertation advances the design of social computing systems by integrating learning and collaboration for complex work such as generating and evaluating scientific theories. Over 600 people from 30 countries have self-organized to generate theories about the human microbiome and test them by running experiments. This dissertation raises the question: how can global communities create knowledge that meets their goals without waiting for experts to lead? Gut Instinct---platform embodying ideas in this dissertation---emodies this insight and introduces a collaborative citizen science platform for people to transform lived exes into scientific theories. 
+This dissertation advances the design of social computing systems by integrating learning and collaboration for complex work such as generating and evaluating scientific theories. Over 600 people from 30 countries have self-organized to generate theories about the human microbiome and test them by running experiments. Gut Instinct emodies this insight and introduces a collaborative citizen science platform for people to transform lived experience into scientific theories. This dissertation raises the question: how can global communities create knowledge that meets their goals without waiting for experts to lead?
 
 \begin{figure}[b] 
   \centering
@@ -65,87 +66,76 @@ automated data collection reminders. }
 \end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section {Why do people struggle with complex tasks}
-People’s curiosity and needs provide endless possibilities to perform useful work; however, traditional online systems don’t support such. Online fora encourage long, rambling discussions. Online learning provides conceptual lessons but people drop out and these are not linked to people’s needs. While learning resources like MOOCs abound, they hardly meet the need: many drop out, the lectures focus on conceptual knowledge, and lack the feedback needed to perform open-ended creative work. We know little about integrating learning resources and social computing affordances are far from each other. Moreover, currently both learning and work are not personal. To summarize, lack of appropriate "learning abstractions" make complex work unrealistic.
+\section {Current online designs do not support deeper work}
+People’s curiosity and needs provide endless possibilities to perform useful work. People design, build, and track to better understand and improve their health~\cite{DanaLewis}. However, traditional social computing designs don’t funnel this motivation to useful work. 
 
-%Specific to the health setting 
-\textbf{People design, build, and track to better understand and improve their health~\cite{DanaLewis}. On numerous online fora, people share their intuitions, observations, folk theories, and even results from trying different approaches to improve their health, e.g. from simple ideas like ‘giving up drinking coffee to improve quality of sleep’ to testing different dietary approaches. Some draw ideas from current research by reading and discussing papers. In some cases, these discussions are not just anecdotal but also derive from state-of-the-art scientific work. In some cases, people contribute back to scientific work as well. How can social computing platforms effectively enable people to do more personally meaningful work built upon their experiences and insights?}
-
-The goal is to create environments for learning and collaboration through complex, personally meaningful work.
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Challenge: People' don't know what to do and how to do it}
-%todo-introduce the learning and collaboraiton taxonomy here
-\begin{figure}[!h] 
-  \centering
- \includegraphics[width=1.0\textwidth]{figures/intro/intro-taxonomy}
-  \caption[Drawing from Maslow's hierarchy of learning and  hierarchy of contribution]
-{Drawing from Maslow's hierarchy of learning and xx's hierarchy of contribution}
-  \label{fig:intro-taxonomy}
-\end{figure}
-
-Citizens have a different background than professional scientists; they have unique
- personal experiences but lack the years of domain training. Two major issues in 
-enabling complex work on the internet are improving quality of individual contribution and 
-managing overall contributions from the crowd. We desire social computing techniques
- that reliably enable a wide variety of people to contribute more than they naturally could 
+On numerous online fora, people share their intuitions, observations, folk theories, and even results from trying different approaches to improve their health, e.g. from simple ideas like ‘giving up drinking coffee to improve quality of sleep’ to testing different dietary approaches. However, online fora encourage long, rambling discussions that makes it difficult to identify signal from noise. While learning resources like Massive Open Online Courses (MOOCs) abound, they follow traditional classroom pedagogy: the lectures focus on conceptual knowledge, and do not support feedback mechanisms needed to perform open-ended creative work. Synthesizing the social computing literature highlights three challenges: poor signal-to-noise from crowds due 
+to lack of training; inefficient collaboration without careful attention; and poor results (or no results at all) 
+unless experts lead. We desire social computing techniques that reliably enable a wide variety of people to contribute more than they naturally could 
 and that manage the dependencies among a large set of tasks. 
+
+%To summarize, lack of appropriate ``learning abstractions'' make complex work unrealistic.
+
+%Two major issues in enabling complex work on the internet are improving quality of individual contribution and 
+%managing overall contributions to make complementary. 
 %(diversity and scale?) 
 
-To create computational systems that leverage tpeople's strengths and mitigate the lack of training, this dissertation 
-focuses on domains where the science is nascent, highly contextual, and personally motivating.
- Synthesizing the crowdsourcing literature and this dissertation's exploratpry work highlights three challenges: 
-poor signal-to-noise from crowds due to lack of training; inefficient collaboration without 
-careful attention; and poor results (or no results at all) unless experts lead. To address  these concerns, 
-this dissertation introduces and evaluates peer production architectures and procedural learning.
+%To address these concerns, this dissertation introduces and evaluates 
+%peer production architectures and procedural learning.
 
-To summarize, complex work using social computing requires three features: 
-1) lower the threshold for complex work, 2) careful collaboration primitives, and 
-2) inject learning to accomplish these smaller tasks.
+%Some draw ideas from current research by reading and discussing papers. In some cases, these discussions are not just anecdotal but also derive from state-of-the-art scientific work. In some cases, people contribute back to scientific work as well. 
+%How can social computing platforms effectively enable people to do more personally meaningful work built upon their experiences and insights?
+%The goal is to create environments for learning and collaboration through complex, personally meaningful work.
 
-\textbf{People lack the expertise to know what to do and how to do it.}. 
-Success with complex creative activities requires procedural
-knowledge (how to do things) in addition to conceptual
-knowledge (facts). While many resources offer facts, procedural
-learning is often ignored. The converse also holds, and much more often: novices are also
-“uninfected” by all the knowledge that enables experts to
-innovate. Sometimes, having a different background than experts can
-be beneficial. Shared knowledge is great when it’s right, but
-blocks progress when wrong. When false assumptions limit
-experts, at least some novices are likely to be “uninfected”.
-For example, GalaxyZoo volunteers discovered ‘green pea’
-galaxies overlooked by scientists who mistakenly assumed
-the green hue was merely an imaging artifact~\cite{cardamone2009galaxy}. 
-
-% kulkarni -- "This assessment requires bothcommon-sense knowledge to understand student work and the expertise to assess tacit criteria such as “well-designed” or “well-modularized” that cannot be completely articulated. Indeed, teaching such tacit criteria is an important goal in open-ended domains like design"
-
-\textbf{People need ways to collaborate effectively}. 
-People are connected online and collectively have access to many resources.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Challenge: Designing support for collaboration and knowledge requirements}
+While people are connected online and collectively have access to many resources, they need ways to collaborate effectively. 
 In a large distributed community, there’s often someone who happens to 
 have important relevant knowledge, usually drawing on a relevant but 
 distant domain. Such distributed efforts are a type of lead-user innovation~\cite{VonHippel2005a}. 
 Having many people work on the same problem increases the odds that 
 one will break through. Drawing on secondary expertise as inspiration can
  be an important agent of creativity because almost by definition, the 
-combination is rare~\cite{Boden2004}. %Open \& crowd innovation builds up on contributions
-by diverse online participants, and a ‘bubbling up’ process for strong ideas~\cite{Yu2012}.
+combination is rare~\cite{Boden2004}. While many hands make light work, novices need clear contribution opportunities. 
 
-While many hands make light work, novices need clear contribution opportunities. 
-The crowdsourcing literature offers many good verification approaches for tasks 
-with clear right or wrong answers – like whether two images represent the same 
-product or what street number is written on a sign. However, verifying knowledge
- work necessitates a different approach because it requires making 
-situationally-appropriate choices. 
+%People lack the expertise to know what to do and how to do it. 
+Citizens have a different background than professional scientists; they have unique
+ personal experiences but lack the years of domain training. Novices are also
+“uninfected” by all the knowledge that enables experts to
+innovate. Success with complex creative activities requires procedural
+knowledge (how to do things) in addition to conceptual
+knowledge (facts). While many resources offer facts, procedural
+learning is often ignored. 
+% kulkarni -- "This assessment requires bothcommon-sense knowledge to understand student work and the expertise to assess tacit criteria such as “well-designed” or “well-modularized” that cannot be completely articulated. Indeed, teaching such tacit criteria is an important goal in open-ended domains like design"
+
+
+%The crowdsourcing literature offers many good verification approaches for tasks 
+%with clear right or wrong answers – like whether two images represent the same 
+%product or what street number is written on a sign. However, verifying knowledge
+ %work necessitates a different approach because it requires making 
+%situationally-appropriate choices. 
 %Furthermore,  how do people ask others for help? Who do they reach out to?
+
+%Open \& crowd innovation builds up on contributions
+%by diverse online participants, and a ‘bubbling up’ process for strong ideas~\cite{Yu2012}.
+
+To summarize, supporting complex work with social computing requires two key features: 
+1) careful collaboration primitives, and 2) procedural support for deeper individual contributions.
+
+
+%todo-introduce the learning and collaboraiton taxonomy here
+\begin{figure}[!h] 
+  \centering
+ \includegraphics[width=1.0\textwidth]{figures/intro/intro-taxonomy}
+  \caption[Drawing from Maslow's hierarchy of learning and  hierarchy of contribution]
+{Drawing from Maslow's hierarchy of learning and Arlington's hierarchy of contribution}
+  \label{fig:intro-taxonomy}
+\end{figure}
 
 \subsection{Scientific experimentation: An instance of complex knowledge work}
 %here''s an example: experimentation 
-Supporting complex knowledge work has been a challenge for Human Computer Interaction
- research (make specific). For instance, many people are interested in understanding and 
-improving their health. Millions of peple from all over the world share their insights. 
-Can't they run experiments for these?
-
-Scientific experimentation features technical requirements and contextual choices 
+Many people are interested in understanding and improving their health. Millions of peple from all over the world share their insights. 
+Why haven't people run experiments to test these ideas? Scientific experimentation features technical requirements and contextual choices 
 that are inscrutable for a lay individual yet necessary for success~\cite{Martin2007}. While 
 professional scientists and commercial ventures run experiments every day, with 
 notable exceptions~\cite{Cooper2010,DanaLewis}, empirical papers from non-professionals are 
@@ -153,7 +143,8 @@ vanishingly rare. This biases the questions asked, studies run, and knowledge
 created~\cite{Henrich2010a}. People have questions about their health, but lack the expertise 
 and resources to scientifically investigate them. Broadening the pool of 
 experimenters could help people investigate their curiosities, develop solutions 
-to improve health and performance, and assist institutional researchers.
+to improve health and performance, and assist institutional researchers. To create computational systems that leverage people's strengths and mitigate the lack of training, this dissertation 
+focuses on scientific domains that are nascent, highly contextual, and personally motivating.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Thesis Statement and Contributions}
@@ -181,20 +172,18 @@ Improving  work quality in social computing suggests deepening individual contri
 
 % come up with principles myself
 %figure about conceptual and procedural learning 
-\textit{Principles to integrate learning in social computing}: Learning broadly comprises conceptual (declarative) and procedural knowledge. Conceptual learning--the primary focus of classroom teaching--is where people learn what something is, learn about its features. Typically, such learning is tested with test questions. In contrast, procedural learning teaches the {\it how} of things. How do you do x, y, or z.  Concpetual learning is useful when xxx while procedural learning is more useful when yyy.
-
-To make useful contribution, people need to have a good working model of both the concepts and procedures for an activity. This dissertation enables this in two ways: 1) reifying conceptual bits in the software, and 2) providing procedural guidance with examples, checklists, and templates. Building on Maslow''s hierarchy~\ref{??}, it aims to push learning more up.
-
+\textit{Principles to integrate learning in social computing}: Learning broadly comprises conceptual (declarative) and procedural knowledge. Conceptual learning---the primary focus of classroom teaching---involves understanding and interpreting concepts and the relations between concepts [Arslan 2010]. In contrast, procedural learning teaches "action sequences for solving problems" [Wagner99]. To contribute usefully, people need to have a good working model of both the concepts and procedures for an activity. This dissertation enables knolwledge acquisition in two ways: 1) reifying conceptual bits in the software, and 2) providing procedural guidance with examples, checklists, and templates. These techniques aim to move individual contributions to higher levels on Maslow's hierarchy (Figure~\ref{fig:intro-taxonomy}). 
 %todo-show how my system does that
-Docent's LTA workflow (Chapter 4) embeds procedural guidance about hypotheses while Galileo's design workflow (Chapter 5) demonstrates the efficacy of reifying the genre in the software itself.
+Specifically, Docent's Learn-Train-Ask workflow (Chapter 4) embeds procedural guidance about hypotheses while Galileo's design workflow (Chapter 5) demonstrates the efficacy of reifying the genre of between-subjects experimentation in the software itself.
+%https://teachingmathliteracy.weebly.com/conceptual-vs-procedural-knowledge.html
+%rittle-johnson and wagner
 
-\textit{Ways to decompose Complex work to f(people, community, \& machines)}
-An individual, a group of people, and machines possess complementary strengths. Individuals might be highly motivated on a topic of personal interest; their lived experiences provide ideas that might be potentially novel. Groups of people might be less motivated but provide another set of eyes and complementary knowhow and insights from lived experiences; their efforts can help check biases with the diversity of their lived experiences. Computers can implement things consistently to reduce biases but they cannot interpret open-ended instructions fairly in different contexts the way people can.  (todo- fix this to crisp english writing) (see slide deck)
 
-Given these complementary strengths and limitations, this dissertation suggests the following process: 1) support an individual in creating an initial design on a personally meaningful topic, 2) improves it with others' feedback, and finally, 3) runs the idea with the help of automated software. For all these steps, the system manages the interdependencies beneath the sheets to reduce pressure on people. Building on Arlington's hierarchy, it aims to push collaboration more up.
-~\ref{??}
+\textit{Ways to decompose a complex activity}: 
+An individual, a group of people, and machines possess complementary strengths. Individuals might be highly motivated on a topic of personal interest; their lived experiences provide ideas that might be potentially novel. Groups of people might be less motivated but provide another set of eyes and complementary knowhow and insights from lived experiences; their efforts can help check slips from the creator and provide novel inputs. Finally, computers can implement things consistently to reduce biases but they cannot interpret open-ended instructions fairly in different contexts the way people can. Given these complementary strengths and limitations, this dissertation suggests the following process: 1) support an individual in creating an initial design on a personally meaningful topic, 2) improve it with others' feedback to create an actionable plan, and finally, 3) implement the plan with the help of automated software. For all these steps, the system manages the interdependencies beneath the sheets. This process aims to push collaboration up Arlington's hierarchy (Figure~\ref{fig:intro-taxonomy}). 
+% (todo- fix this to crisp english writing) (see slide deck)
 
-The efficacy of these techniques is borne out over multiple deployments. All these techniques have been put in systems as interfaces, intelligent backends, and so on... \\
+%The efficacy of these techniques is borne out over multiple deployments. All these techniques have been put in systems as interfaces, intelligent backends, and so on... \\
 
 %fig - present a stack of things
 
@@ -210,30 +199,27 @@ The efficacy of these techniques is borne out over multiple deployments. All the
 %User interfaces and system design for efficient implementation
 %figs needed to explicate 
 
-While guidance techniques and role differentiation provide the building blocks, they are by themselves insufficient for useful higher-order collaborative work. These techniques need to be baked in simple, interactive interfaces. Multiple challenges show up for this question. First, the internet is a diverse community and have varying levels of expertise. So, the things need to be understandable to all. Second (merge with above), people might have poor models of thiking about stuff and might frame their ideas and intuitions in weird ways. Third, the interface should make it easy to keep moving and get unstuck. Too much information might overwhelm people while too little make people struggle.
+While guidance techniques and role differentiation provide the building blocks, they are by themselves insufficient for useful higher-order collaborative work. These techniques need to be baked in simple, interactive interfaces. Two challenges show up for this question. First, the internet is a diverse community: people might have poor models of reasoning and might frame their ideas and intuitions in weird ways. The software should be understandable to a broad range of participants. Second, complex activities are challenging: the interface should make it easy for people to focus on the current step and provide resources to get unstuck. Designing such a system requires walking a fine line: too much information might overwhelm people while too little make people struggle.
 %; therefore so we need UIs for focused collaboration. 
 
 %System contributions
-Gut Instinct  introduces a collaborative citizen science platform for people to transform lived exes into scientific theories. Gut Instinct frames the task of hypothesis-testing as a crowdsourcing problem, develops techniques and platform that supports different roles with just-in-time learning, and provides efficient backend support to automate simple tasks.
-
-Gut Instinct divides multi-party collaboration into complementary tasks and supports them using different contribution mechanisms (like adding a question, editing a response) and roles (like experimenter, reviewer, participant). This provides people the flexibility to choose how much they’d like to contribute. Finally, Gut Instinct automatically manages multiple activities to reduce 
-bias and experimenter/participant workload,such as randomized placement of 
-people into conditions, maintaining anonymity, and collecting and cleaning data.
+To bake these insights into a real system, this dissertation introduces Gut Instinct, a collaborative citizen science platform for people to transform lived experiences into scientific theories. Gut Instinct frames the task of hypothesis-testing as a crowdsourcing problem, develops techniques and platform that supports different roles with just-in-time learning, and provides efficient backend support to automate simple tasks. Gut Instinct divides multi-party collaboration into complementary tasks and supports them using different contribution mechanisms (like adding a question, editing a response) and roles (like experimenter, reviewer, participant). This provides people the flexibility to choose how much they’d like to contribute. Finally, Gut Instinct automatically manages multiple activities to reduce 
+bias and experimenter/participant workload, such as randomized placement of  people into conditions, maintaining anonymity, and collecting and cleaning data.
 
 %%"Furthermore, adding location information to photo collections is by itself insufficient for scenevisualization: we also need intuitive, interactive interfaces for exploring these scenes. There are several challenges faced in the design of such interfaces. First, unlike with Google Street View, where photos are taken at regular intervals, personal or Internet collections are typically an unstructured soup of photos. Nevertheless, the navigation controls should still be intuitive and exhibit regularity. Second, such controls should make it easy to find and explore the interesting parts of a scene, particularly for tourist sites."
 
 %%%%%%%%%%%%%
 \subsection{Outcomes}
-\subsubsection{Empirical Results from Real-world Deployment}
-expertise: limited; diversity: different countries; scale: some
+%\subsubsection{Empirical Results from Real-world Deployment}
+%expertise: limited; diversity: different countries; scale: some
 
-\subsubsection{Dataset}
-1. repo of hypotheses with rating
-2. repo of experimental designs
-3. ...
+%\subsubsection{Dataset}
+%1. repo of hypotheses with rating
+%2. repo of experimental designs
+%3. ...
 
-\subsubsection{Impact}
-344 volunteers from 27 countries created 399 hypotheses about their health and the gut microbiome. Remarkably, microbiome scientists rated a fifth (75) of these hypotheses to have a scientifically valuable insight about a topic not covered by existing published work. Volunteers fleshed out 60 of these hypotheses into complete experimental designs. My entire work (code + data) is open source so others can edit, build, and experiment.
+%\subsubsection{Impact}
+This dissertation demonstrates how we might draw on people’s diverse background knowledge, interest, and micro-expertise to expand scientific knowledge and push it in new directions. More specifically, the Gut Instinct platform that I have built instantiates these ideas enabling participants of the American Gut Project (the world’s largest crowdfunded citizen science project) to generate and experimentally investigate hypotheses.344 volunteers from 27 countries created 399 hypotheses about their health and the gut microbiome. Remarkably, microbiome scientists rated a fifth (75) of these hypotheses to have a scientifically valuable insight about a topic not covered by existing published work. Volunteers fleshed out 60 of these hypotheses into complete experimental designs. My entire work (code + data) is open source so others can edit, build, and experiment.
 
 This dissertation has also enjoyed sufficient support in multiple research communities: Innovation researchers at MIT, online and offline fermentation and self-tracking communities, and citizen science groups. Finally, parts of the system have been taught in classrooms including CSCI 499: (Computing for Social Good) at USC. 
 
@@ -243,18 +229,16 @@ can be useful in scientific and design domains.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Dissertation Roadmap}
+%\section{Dissertation Roadmap}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %todo- “we” refers to the set of authors…  -- see arvind
 
-My dissertation demonstrates how we might draw on people’s diverse background knowledge, interest, and micro-expertise to expand scientific knowledge and push it in new directions. More specifically, the Gut Instinct platform that I have built instantiates these ideas enabling participants of the American Gut Project (the world’s largest crowdfunded citizen science project) to generate and experimentally investigate hypotheses (Figure 1). 
-
-This dissertation creates the opportunity of harnessing humanity\textquotesingle s collective efforts to accomplish great goals.
-s
 
 
-"double quotes"
+%This dissertation creates the opportunity of harnessing humanity\textquotesingle s collective efforts to accomplish great goals.
+
+%"double quotes"
 
 
 %The techniques make the idea concrete; the system operationalizes the techniques and makes them work; and the outcomes discuss the successes and failures of our approach.
