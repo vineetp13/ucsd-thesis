@@ -125,7 +125,12 @@ Mahatma Gandhi
 %
 \tableofcontents
 \listoffigures  % Comment if you don't have any figures
-\listoftables   % Comment if you don't have any tables
+%{% -- added by vineet to remove the word figure
+%\let\oldnumberline\numberline%
+%\renewcommand{\numberline}{\figurename~\oldnumberline}%
+%\listoffigures%
+%}
+%\listoftables   % Comment if you don't have any tables
 
 
 
@@ -192,7 +197,7 @@ Online platforms enable people to interact with friends, family, and the world a
 
 This dissertation introduces \textit{procedural guidance} to build just-in-time expertise for people to perform tasks that they cannot do otherwise. Procedural guidance has multiple advantages: it is minimal, leverages teachable moments, and can be ability-specific. This dissertation instantiates this insight of procedural guidance through a sequence of increasingly complex social computing systems: \textit{Gut Instinct} for curating ideas,  \textit{Docent} for generating hypotheses, and \textit{Galileo} for citizen-led experiments.
 
-\textit{Gut Instinct} hosts online learning materials and enables people to collaboratively brainstorm potential influences on people’s microbiome. \textit{Docent} explicitly teaches people to create hypotheses by combining personal insights and online learning with task-specific scaffolding. Finally, \textit{Galileo} reifies experimentation in the software, provides multiple roles for contribution, and automatically manages interdependencies. Multiple evaluations—including controlled experiments and field deployment with online communities including American Gut participants—demonstrate that procedural guidance enables people to transform intuitions to hypotheses and structurally-sound experiments. By enabling people to draw on lived experience, this dissertation harbingers a future where people can convert their ideas to actionable plans and implement these plans with their communities. This dissertation concludes by discussing opportunities for complex work using social computing platforms.
+\textit{Gut Instinct} hosts online learning materials and enables people to collaboratively brainstorm potential influences on people’s microbiome. \textit{Docent} explicitly teaches people to create hypotheses by combining personal insights and online learning with task-specific scaffolding. Finally, \textit{Galileo} reifies experimentation in the software, provides multiple roles for contribution, and automatically manages interdependencies. Multiple evaluations—controlled experiments and field deployments with online communities including American Gut participants—demonstrate that procedural guidance enables people to transform intuitions to hypotheses and structurally-sound experiments. By enabling people to draw on lived experience, this dissertation harbingers a future where people can convert their intuitions to actionable plans and implement these plans with the scale and diversity of online users. This dissertation concludes by discussing opportunities for complex work using social computing platforms.
 
 
 \end{abstract}
