@@ -1,0 +1,282 @@
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Conclusion}
+%"build theory, think expansively, and tackle broader conceptual issues, not (primarily) to reiterate the literal outcomes of your work.”-srk
+
+To summarize, my dissertation research created systems for complex work by drawing on insightsfrom interactive systems, social computing, and learning theory. This dissertation provides a vision and prototype systems for enabling people to perform personally meaningful work using social computing. In the process, this thesis intends to democratize expertise and provide ways to meaningfully embed computation in society. 
+
+Drawing from empirical results, related work, and the pain fo doing this research and building these systems, i share the following themes. This section's themes fall in three categories: 1) building future system contributions — interface support, work decomposition, and more, 2) identifying open questions for theoretical contributions, and 3) thinking through broader implications for computation in society.This section outlines future research ideas that open up multiple directions for designing new systems and for contributing novel theory. This section provides approaches for what we did and open questions.
+
+
+%%%%%%%%%%%%%%%%%%%%%%
+\section{Systems/domains} 
+% "where else could your techniques and insights apply? Think big."-srk
+% fig: a set that shows many approaches for generating hypotheses and evaluating theories
+%-- and says these systems are all waiting to be built
+
+
+Domain experts make creative contributions like writing articles, curating museums, leading teams, and more.How might we enable a federation of novices to do these activities? This dissertation demonstrated that procedural guidance works well for scientific experimentation; which other genre of work and levels of contribution could this extend to? 
+
+As in science, the number of experts is relatively small and their training relatively homogenous. How might we develop techniques to conceptually divide activities into tasks amenable to learning, community inputs, automation, expert help, and other ideas I haven’t explored yet?
+%todo-fix
+
+\subsection{WHAT: Which domains could benefit from this}
+%Social computing environments that model richer work in more domains using procedural support and roles
+\textbf{Case 1: Deeper work: End to end scientific work:}
+While scientific experimentation forms a critical part of scientific work across many domains in natural and behavioral science,  scientific work also includes more work. Starting with being able to understand and reason about the choices, there are many concrete activities that a “scientist” needs to be able to perform.; these include: 1) data analysis, 2) writing a paper, and 3) conducting surveys and such. 
+
+A central challenge in such complex work is coming up with the first design that can be iteratively improved. This dissertation demonstrates that this can be done with procedural guidance. GI enables people to go from an intuition to a structurally-sound experiment design and then iterating with others to improve that. 
+
+Consider writing for instance. Writing is a difficult task in itself; one poplar strateguy involves virtuous (??) cycle of outline, draft, edit, improve. These phases provide a normal decomposition for complex work. Past research systems (like soylent) have helped people edit papers but not in coming up with the first draft. Few tools enable people to create one from scratch. While journals and conferences provide templates, these are primarily for formatting guidelines, not about the content or argument of the work.How might procedural systems support this?
+
+As is common, insights to write are distributed across experienced campaigners’ minds, online tutorials, blogposts and so on. Such tacit knowledge can be useful to explicate and show in the context of the work itself. EteRNA provides templates to do this and thereby provides basic template guidance [Evernote does the same - see]. Building on this insight, thorough procedural guidance for paper writing can be useful. Let’s think through this with two contrasting examples. E.g. consider writing the methods section — it’s relatively more straightforward and can be templated — this is something anyone not used to writing these sections would struggle with (as this diss author did). Help people exploit the structure of this thing.
+
+The discussion section is less templated though. The discussion section needs to make links to the claims in the introduction, the novelty, how does this work extend current enquiry, what new questions does it inform. While experts typically use mental scaffolds built over years of practice, novices can make use of the templates provided to them.  Starting with identifying the research question, the system can prompt the writer to reflect on how well this worked and show examples of how to think about writing these things. Help people explore.
+%contrast this with above
+
+While these suggestions are preliminary, our experience suggests that iterating with pilot studies provide more useful lessons. The difference between domains differences too and it becomes interesting to note how this might shake out — that is what makes this research exciting.
+
+\textbf{case 2: Other domains that can be useful for this work: More domains}
+This research used microbiome research as a petri dish because it’s nascent, personal, and motivating. Other domains that meet these criteria can be useful domains of enquiry as well. E.g., going by the absence of enough research in cultural psychology, that provides one arena. Other health related fields with devoted communites are a good match — nutrition, brain zapping, and more. All of these fields will have their prompts of doing research and that needs to be baked in to the system along with rules of harm and gain etc..  e.g. while tdcs folks are interested in testing whether brain zapping improves cognitive gains and use standard metrics, implementing them the way researchers do it might be useful too.
+
+Thinking more broadly, scientific work is not the only domain of application for this work — art (crowd art) can also learn from procedural rules [jennifer jacobs procedural art work] because it shares three features with our work: xx, yy, and zz.There are limits too: 1) when people do not have relevant expertise or when teaching them takes a lot of effort — consider journalism; 2)  when people don’t stand to gain?; 3)  when different people don’t bring in different expertise
+
+\subsection{HOW: Designing efficient procedural support}
+%highlight open questions?
+
+This dissertation'''s theme of providing procedural support is not too far from computational thinking and the phases it contains: abstraction, decomposition, generalization, and pattern matching. The key difference is that part of the work happens  by the designer (abstraction), the system (decomposition) and part with people (generalization and pattern matching).The trouble with computer procedures is that are interpreted literally — people are wiser. Think of procedures as computing does — except that these are interpreted by people.
+%  read computational thinking
+
+\subsubsection{Integrating procedural support for your task}
+%this heading is kinda useless
+Based on this dissertation's struggles and results, we see the following process for how to integrate procedural guidance. 
+
+% (add figure)
+\begin{itemize}
+\item Examples, checklists, and templates provide procedural support: Procedural guidance works well when the sub-examples provide a direct link to the overall picture (e.g. hypo vs exp design).  Multimodal interactions for one or more of these can be useful too: e.g. people could see JIT videos of experts' work to draw inspiration rather than just looking at a final output. A key responsibility of the system is to handle the interaction between subparts or  provide examples of the sufficient abstraction; tackling all cases might be difficult. Dividing a complex artifact into specific subparts is difficult and requires starting from "good enough" places rather than providing perfect examples etc. The challenge is also of correctness: how do you teach complex ideas without making them wrong. Choosing appropriate examples etc is important.
+\item People identify: People are good at identifying than generating [?? analogical thinking]. With procedural support, people aren’t blind users of the system but they actively translate what’s provided to them and do it back. Consequently, the support needs to be simple enough for the users to understand -- for novices, this might mean using simpler terminology. 
+\item People transfer these ideas to their work/domain: To make the links concrete, the examples should be specific. To reduce the load of transfering the ideas, the support should be provided in-situ. Consequently, people will struggle when understanding procedural support itself takes effort or when the examples/checklists are too big or when this still requires expertise. 
+\item Reviews from others: This should be complementary to the designer's work.
+\end{itemize}
+
+%link these to the topics discussed above
+Another conceptual question is understanding the limits to procedural work. Based on procedural support as described above, it has limitations as well. This approach will struggle when when the concept being studied requires global awareness which is a hallmark of complex work: the sum is greater than the parts.  While procedural support can scale well, it might struggle for too “out there” ideas.
+
+It's also important to not all complex work have this breakdown. For instance, consider collective activism. — there’s no set way to do this. How will the roles and procedural support look like for activities that do not have templated format like between-subjects scientific experimentation?  what happens when software does not have a strong model of the domain or a "high-level" recipe that can be improved.
+
+
+%%%%%%
+\section{Patterns} 
+%"What are the research issues for advancing and crystallizing patterns in this area?" - srk
+%     see email threads with tricia
+
+How can computational systems reify different work environments for people to participate in personally meaningful scientific work?
+
+
+\subsubsection{Where does procedural support come from: Putting the knowledge together?}
+making procedural a reality is hard. Interestingly I find this to be lesser of a problem than many others. Many resources abound: learning from documents, from experts, from prior research. 
+
+Documents: novice books, blogposts, more
+Books aimed at novices is a good beginning point but even they might have assumptions (partly due to the audience, partly due to the focus on. wikihow provides a corpus
+ (nytimes comments, fora, more),  
+
+Online sharing: it could also be bootsrapped by mining online forum data -- beer studies by julian mcauley have showed that 
+
+
+Social computing systems will need to identify ways to convert learning resources (like books) to specific useful things in systems. Think Blue book for social computing roles [??] or Martin’s Designing psych experiments [??]. 
+
+Artifacts: prior HCI systems, Msb has shown that empath can learn from fiction and provide useful rules. 
+
+People: talk to experts, track their work [??motif] -- both active and passive (like rescue time)
+crowdsourcing procedural rules
+
+Of course, while working with people, being mindful of their time and effort is important. Take, expertise, for instance. Expertise is a precious commodity; takes a lot to teach novices how to provide feedback etc. This was one of the reasons microbiome researchers were wary of providign feedback on the platform. Programming by demonstration makes one case for this: Have experts do something and then people to follow. A step by step way might be useful and might be tailored to a person''s current bilities, ala zones of proximal development.
+%-- pamhinds --
+% zones of proximal development
+The key part is running pilots and iterating enough to understand where they succeed and fail. 
+%increasingly feels like this is related to the one below
+
+\subsection{Learning tools for end-users to perform higher-order scientific work}
+The interaction between procedural learning and social computing raises several key research questions: how do we bake learning in systems and also are there learning gains?
+
+One question: Does LPP really proceed organically for complex work?
+
+Do different roles demonstrate different gains?
+
+How might we leverage similarities between Bloom’s taxonomy of learning and the hierarchy of social computing roles?
+
+Learning has always been lifelong. Rapid change and the ready availability of online resources make it even more so. This dissertation seeks to place learning experiences at the right time for people to use them. This offers both theoretical and practical benefits. The petri dish for my dissertation research has been guiding novices through doing experiments. In the learning sciences, Bloom’s taxonomy shows a hierarchy of ways of engaging knowledge, from remembering facts to evaluating theories. Traditionally, this diagram invites a discussion of classroom learning objectives. For me, such an order implies a research trajectory. How might we design online learning environments for people to move their engagement with knowledge up the hierarchy? This has the potential to diversify the stakeholders and contributors to our future society. 
+
+
+%%%%%%
+\section{Methods} 
+%"Reflecting on the methods you employed – system building, studies, etc. What worked best? What effort was wasted? What things would you do differently? And what would you recommend (or not) to others? (This might go adjacent challenges.)" - srk
+
+This section raises three imp questions
+1. how do we get more people to do more meaningful things
+2. how to design these systems in collaboration with others
+
+\subsection{Building a science of social computing systems}
+Social computing systems leverage ideas from multiple disciplines and require substantial engineering. A science of such systems can support early-stage researchers in the face of high-barrier to entry and multiple failure modes. Questions of prototyping, co-design, and emergent behavior are common across systems research in social computing. We need a combination of theory, prototyping tools, and benchmarks. Principles derived from psychology, organizational behavior, and previous systems provide a starting point ~\cite{fromstatement}. However, the designer still needs to understand, select, and test multiple approaches before baking them in software, which necessitates further user-centered development and evaluation. Furthermore, small sample studies can also be poor predictors of emergent behavior in new systems. 
+
+\textit{Prototyping}: How can we rapidly prototype, debug, and evaluate social computing systems? How might we leverage similarities between Bloom’s taxonomy of learning and the hierarchy of social computing roles?
+
+For instance, evaluating social computing systems is difficult; there are multiple measures and the results are not even-keeled across users: some do more than others [pareto], many drop out [??], and xx. Furthermore, a successful system is an existential proof in itself. What is success though?
+
+A “successful” system balances this objective function across multiple factors rather than having one main result. 
+
+One approach might be to categorically separate measures for system evaluation (e.g. do people collaboratively create better questions using Docent?) from feature evaluation (e.g. do people improve another user’s question using Docent‘s edit feature?). A clear separation might help system designers sort the evaluation components in order of importance, assign different quality thresholds (e.g. controlled experiments vs observational), and communicate overall evaluation effectively to the research community.
+Social computing systems will need to identify ways to convert learning resources (like books) to specific useful things in systems. Think Blue book for social computing roles [??] or Martin’s Designing psych experiments [??]. 
+
+Every design-build-deply cycle requires multiple iterations with groups of people - this has been the bottleneck in my system development. 
+
+\textit{Co-design}: How do experts across multiple domains contribute towards building systems that support domain-specific enquiry? How might systems support co-design by users?
+Many diverse efforts, including Precision Medicine Initiative (allofus.nih.gov), Zooniverse (zooniverse.org), and Foldscope Microcosmos (foldscope.com), might benefit from using this dissertation’s principles to diversify and deepen citizen contributions. However, this requires work. This dissertation features contributions from multiple communities—such as kombucha enthusiasts, Open Humans. The research papers feature xx co-authors from yy fields including microbiology [GI-Galileo], cognitive science, learning psychology [??2], and systems [??1,7]. Working with multiple domain experts requires finding common ground and developing a shared vocabulary. My experience suggests that grounding the conversation in prototypes invites specific feedback from domain-experts while also enabling the designer draw higher-level principles form these specific instances. Might there be ways to automatically bootstrap multiple prototypes for specific atomics tasks (asking questions, adding responses) that enable these conversations to be faster and more detailed? Could experts paper prototype different parts of the system?
+
+Furthermore, many collaborative projects lead to novel opportunities and transfer of ideas in all directions. Gut Instinct collaborators have brought their diverse insights to human-computer interaction work; they have also taken HCI techniques home. Some of them now use needfinding and low-fidelity prototyping techniques before beginning complex software development. While these questions are difficult to answer in the abstract, creating ways for social computing researchers to share their ideas towards building such knowledge base can be super useful.    https://en.wikipedia.org/wiki/$Co-production_(public_services)$
+
+\textit{Emergent behavior and limits}: How do interdependent, community-driven systems work in practice and how do participants self-organize? Finally, what are the limits to solving problems with social computing? 
+
+
+%%%%%%
+\section{Behavior} 
+%"what do you want to know about human behavior? For example, we know that most behavioral interventions (like exercising more) are tough to stick. Speculate beyond your data about behavior. Generalize. Make wild guesses. And think about what next steps would help you get to those." - srk
+
+We want to understand people's behavior as well as improve it. 
+
+\subsection{Complementing Global Data Collection with *Global* Distribution of Expertise} is a worthwhile goal. This dissertation believes in a future of equal opportunity among people and equal skills. When people use such systems, two possible concerns come up: they provide a skewed population of the globe, and they perform little and drop out a lot.  To brush away the difference in participation would be intellectually dishonest. Many people around the world do not have access to education and other systematic resources. In the absence of functional institutions in many parts of the world (including huge swathes of “developed” countries), internet systems become even more important:  do they focus attention on questions of personal meaning that can improve one’s life or do they take attention and other resources away. 
+
+Most Gut Instinct participants are from rich educated countries: 80\% of Docent questions were from people in the developed world and all 3 experimenters had advanced degrees. The lack of participation does not mean people don’t have much to share. Take for example the case of MOOCs and the stanford student who ranked 125 in the class after all other students from places around the world. It means that more needs to be done  to reach out to people.  Missing people not represented on the platform across the world have different ideas and insights. we are missing out on those. 
+
+Multiplicative (not additive) effect of technology [??toyama] - riCH country people are more likely to have more friends who are educated and willing to help out. System like Gut Instinct assume that people around the world have useful insights to share from their experiences. The results show this to be true. When people from educated, rich countries use these systems, they draw more attention to their concerns feeding into a feedback loop. Owing to how systems are linked with each others, such effects are more multiplicative rather than additive. 
+
+     this general idea of making tacit knowledge explicit is super cool -- it also gets at human behavior ki how might this inform their behavior.
+
+We want techniques to build expertise in people: Technology systems currently use existing capacity and takes away the context that they have — how do you build capacity — people have the context
+
+\subsection{how to improve this}
+(condense all to like two lines)
+these are the concerns but how can we mitigate these issues
+\textbf{Design phase}: "insights on who participates, what motivates them to participate, and how they participate”. Publicity is needed in relevant forums, even if that requires on-ground work.
+
+\textbf{Culturally-sensitive design: Identify what works in local cultures and amplify them online}
+A lot of our understanding is based on people in WEIRD countries [??WEIRD]. Since psychology studies have built upon fundamental ideas tested with Caucasian students in 1960s, it’s difficult to assume these apply to everyone, and especially with these results being questioned (see my locals email about this thing). People across different cultures might be motivated by different factors. While some might be motivated by self-interest and money, others might want to help out.  This requires understanding all the complex economic and social factors. E.g. in societies that are strictly hierarchical and place experts way above novices, novices might be more concerned about challenging experts. Just because it has been put online does not mean it’s useful. 
+
+Drawing on different cultural norms is important. LITW research has demonstrated that people across cultures have different flavor for “good” webpage design. An example where culturally-sensitive design changed outcomes?
+Find common grounds: Motivation can also be temporal — Link up with awareness months… or when going through pain, Basically, identify what’s the reality for people around the world and link it up to real stuff going on all around. 
+
+\textbf{Incentive design: Combinations of extrinsic and intrinsic motivation}
+While the willingness to do something might be based on personal meaningful nature of the task, actually doing it is more complex. People lack the time/remuneration/resources to learn new things and implement them in their lives. Might payment help? Combine intrinsic with extrinsic motivation provides one way. Pay people to start using the system, receive feedback, then have them continue using it [??personal conversation: jen mankoff]. While other research like Crowd Research has looked at how other options like going to grad school is motivating, using “limited seats” opportunity to increase competition is not what i’m excited in. 
+
+This is different from self-promotion. Furthering one’s professional career and spreading one’s name is always a motivation. Similar to how Lil Wayne came from mixtapes [??], comedian Bill burr from podcasts, Xxx from twitter and blogs [??], Yyy from live-streaming[??]? In all these cases, people demonstrated their expertise by sharing their work in the open territory. While open science advocates pre-registering hypotheses and sharing insights, it still seems focused on experts; can we link such work with people’s real needs. will we find a scientist like this? doing their work and putting it in the open territory.
+
+\textbf{Task and System design: Take an end-to-end view}
+
+The blue book provides a great guide for what needs to be done. Here are some more specific ideas from my work.
+
+\textbf{Initiation: will they feel they *can* and want to contribute?} With novel systems like Gut Instinct, people might not know or believe that they have much to contribute. Make this explicit to them — show examples, maybe identity-specific. Plenty of research demonstrates that when people find themselves in the right photo, they do more. As this Soylent post demonstrates, people might have different ideas about this platform. Communicating what the platform does is important.
+
+\textbf{Make it easier for people to find what to contribute to and how - pre-registration might help} Diversity in roles: Technical interventions are scalable, social interventions are powerful. 
+%Take an iranian example and fix it
+
+\textbf{continued use: }:  People respond to different calls. Prior research has demonstrated that. Will they find this interesting? useful? in line with their goals?
+
+Not all social computing systems have the same affordances. It depends on the task being performed. Dso standard tricks apply? Finally, be aware of the things that are lost with domain-specific social computing. standard online engagement tricks apply less to online scientific experimentation. People find online platforms engaging when they have social experience, receive feedback, and show their personality (personalize their profile, share photos, or share other info). Sadly, these activities as part of participating in an experiment can reduce scientific validity by nulling the independence of data assumption. What kinds of online interactions can be allowed (and tracked for conformity checks later) while still participating in an experiment? Future work can study that.
+
+Runtime - collaborating with on-ground experts: 1) pilot with local participants  — create a pool, 2) work with on-ground agencies, 3) Groups with greater motivation — patients
+
+
+Finally, link the thing back: Linking back the results with what they did — and inviting feedback 
+
+people’s interactions must be designed so they know what to do when. This is important due to a large diversity of both knowledge and participation  (dropout to leaders). 
+
+\textbf{Provide link to experts}: People like listening to experts (add Rob image)
+
+
+
+
+
+%%%%%%
+%\section{More} 
+
+
+%%%%%%
+\section{Implications}
+%"If the world were to transform to rely heavily on your work, what broader technical and societal transformations would arise? How would your work scale? What would the social and technical challenges be? This might be a good place to connect your work to broader (relevant) writing on the role of technology in society"-srk
+
+implications for social computing?
+1. what it means for designing such systems and complex work
+2. “how to eke out tacit knowledge from people"
+
+\subsection{What does it mean to be an expert: doesn’t have to be solitary} 
+What does it mean to be a scientist? While dictionary defines a scientist as “a person who is studying or has expert knowledge of one or more of the natural or physical sciences.”, it’s an overarching idea that includes a broad range of experts. 
+
+For all their useful contributions, Gut Instinct users (exp designers, participants, hypotheses generators) cannot be considered scientists by me due to three reasons
+1. people lack deeper, difficult to conceptualize skills:  even though people design and run an experiment, there’s many kinds of evaluation that’s missing — e.g. figuring out the right research question given what’ known in the domain — linking to existing research
+2. people play a specific role - there’s a gradation and specific skillsets — people prefer specific tasks how do we teach people these and build upon these. But this also opens up opportunities:  how can we get people to do more? Drawing on the ideas of legitimate peripheral participation, getting people started on one small thing can help them with the other thing. However, is this always true? Typical demarcation of LPP has looked at different nature of tasks — edit, write, more; but most have still been in the realm of simple knowledge work: but why does this work and when does this break? This is a question for future study.
+3. Science is terribly social [latour - use specific insight.] — those things are not baked in though and overarching views of science present it at this "aha moment by a lone genius" story. All the aha moments are so small and narrow that we cannot even imagine. Ideas are discussed over coffee, gained from talks, reading papers — it’s a really messy process that cannot be entirely translated to a template. People get ideas from their lifestyle and use them in research and vice-versa. Feynman won a nobel prize for a question he came across watching kids in a cafeteria. How do you create those serendipitous encounters?
+
+
+Writing, like science, has this question: what does it mean to be a writer/scientist. What if someone else edits your paper or someone else actually runs the experiment? How do we allot credits in these cases. MSB has used credit allocation algorithms but where are they good and where do they fail. 
+
+While history is ripe with visions of the lone warrior, reality is warmer to the idea of groups of people doing things. Complex work like science was considered a solitary endeavor, now its social. Some, like writing, are still considered solitary.
+
+E.g. many scientists publish popular books in collaboration with ghost writers [?]; who is the writer in this case? This brings up the absurdity of using old school ideas for how things happen or at least how we increasingly observe things to happen. Unless a writer is handling everything pertaining to a book, Writing a book is a collaborative effort. There are reviewers who provide feedback, readers, publishers.. 
+
+ -- young scientists need more time to master the growing body of knowledge that lies between them and the frontier of a field -- collaboration among scientists and novices
+
+Also, roles come up normally/naturally in social computing — should these be linked to just participation on the platform or draw from other expertise things too?
+
+Automatically converting to a paper — writing methods section with an eye on reproducibility
+or using the procedural rules i have collected 
+
+\textbf{What might be the role of experts in this new future?}
+
+Expertise is a precious commodity; this dissertation did not use experts for feedback due to time needed and liability questions. However, there might be other ways in which experts can be involved. Experts have successful provided feedback [shepherd], built systems as designers, and more.. 
+
+Similar to other domains like crowdfunding—where people (not VCs) fund startup ideas  and citizen science — balance of role division can change too. But it doesn’t necessarily need to be terrible for experts. Maybe experts can provide specific procedural rules of how they do things and people can follow that. One place to introduce this can be reproducibility of scientific research, using multimodal instructing using videos and audios and interfaces etc.. (btw, this is also an instance of how procedural rule might be useful).
+
+Another way could be to involve citizens in expert work — one bottleneck that i’ve found is that experts need to recruit more people - find citizens to recruit others. 
+
+People can also experiment and reproduce and provide inputs about mechanistic explanations (e.g. teasing apart why it does or does not work)
+
+I see following ways for experts to contribute (see msb diss) — Quality control  and more.
+
+But there are challenges too: Might experts nudge people into their own questions? or bias their doing by suggesting feedback?
+    Involving experts while ensuring the bring useful knowledge but not the biases would be important. How do we do this? Experts might be more useful for structure/process oriented feedback while the domain knowledge could still be provided by standard resources. Might working with novices help experts uncover their blind spots?
+
+%implications for the individual, the community, and machines -- challenges, potential ways, etc... -- atoms, bits, culture
+   % link to CBPR and community-led research
+
+
+\subsection{Folk theories are relevant in many domains}
+%and learning interfaces
+Where else might folk theories be relevant?
+
+With our current times of fire and attack on truth, we are seeing an end ot the quest for an objective reality. Building a bridge between institutions and people’s lived experiences is important — we have processes for these but it’s not clear these are working. While numbers and data provide the illusion of objectivity, it’s not necessarily true: what if the research question is biased, what if measures aren’t correct. 
+%https://www.snopes.com/news/2019/10/10/facts-and-data-arent-enough-to-combat-fake-news/
+
+The key challenges include: 1) where are these relevant and how? 2) how to do is in a humane and efficient manner
+
+A burgeoning field is developing around folk theories for narrative economics, cultural psychology, and more… 
+%what do we know about tacit knowledge — expert knowledge  --- where is this useful? what kind of knowledge is this?
+
+%how to do this
+Polio took such a long time from results to policy --  how to get citizens to create such knowledge -- link to health world. We already know the difficulty of collecting data on the ground [akshay roongta thesis] -- Cultural effects in self organization of crowds?
+
+Here are some ways to proceed.
+
+First, Collect folk theories across cultures and then compare them and ask people for mechanistic explanations: from people around the world by asking them to share theirs; what might this system look like: -- what would it enjoy. Perhaps a metric of identifying plausible candidates would be cool -- would majority vote be the best? we don't know… For instance, think about how different cultures think differently of food — beef, pork, and more — what effect does it have on their nutrition en masse?
+
+personal intuitions provide one set of hypo generation -- others could be folk theories, data tracked from devices, observations, playing around with data using Vega-lite; ways to evaluate could be different too -- data analysis
+
+%From Data to knowledge to wisdom
+
+\section{Shortcomings / Challenges / limitations}
+%"What were the challenges of this work? For example, the difficulty of gathering longitudinal data b/c people are tied to their email client. How would you recommend others address these challenges?" - srk
+Is this really scientific work though? To be able to publish in a top-tier journal and to inform policy, the experiments would need to satisfy domain-specific rules. This would inform more specific rules around manipulation (rather than self-adminstering the intervention), use of placebo, and so on. We also find these to be useful avenues for further social computing use: enabling family members to administer the intervention based on reminders, or even enabling them to randomize that order... 
+	Also minimal pairs and double blind -- how would you implement it socially without bias -- this trade-off between social trust and bias can be interesting -- wll it be like x or like y
+
+
+%corporations have so many resources -- how do we do this?
+%	engagement metrics implemneted by people
