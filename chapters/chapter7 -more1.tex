@@ -1,68 +1,6 @@
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\chapter{Conclusion}
-%"build theory, think expansively, and tackle broader conceptual issues, not (primarily) to reiterate the literal outcomes of your work.”-srk
-
-To summarize, my dissertation research created systems for complex work by drawing on insightsfrom interactive systems, social computing, and learning theory. This dissertation provides a vision and prototype systems for enabling people to perform personally meaningful work using social computing. In the process, this thesis intends to democratize expertise and provide ways to meaningfully embed computation in society. 
-
-Drawing from empirical results, related work, and the pain fo doing this research and building these systems, i share the following themes. This section's themes fall in three categories: 1) building future system contributions — interface support, work decomposition, and more, 2) identifying open questions for theoretical contributions, and 3) thinking through broader implications for computation in society.This section outlines future research ideas that open up multiple directions for designing new systems and for contributing novel theory. This section provides approaches for what we did and open questions.
-add
-
-%%%%%%%%%%%%%%%%%%%%%%
-\section{Systems/domains} 
-% "where else could your techniques and insights apply? Think big."-srk
-% fig: a set that shows many approaches for generating hypotheses and evaluating theories
-%-- and says these systems are all waiting to be built
 
 
-Domain experts make creative contributions like writing articles, curating museums, leading teams, and more.How might we enable a federation of novices to do these activities? This dissertation demonstrated that procedural guidance works well for scientific experimentation; which other genre of work and levels of contribution could this extend to? 
-
-As in science, the number of experts is relatively small and their training relatively homogenous. How might we develop techniques to conceptually divide activities into tasks amenable to learning, community inputs, automation, expert help, and other ideas I haven’t explored yet?
-%todo-fix
-
-\subsection{WHAT: Which domains could benefit from this}
-%Social computing environments that model richer work in more domains using procedural support and roles
-\textbf{Case 1: Deeper work: End to end scientific work:}
-While scientific experimentation forms a critical part of scientific work across many domains in natural and behavioral science,  scientific work also includes more work. Starting with being able to understand and reason about the choices, there are many concrete activities that a “scientist” needs to be able to perform.; these include: 1) data analysis, 2) writing a paper, and 3) conducting surveys and such. 
-
-A central challenge in such complex work is coming up with the first design that can be iteratively improved. This dissertation demonstrates that this can be done with procedural guidance. GI enables people to go from an intuition to a structurally-sound experiment design and then iterating with others to improve that. 
-
-Consider writing for instance. Writing is a difficult task in itself; one poplar strateguy involves virtuous (??) cycle of outline, draft, edit, improve. These phases provide a normal decomposition for complex work. Past research systems (like soylent) have helped people edit papers but not in coming up with the first draft. Few tools enable people to create one from scratch. While journals and conferences provide templates, these are primarily for formatting guidelines, not about the content or argument of the work.How might procedural systems support this?
-
-As is common, insights to write are distributed across experienced campaigners’ minds, online tutorials, blogposts and so on. Such tacit knowledge can be useful to explicate and show in the context of the work itself. EteRNA provides templates to do this and thereby provides basic template guidance [Evernote does the same - see]. Building on this insight, thorough procedural guidance for paper writing can be useful. Let’s think through this with two contrasting examples. E.g. consider writing the methods section — it’s relatively more straightforward and can be templated — this is something anyone not used to writing these sections would struggle with (as this diss author did). Help people exploit the structure of this thing.
-
-The discussion section is less templated though. The discussion section needs to make links to the claims in the introduction, the novelty, how does this work extend current enquiry, what new questions does it inform. While experts typically use mental scaffolds built over years of practice, novices can make use of the templates provided to them.  Starting with identifying the research question, the system can prompt the writer to reflect on how well this worked and show examples of how to think about writing these things. Help people explore.
-%contrast this with above
-
-While these suggestions are preliminary, our experience suggests that iterating with pilot studies provide more useful lessons. The difference between domains differences too and it becomes interesting to note how this might shake out — that is what makes this research exciting.
-
-\textbf{case 2: Other domains that can be useful for this work: More domains}
-This research used microbiome research as a petri dish because it’s nascent, personal, and motivating. Other domains that meet these criteria can be useful domains of enquiry as well. E.g., going by the absence of enough research in cultural psychology, that provides one arena. Other health related fields with devoted communites are a good match — nutrition, brain zapping, and more. All of these fields will have their prompts of doing research and that needs to be baked in to the system along with rules of harm and gain etc..  e.g. while tdcs folks are interested in testing whether brain zapping improves cognitive gains and use standard metrics, implementing them the way researchers do it might be useful too.
-
-Thinking more broadly, scientific work is not the only domain of application for this work — art (crowd art) can also learn from procedural rules [jennifer jacobs procedural art work] because it shares three features with our work: xx, yy, and zz.There are limits too: 1) when people do not have relevant expertise or when teaching them takes a lot of effort — consider journalism; 2)  when people don’t stand to gain?; 3)  when different people don’t bring in different expertise
-
-\subsection{HOW: Designing efficient procedural support}
-%highlight open questions?
-
-This dissertation'''s theme of providing procedural support is not too far from computational thinking and the phases it contains: abstraction, decomposition, generalization, and pattern matching. The key difference is that part of the work happens  by the designer (abstraction), the system (decomposition) and part with people (generalization and pattern matching).The trouble with computer procedures is that are interpreted literally — people are wiser. Think of procedures as computing does — except that these are interpreted by people.
-%  read computational thinking
-
-\subsubsection{Integrating procedural support for your task}
-%this heading is kinda useless
-Based on this dissertation's struggles and results, we see the following process for how to integrate procedural guidance. 
-
-% (add figure)
-\begin{itemize}
-\item Examples, checklists, and templates provide procedural support: Procedural guidance works well when the sub-examples provide a direct link to the overall picture (e.g. hypo vs exp design).  Multimodal interactions for one or more of these can be useful too: e.g. people could see JIT videos of experts' work to draw inspiration rather than just looking at a final output. A key responsibility of the system is to handle the interaction between subparts or  provide examples of the sufficient abstraction; tackling all cases might be difficult. Dividing a complex artifact into specific subparts is difficult and requires starting from "good enough" places rather than providing perfect examples etc. The challenge is also of correctness: how do you teach complex ideas without making them wrong. Choosing appropriate examples etc is important.
-\item People identify: People are good at identifying than generating [?? analogical thinking]. With procedural support, people aren’t blind users of the system but they actively translate what’s provided to them and do it back. Consequently, the support needs to be simple enough for the users to understand -- for novices, this might mean using simpler terminology. 
-\item People transfer these ideas to their work/domain: To make the links concrete, the examples should be specific. To reduce the load of transfering the ideas, the support should be provided in-situ. Consequently, people will struggle when understanding procedural support itself takes effort or when the examples/checklists are too big or when this still requires expertise. 
-\item Reviews from others: This should be complementary to the designer's work.
-\end{itemize}
-
-%link these to the topics discussed above
-Another conceptual question is understanding the limits to procedural work. Based on procedural support as described above, it has limitations as well. This approach will struggle when when the concept being studied requires global awareness which is a hallmark of complex work: the sum is greater than the parts.  While procedural support can scale well, it might struggle for too “out there” ideas.
-
-It's also important to not all complex work have this breakdown. For instance, consider collective activism. — there’s no set way to do this. How will the roles and procedural support look like for activities that do not have templated format like between-subjects scientific experimentation?  what happens when software does not have a strong model of the domain or a "high-level" recipe that can be improved.
 
 
 %%%%%%
@@ -110,14 +48,172 @@ Learning has always been lifelong. Rapid change and the ready availability of on
 
 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Behavior} 
+%"what do you want to know about human behavior? For example, we know that most behavioral interventions (like exercising more) are tough to stick. Speculate beyond your data about behavior. Generalize. Make wild guesses. And think about what next steps would help you get to those." - srk
+
+I would argue that these systems are only as exciting as the behavior that people demonstrate. 
+
+We want to understand people's behavior as well as improve it. 
+%condense all to like two lines
+%"insights on who participates, what motivates them to participate, and how they participate”.
+%todo - organize in terms of research questions
+
+\subsection{Does active doing lead to different behavior}
+This general idea of making tacit knowledge explicit is super cool even for people themselves. This knwoledge comes from behavior in parts and also shapes behavior in part. With active doing, will poeple update their beliefs and their actions? A deeper question is how does offline doing translate to online doing? Does it, even?
+
+Do people think in more evidence-rich ways in other domains?
+
+So, basiclly, is there transfer from the offline to the online world, and from one domain to another?
+
+Does it make people understand scientific work better?
+
+Supporting complex work will require more than basic platform building but actually tying in to the motivation that people have.
+
+\subsection{How to get more diverse people to participate?}
+
+Complementing Global Data Collection with *Global* Distribution of Expertise is a worthwhile goal. This dissertation believes in a future of equal opportunity among people and equal skills. When people use such systems, two possible concerns come up: they provide a skewed population of the globe, and they perform little and drop out a lot. Plenty's been said about the latter, so i'll focus on the former.
+
+Most Gut Instinct participants are from rich educated countries: 80\% of Docent questions were from people in the developed world and all 3 experimenters had advanced degrees. To brush away the difference in participation would be intellectually dishonest. More needs to be done to make the system meaningful for more people and to reach out to them. 
+
+\textbf{Accept the multiplicative (not additive) effect of technology [??toyama]} - Rich country people are more likely to have more friends who are educated and willing to help out. System like Gut Instinct assume that people around the world have useful insights to share from their experiences. The results show this to be true. When people from educated, rich countries use these systems, they draw more attention to their concerns feeding into a feedback loop. Owing to how systems are linked with each others, such effects are more multiplicative rather than additive.  Missing people not represented on the platform across the world have different ideas and insights. we are missing out on those. People have the context, we want techniques to build expertise in people [raghuram rajan]
+
+These are the concerns but how can we mitigate these issues.
+
+%\textbf{Design phase}: Involve more relevant users in the design phase.
+
+\textbf{Culturally-agnostic and -sensitive incentive design}
+%see my angry locals email about this thing
+A lot of our understanding is based on people in WEIRD countries [??WEIRD]. Since psychology studies have built upon fundamental ideas tested with Caucasian students in 1960s, it’s difficult to assume these apply to everyone, and especially with these results being questioned. People across different cultures might be motivated by different factors. 
+
+Drawing on different cultural norms is important. LITW research has demonstrated that people across cultures have different flavor for “good” webpage design. TeachAIDS example where culturally-sensitive design changed outcomes: using locally tailored videos and other examples changed this.
+
+There are two general themes to enable this: find the common things across cultures, and amplify uniquely for different populations. For the latter, basically, identify what’s the reality for people around the world and link it up to real stuff going on all around. Which of these techniques works better in engaging and improving contributions from prople? that itself could be interesting? Are we mostly similar or are we mostly different?
+
+Some ways to find common grounds that cut across culture include: 
+\begin{enumerate}
+\item Self-promotion is another: Furthering one’s professional career and spreading one’s name is always a motivation. Similar to how Lil Wayne came from mixtapes [??], comedian Bill burr from podcasts, Xxx from twitter and blogs [??], Yyy from live-streaming[??]? In all these cases, people demonstrated their expertise by sharing their work in the open territory. While open science advocates pre-registering hypotheses and sharing insights, it still seems focused on experts; can we link such work with people’s real needs. will we find a scientist like this? doing their work and putting it in the open territory.
+
+While other research like Crowd Research has looked at how other options like going to grad school is motivating, using “limited seats” opportunity to increase competition is not what i’m excited in. While creating an artificial sense of scarcity might be fine somewhat, it's not great. 
+% what are other such research doing?
+
+\item Temporal motivation and more: Motivation is not just cultural, it can also be temporal. E.g. When looking to draw broad participation on a topic like a disease, awareness months provide a natural time for people to be engaged in this, as demonstrated by the success fo ALS water bucket challenge. This gives a sense of collective work that trascends particular identities hopefully.
+
+\item {Motivation to learn: Provide link to experts}: People like listening to experts (add Rob image). This might be even more pronounced in places where experts are considered distant.
+
+\item{Extrinsic motivation in small parts}
+While the willingness to do something might be based on personal meaningful nature of the task, actually doing it is more complex. People lack the time/remuneration/resources to learn new things and implement them in their lives. Might payment help? Combine intrinsic with extrinsic motivation provides one way. Pay people to start using the system, receive feedback, then have them continue using it [??personal conversation: jen mankoff]. 
+\end{enumerate}
+
+%todo-see east vs west common themese
+Identify what works in local cultures and amplify them online. Some ways to engage specific audiences: 
+\begin{enumerate}
+\item Understand the complex economic and social factors. E.g. in societies that are strictly hierarchical and place experts way above novices, novices might be more concerned about challenging experts. Just because it has been put online does not mean it’s useful. 
+\item Runtime - collaborating with on-ground experts: work with on-ground agencies, 3) Groups with greater motivation — patients
+\item Altruism: While some might be motivated by self-interest and money, others might want to help out. 
+
+\end{enumerate}
+
+\textbf{Task and System design: Take an end-to-end view}
+
+The blue book provides a great guide for what needs to be done. Here are some more specific ideas from my work.
+
+\textbf{Initiation: will they feel they *can* and want to contribute?} With novel systems like Gut Instinct, people might not know or believe that they have much to contribute. Make this explicit to them — show examples, maybe identity-specific. Plenty of research demonstrates that when people find themselves in the right photo, they do more. As this Soylent post demonstrates, people might have different ideas about this platform. Communicating what the platform does is important. Do people feel this is meaningful for them?
+
+\textbf{Make it easier for people to find what to contribute to and how - pre-registration might help} Diversity in roles: Technical interventions are scalable, social interventions are powerful. people’s interactions must be designed so they know what to do when. This is important due to a large diversity of both knowledge and participation  (dropout to leaders). 
+%Take an iranian example and fix it
+
+\textbf{continued use: }:  Do people find this useful now that they use it? How might the system better meet their needs?
 
 
+\textbf{Finally, link the thing back}: Linking back the results with what they did — and inviting feedback 
+%maybe fig for this thing
+
+
+%todo- overall, link this with socio-technical gap
+Not all social computing systems have the same affordances. It depends on the task being performed. Do standard tricks apply? Finally, be aware of the things that are lost with domain-specific social computing. standard online engagement tricks apply less to online scientific experimentation. People find online platforms engaging when they have social experience, receive feedback, and show their personality (personalize their profile, share photos, or share other info). Sadly, these activities as part of participating in an experiment can reduce scientific validity by nulling the independence of data assumption. What kinds of online interactions can be allowed (and tracked for conformity checks later) while still participating in an experiment? Future work can study that.
+
+Many people around the world do not have access to education and other systematic resources. In the absence of functional institutions in many parts of the world (including huge swathes of “developed” countries), internet systems become even more important:  do they focus attention on questions of personal meaning that can improve one’s life or do they take attention and other resources away?
+
+%Take for example the case of MOOCs and the stanford student who ranked 125 in the class after all other students from places around the world.
 
 %%%%%%
-%\section{More} 
+\section{Methods} 
+%"Reflecting on the methods you employed – system building, studies, etc. What worked best? What effort was wasted? What things would you do differently? And what would you recommend (or not) to others? (This might go adjacent challenges.)" - srk
+
+% read MSB
+
+%%
+\subsection{Building a science of social computing systems}
+Social computing systems leverage ideas from multiple disciplines and require substantial engineering. A science of such systems can support early-stage researchers in the face of high-barrier to entry and multiple points of failure. This dissertation identifies questions of prototyping, co-design, and emergent behavior as important issues. We need a combination of theory, prototyping tools, and benchmarks. 
+
+This section raises three questions: how do we design systems that are 1) quick to build, 2) that meet their objectives. Secondly, how can people engage with these systems: such that more people use them, and that these happen in collaboration with others. I also share ways to do this and provide examples.
+
+%%%
+\textbf{Prototyping}: How can we rapidly build, debug, and improve social computing systems? For instance, evaluating social computing systems is difficult: 1) there are multiple features to evaluate; so there can be multiple measures; 2) particular evaluation schemes might not be well-suited; 3) finding participants is hard.
+
+%1 - many features
+All three systems presented in this dissertation have multiple features. Traditional HCI interface research might suggest evaluating these features separately. Unfortumately, this is prohibitive: 1) more features mean more users needed and 2) more effort from the designer(s). Social computing evaluation "requires" more holistic testing than usability testing or feature testing. In many social computing is less about the system but what the system enables groups of people to do -- it is inherently a co-created process among multiple parties. 
+
+My suggestion: One approach might be to categorically separate measures for system evaluation (e.g. do people collaboratively create better questions using Docent?) from feature evaluation (e.g. does Docent‘s edit feature help people improve another user’s question). A clear separation might help system designers sort the evaluation components in order of importance, assign different quality thresholds (e.g. controlled experiments vs observational evaluation), and communicate overall evaluation effectively to the research community.
+%combine with below
+
+%1.5 - evaluation measures
+A “successful” system balances an objective function across multiple factors: user longevity, activity, engagement, deeper work done not to mention qualitative measures like quotes etc. However, despite all these activities, a designer still needs to identify specific measures. Identifying the key purpsoe of the social computing system is important. 
+
+Focusing on just one metric is incomplete; however, claiming success based on any pick and choose of metrics (including hand-picked participant quotes -- provide all the quotes or provide none) seems intellectually dishonest too. This is the social computing version of p-hacking. I'll call this participant quote hacking. There needs to be stricter hypothesis-driven testing where people clearly lay out the intervention and the emasure and identify others are side-issues. Consistent with recent thrust in social sciences, these hypotheses must be pre-registered (which means also write the scripts etc..). This key metric idea comes with the added advantage of focusing the designer's attention on one thing.
+
+My suggestion: Make measures about human activity, not the features. In social computing, the tech doesn't do it, but rather people do it. Example from gi: we tried testing for learning but failed and also realized that's not what people cared about -- so we threw it out and instead focused on one thing in subsequent iterations with hypothesis-driven testing. 
+
+%2 - Pilot and evaluation process
+between-subjects experiment is the gold standard to evaluate but strict manipulation of one broad condition is difficult. 
+-- mechanistic explanations are hard to find
+-- ask people -- foldit has already found that asking people how they do it is super useful
+-- build the system in a way that you can find out where the problem is. e.g. in galileo, we learnt that people drop off at the first step, but we still don't know whether it was because 
+
+My suggestion: ..... 
+
+%3- participants
+Every design-build-deploy cycle requires multiple iterations with groups of people - this has been the bottleneck in system development for this dissertation. How do we find people to pilot these sytems? Friends and labmates aren't good proxy -- they might be motivated to do more plus they might know about the research. Paying crowdworkers doesn't work either becuase extrinsic motivation totally screws up intrinsic motivation of doing something. But also, these people are not representative of the real set.
+
+My suggestion: One way is to partner with orgs that care about the topic. In our case, we partnered up with American Gut and multiple communites. Asking their leaders to be early users provides multiple advantages: 1) they provide a good proxy and adequate representation of the people; 2) more experience -- that's why they're the leader; 3) gatekeeping - reduce chances of harm. But of course, this increases pressure and time commitment for people, so need to be mindful of that. 
+
+%learning gains from the previous section
+
+%%%
+\textbf{Emergent behavior and limits}: How do interdependent, community-driven systems work in practice and how do participants self-organize? Finally, what are the limits to solving problems with social computing? 
+
+The results are not even-keeled across users: some do more than others [pareto], many drop out [??], and take different roles.
+
+Principles derived from psychology, organizational behavior, and previous systems provide a starting point ~\cite{fromstatement}. However, the designer still needs to understand, select, and test multiple approaches before baking them in software, which necessitates further user-centered development and evaluation. Furthermore, small sample studies can also be poor predictors of emergent behavior in new systems. 
+
+e.g. finding participants was a challenge 
+What roles emerge and how do we design for those?
+
+%4 - users -- what they did and how
+The results of an algorithm are consistent across the thing; this is not true for social computing. 
+Also, why did some people do this well but others did not. learn from the medical field -- where you wanna know why an intervention worked for some poeple but not for others
+My suggestion: focus on human activity. another example: focusing on human activity also led me to find roles in different things that people did -- this was useful and might have been otherwise lost. 2) Also, conduct surveys etc. and ask them, 3) sometimes it's not about the system at all. people have other motivation.
+
+%%%
+\textbf{Co-design with other experts and users}: How do experts across multiple domains contribute towards building systems that support domain-specific enquiry? How might systems support co-design by users?
+Many diverse efforts, including Precision Medicine Initiative (allofus.nih.gov), Zooniverse (zooniverse.org), and Foldscope Microcosmos (foldscope.com), might benefit from using this dissertation’s principles to diversify and deepen citizen contributions. However, building such a network requires effort that are tangential to research. 
+
+This dissertation features contributions from multiple communities—such as kombucha enthusiasts, Open Humans. The research papers feature xx co-authors from yy fields including microbiology [GI-Galileo], cognitive science, learning psychology [??2], and systems [??1,7]. Working with multiple domain experts brings great value and learning but also multiple challenges. It requires finding common ground and developing a shared vocabulary. 
+
+My experience suggests that grounding the conversation in prototypes invites specific feedback from domain-experts that helps the system designer draw higher-level principles. Less emails and Regular meetings [Trust breaks down paper] help catch early errors.
+
+For example, an early prototype with chat ideas floundered at the prototyping stage itself because experts mentioned that finding details in people's conversation will be expert time-intensive and they did not want to do that. 
+
+However, building the system still need work. Might there be ways to automatically bootstrap multiple prototypes for specific atomics tasks (asking questions, adding responses) that enable these conversations to be faster and more detailed as easy as templates? Wat mgiht be a temlated way to develop social computing systems? Does it need to be digital? Could experts paper prototype different parts of the system? (papier machie system)
+
+%%
+Furthermore, many collaborative projects lead to novel opportunities and transfer of ideas in all directions. how do we make this more systematic? Gut Instinct collaborators have brought their diverse insights to human-computer interaction work; they have also taken HCI techniques home. Some of them now use needfinding and low-fidelity prototyping techniques before beginning complex software development. While these questions are difficult to answer in the abstract, creating ways for social computing researchers to share their ideas towards building such knowledge base can be super useful.    %https://en.wikipedia.org/wiki/$Co-production_(public_services)$
 
 
-%%%%%%
+
+
+%%%%%%%%%%%%
 \section{Implications}
 %"If the world were to transform to rely heavily on your work, what broader technical and societal transformations would arise? How would your work scale? What would the social and technical challenges be? This might be a good place to connect your work to broader (relevant) writing on the role of technology in society"-srk
 
@@ -187,7 +283,13 @@ First, Collect folk theories across cultures and then compare them and ask peopl
 
 personal intuitions provide one set of hypo generation -- others could be folk theories, data tracked from devices, observations, playing around with data using Vega-lite; ways to evaluate could be different too -- data analysis
 
-%From Data to knowledge to wisdom
+
+
+
+%%%%%%
+%\section{More} 
+
+
 
 \section{Shortcomings / Challenges / limitations}
 %"What were the challenges of this work? For example, the difficulty of gathering longitudinal data b/c people are tied to their email client. How would you recommend others address these challenges?" - srk
