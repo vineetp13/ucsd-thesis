@@ -2,7 +2,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \chapter{Conclusion}
 %"build theory, think expansively, and tackle broader conceptual issues, not (primarily) to reiterate the literal outcomes of your work.”-srk
-Drawing from empirical results, related work, and the lessons from desinging these systems, this chapter provides future steps along three themes: 1) building future system contributions, 2) identifying open questions for theoretical contributions, and 3) thinking through broader implications for computation in society.
+Drawing from empirical results, related work, and the lessons from designing these systems, this chapter provides future steps along three themes: 1) building future system contributions, 2) identifying open questions for theoretical contributions, and 3) thinking through broader implications for computation in society.
 %for designing new systems and for contributing novel theory. 
 
 %%%%%%%%%%%%%%%%%%%%%%
@@ -41,8 +41,9 @@ This dissertation used microbiome research as a petri dish because it’s nascen
 %%%
 \subsection{Designing efficient procedural support}
 %highlight open questions?
+%Procedural support provides a remixed version of computational thinking. 
 
-Procedural support provides a remixed version of computational thinking. Computational problem-solving focuses on four key processes: abstraction, decomposition, generalization, and pattern matching [??]. The key difference is \textit{who} performs the work in these phases. For traditional computational problems, the (algorithm) designer performs these steps and implements them in the software. For a broad class of problems, a new \textit{learning} approach is popular: the designer decides the input and output specifications and provides the data; the machines' underlying structures perform the four phases independent of the designer.The trouble with computer procedures is that are interpreted literally — people are wiser. 
+Computational problem-solving focuses on four key processes: abstraction, decomposition, generalization, and pattern matching [??]. With procedural guidance systems, the key difference is \textit{who} performs the work in these phases. For traditional computational problems, the (algorithm) designer performs these steps and implements them in the software. For a broad class of problems, a new \textit{learning} approach is popular: the designer decides the input and output specifications and provides the data; the machines' underlying structures perform the four phases independent of the designer.The trouble with computer procedures is that are interpreted literally; people are wiser. 
 
 For complex socio-computational problems, the four phases might be implemented by different groups: the system designer might abstract the problem to a known class, provide decomposition and computational support using the system while people might perform open-ended tasks of generalization and pattern matching. This approach reconsiders procedures as instructions interpreted by machines \textit{and} people.
 %  read computational thinking
@@ -60,15 +61,56 @@ Based on this dissertation's struggles and results, we see the following process
 
 
 %%%%%%%%%%%%%%%%%%%%%%%
+\section{Patterns} 
+%"What are the research issues for advancing and crystallizing patterns in this area?" - srk
+%     see email threads with tricia
+How can computational systems reify different work environments for people to participate in personally meaningful scientific work? Answer this question requires aswering many research questions.
+
+\subsection{Where does procedural support come from}
+%Putting the knowledge together?
+Many heterogenous resources---documents, experts, prior research artifacts---provide useful procedural guidance system. This dissertation employed many of these and found that each option provides different trade-offs.
+
+\begin{itemize}
+\item Static documents such as introductory books\\
+Books aimed at novices provide a great resource to bootstrap procedural guidance. The systems described in this dissertation liberally used insights from multiple books including Martin’s Designing psych experiments [??] and the Blue book for social computing [??]. Using books for introductory teaching provide multiple advantages: 1) they're intended for novices, therefore the information is basic; 2) the problems sets provide a corpus of common errors. However, these resources also suffer from three challenges. First, they focus on conceptual understanding rather than providing procedural workflows. Second, they might not provide appropriate \textit{chunking} size. For instance, implementing a book's insights line-by-line might lead to a highly bloated system that might not help the user arrange relevant material in useful, big-sized chunks. 
+%Third, 
+%Social computing systems will need to identify ways to convert learning resources (like books) to specific useful things in systems. Think 
+
+%provide examples for all
+%create a table for this
+\item Procedural corpus from online fora, blogposts, wikihow, HCI artifacts\\
+People provide copious details on topics of interest. On multiple online fora, people share details of their goals, their procedure, and even their evaluation of different techniques. E.g., wikihow provides a corpus of how to perform a wide range of activities from gardening to writing a letter. Comments on popular news articles (e.g. NYtimes) have plenty of details about people's attempts. Such approaches provide more practical knowledge that might be closely related to the author\textquotesingle s content. 
+
+Prior research attempts have successfully draw insights to help people do things. Learnersourcing has demonstrated that learners can identify patterns that can be useful for others [juho]. Other work has demonstrated that conversations can be bootstrapped from fiction [msb-empath]. Mining online forum data to identify procedural rules can reduce the designer's efforts in creating these procedures themselves. Finally, many HCI research systems for programming and witing identify key procedural insights that can bootsreap procedural systems. 
+%While not procedural, prior research has demonstrated that people's beer preferences can be used to create a taxonomy of beer  [julian mcauley].
+%crowdsourcing procedural rules
+
+\item People \\
+Expertise is a precious commodity; just teaching how to provide feedback takes plenty of effort from experts. For this dissertation research, microbiome experts were wary of providing feedback on the platform partly due to the time efforts needed. 
+
+There are two ways to deal with this: First, active demonstration by experts where experts do something as part of their regular workflow and then ask people to follow. A step-by-step approach might be tailored to a person\textquotesingle s current bilities, ala zones of proximal development. Programming by demonstration makes one case for this [scott]. Second, passive tracking enables different activities performed by experts and then subsequent processing can draw rules form them. While working with people, being mindful of their time and effort is important.
+%[??motif] 
+\end{itemize}
+
+Like previous sections, this dissertation strongly recommends iterating with pilots to understand the success and failure modes of these resources and how to combine them in useful ways.
+%-- pamhinds --
+% zones of proximal development
+
+\subsection{Learning tools for end-users to perform higher-order scientific work}
+Learning has always been lifelong. Rapid change and the ready availability of online resources make it even more so. This dissertation seeks to place learning experiences at the right time for people to use them. This offers both theoretical and practical benefits. In the learning sciences, Bloom’s taxonomy shows a hierarchy of ways of engaging knowledge, from remembering facts to evaluating theories. Traditionally, this diagram invites a discussion of classroom learning objectives. Such an order implies a potential research trajectory. How might we leverage similarities between Bloom’s taxonomy of learning and the hierarchy of social computing roles? How might we design online learning environments for people to move their engagement with knowledge up the hierarchy? 
+
+The interaction between procedural learning and social computing raises several key research questions: how do we bake learning in systems? Do such approaches demonstrate learning gains? Consider the roles that emerged in the Gut Instinct platform. For instance, ideas from legitimate peripheral participation [??] propose that engaging people in small tasks can assist in subsequently increasing their contributions. However, this idea has been tested for work that is less conceptual and less complex than experimentation. Does people's contribution across roles increase linerarly for complex work? Do different roles demonstrate different gains?
+%expound on this
+
+%todo- missing subsection about learning gains
+%which examples are better than others
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 
 
-
-
-
-
-
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %From Data to knowledge to wisdom
 This dissertation research provides a vision and prototype systems for complex work by drawing on insights from interactive systems, social computing, and learning theory  for enabling people to perform personally meaningful work. By doing so, this thesis intends to democratize expertise and provide ways to meaningfully embed computation in society. 
