@@ -20,6 +20,8 @@ Domain experts make creative contributions like writing articles, curating museu
 Scientific experimentation forms a critical component of scientific work across many domains in the natural and behavioral science. Experimentation provides one method of enquiry; other ways to test hypotheses include conducting surveys, observational studies, and more. Furthermore, \textit{scientists} perform a range of activities including: 1) data analysis, and 2) comunicating the results (e.g. by writing a paper). One key challenge in such complex work is coming up with the initial design(s) that can be refined. This dissertation demonstrates that procedural guidance enables people to transform an intuition to a structurally-sound experiment design.
 %Starting with being able to understand and reason about the choices, there are many concrete activities that 
 
+%e.g. finding participants was a challenge for experimenters - introduce gatherer here
+
 % a virtuous (??) 
 One popular process for writing includes creating an outline, converting the outline to a draft, and editing the draft. Past research systems (like soylent) have supported people in editing papers. However, few tools support creating the outline and the first draft, arguably an onerous task. Research journals and conferences provide templates for formatting guidelines, but the argument and the authors need to generate the content and the argument. EteRNA participants used system-provided templates to write up their results and share with others. How might procedural systems assist?
 %see evernote
@@ -113,71 +115,65 @@ The interaction between procedural learning and social computing raises several 
 
 %%
 \subsection{Building a science of social computing systems}
-Social computing systems leverage ideas from multiple disciplines and require substantial engineering. A science of such systems can support early-stage researchers in the face of high-barrier to entry and multiple points of failure. This dissertation identifies questions of prototyping, co-design, and emergent behavior as important issues. We need a combination of theory, prototyping tools, and benchmarks. 
+Social computing systems leverage ideas from multiple disciplines and require substantial engineering. A science of such systems can support early-stage researchers in the face of high-barrier to entry and multiple points of failure. This dissertation identifies questions of prototyping, co-design, and emergent behavior as important issues and proposes a combination of theory, prototyping tools, and benchmarks. 
 
-This section raises three questions: how do we design systems that are 1) quick to build, 2) that meet their objectives. Secondly, how can people engage with these systems: such that more people use them, and that these happen in collaboration with others. I also share ways to do this and provide examples.
+%simplify
+%This section raises three questions: how do we design systems that are 1) quick to build, 2) that meet their objectives. Secondly, how can people engage with these systems: such that more people use them, and that these happen in collaboration with others. I also share ways to do this and provide examples.
 
 %%%
-\textbf{Prototyping}: How can we rapidly build, debug, and improve social computing systems? For instance, evaluating social computing systems is difficult: 1) there are multiple features to evaluate; so there can be multiple measures; 2) particular evaluation schemes might not be well-suited; 3) finding participants is hard.
+\textbf{Prototyping}: How can we rapidly build, debug, and improve social computing systems? For instance, evaluating social computing systems is difficult: 1) there are multiple features (and related, multiple measures); 2) traditional HCI evaluation schemes are ill-suited; and 3) finding participants is a challenge.
 
 %1 - many features
-All three systems presented in this dissertation have multiple features. Traditional HCI interface research might suggest evaluating these features separately. Unfortumately, this is prohibitive: 1) more features mean more users needed and 2) more effort from the designer(s). Social computing evaluation "requires" more holistic testing than usability testing or feature testing. In many social computing is less about the system but what the system enables groups of people to do -- it is inherently a co-created process among multiple parties. 
+All three systems presented in this dissertation have multiple features. Traditional HCI interface research might suggest evaluating these features separately. Unfortumately, this is prohibitive: evaluating more requires more users and gerater effort from the designer(s). Social computing evaluation "requires" more holistic testing than usability or feature testing. Additionally, social computing systems typically enable people in performing specific tasks, the evaluation inherently judges co-creation between people and systems.
 
-My suggestion: One approach might be to categorically separate measures for system evaluation (e.g. do people collaboratively create better questions using Docent?) from feature evaluation (e.g. does Docent‘s edit feature help people improve another user’s question). A clear separation might help system designers sort the evaluation components in order of importance, assign different quality thresholds (e.g. controlled experiments vs observational evaluation), and communicate overall evaluation effectively to the research community.
+One approach might be to categorically separate measures for system evaluation (e.g. do people collaboratively create better questions using Docent?) from feature evaluation (e.g. does Docent‘s edit feature help people improve another user’s question). A clear separation might help system designers sort the evaluation components in order of importance, assign different quality thresholds (e.g. controlled experiments vs observational evaluation), and communicate overall evaluation effectively to the research community.
 %combine with below
 
 %1.5 - evaluation measures
-A “successful” system balances an objective function across multiple factors: user longevity, activity, engagement, deeper work done not to mention qualitative measures like quotes etc. However, despite all these activities, a designer still needs to identify specific measures. Identifying the key purpsoe of the social computing system is important. 
+%Identifying the key purpsoe of the social computing system. A \textit{successful} system balances an objective function across multiple factors: user longevity, activity, engagement, deeper work done not to mention qualitative measures like quotes etc. It can be easy to be lost among all these measures; worse, it might be possible to claim success
+%However, despite all these activities, a designer still needs to identify specific measures. . 
 
-Focusing on just one metric is incomplete; however, claiming success based on any pick and choose of metrics (including hand-picked participant quotes -- provide all the quotes or provide none) seems intellectually dishonest too. This is the social computing version of p-hacking. I'll call this participant quote hacking. There needs to be stricter hypothesis-driven testing where people clearly lay out the intervention and the emasure and identify others are side-issues. Consistent with recent thrust in social sciences, these hypotheses must be pre-registered (which means also write the scripts etc..). This key metric idea comes with the added advantage of focusing the designer's attention on one thing.
+%Focusing on just one metric is incomplete; however, claiming success based on any pick and choose of metrics (including hand-picked participant quotes -- provide all the quotes or provide none) seems intellectually dishonest too. This is the social computing version of p-hacking. I'll call this participant quote hacking. There needs to be stricter hypothesis-driven testing where people clearly lay out the intervention and the measure and identify others are side-issues. Consistent with recent thrust in social sciences, these hypotheses must be pre-registered (which means also write the scripts etc..). This key metric idea comes with the added advantage of focusing the designer's attention on one thing.
 
-My suggestion: Make measures about human activity, not the features. In social computing, the tech doesn't do it, but rather people do it. Example from gi: we tried testing for learning but failed and also realized that's not what people cared about -- so we threw it out and instead focused on one thing in subsequent iterations with hypothesis-driven testing. 
+%Make measures about human activity, not the features. In social computing, the tech doesn't do it, but rather people do it. Example from gi: we tried testing for learning but failed and also realized that's not what people cared about -- so we threw it out and instead focused on one thing in subsequent iterations with hypothesis-driven testing. 
 
 %2 - Pilot and evaluation process
-between-subjects experiment is the gold standard to evaluate but strict manipulation of one broad condition is difficult. 
--- mechanistic explanations are hard to find
--- ask people -- foldit has already found that asking people how they do it is super useful
--- build the system in a way that you can find out where the problem is. e.g. in galileo, we learnt that people drop off at the first step, but we still don't know whether it was because 
-
-My suggestion: ..... 
+%between-subjects experiment is the gold standard to evaluate but strict manipulation of one broad condition is difficult. -- mechanistic explanations are hard to find
+%-- ask people -- foldit has already found that asking people how they do it is super useful
+%-- build the system in a way that you can find out where the problem is. e.g. in galileo, we learnt that people drop off at the first step, but we still don't know whether it was because 
+%My suggestion: ..... 
 
 %3- participants
-Every design-build-deploy cycle requires multiple iterations with groups of people - this has been the bottleneck in system development for this dissertation. How do we find people to pilot these sytems? Friends and labmates aren't good proxy -- they might be motivated to do more plus they might know about the research. Paying crowdworkers doesn't work either becuase extrinsic motivation totally screws up intrinsic motivation of doing something. But also, these people are not representative of the real set.
+Every design-build-deploy cycle requires multiple iterations with groups of people - this has been the bottleneck in system development for this dissertation. How do we find people to pilot these sytems? Friends and labmates aren't good proxy. Personal and social relations might bias participation; moreover, they might they might know about the research. Paying crowdworkers doesn't work either because extrinsic motivation can lead to different results than intrinsic motivation [??]. Furthermore, such users are not representative of the real people using the system.
 
-My suggestion: One way is to partner with orgs that care about the topic. In our case, we partnered up with American Gut and multiple communites. Asking their leaders to be early users provides multiple advantages: 1) they provide a good proxy and adequate representation of the people; 2) more experience -- that's why they're the leader; 3) gatekeeping - reduce chances of harm. But of course, this increases pressure and time commitment for people, so need to be mindful of that. 
+One way to find to partner with organizations that care about the topic. This dissertation research leveraged participation from American Gut and multiple communites. Asking community leaders to be early users provides multiple advantages: 1) they provide a good proxy and adequate representation of the people; 2) typically, they have more experience with the community's working and goals; and 3) gatekeeping reduces chances of harm. However, this increases the workload for community leaders willing to help out; social computing system designers should create specific channels for such volunteers to provide useful feedback.
+%other avenues like co-authorship should be considered
+%what does this mean for the process of social computing 
+%todo-see details from my lessons building social computing
 
 %learning gains from the previous section
 
+%also, use more surveys etc..
+
 %%%
-\textbf{Emergent behavior and limits}: How do interdependent, community-driven systems work in practice and how do participants self-organize? Finally, what are the limits to solving problems with social computing? 
+\textbf{Emergent behavior and limits}: How do interdependent, community-driven systems work in practice and how do participants self-organize? Principles derived from psychology, organizational behavior, and previous systems provide a starting point ~\cite{fromstatement}. However, the designer still needs to understand, select, and test multiple approaches before baking them in software, which necessitates further user-centered development and evaluation. Furthermore, small sample studies can also be poor predictors of emergent behavior in new systems. What roles emerge and how do we design for those?
 
-The results are not even-keeled across users: some do more than others [pareto], many drop out [??], and take different roles.
-
-Principles derived from psychology, organizational behavior, and previous systems provide a starting point ~\cite{fromstatement}. However, the designer still needs to understand, select, and test multiple approaches before baking them in software, which necessitates further user-centered development and evaluation. Furthermore, small sample studies can also be poor predictors of emergent behavior in new systems. 
-
-e.g. finding participants was a challenge 
-What roles emerge and how do we design for those?
-
+The results of a traditional (not learning) algorithm provide a high degree of consistency when applied to different inputs: a binary search returns the location of the value searched for in a dataset; this consistent behavior is strictly a function of the algorithm; the data does not alter the efficacy of the algorithm. Results with people are less consistent. For instance, results are not even-keeled across users: some do more than others [pareto], many drop out [??], and take different roles. One approach would be to consider finer understanding of the results. Drawing inspiration from health sciences, looking at the outcomes clustered as positive and negative responses might be useful. E.g. rather than asking the question "Was this intervention useful?", it might be more useful to ask, "Did this intervention work for some poeple but not for others? If so, why?"
 %4 - users -- what they did and how
-The results of an algorithm are consistent across the thing; this is not true for social computing. 
-Also, why did some people do this well but others did not. learn from the medical field -- where you wanna know why an intervention worked for some poeple but not for others
-My suggestion: focus on human activity. another example: focusing on human activity also led me to find roles in different things that people did -- this was useful and might have been otherwise lost. 2) Also, conduct surveys etc. and ask them, 3) sometimes it's not about the system at all. people have other motivation.
+
+
+%My suggestion: focus on human activity. another example: focusing on human activity also led me to find roles in different things that people did -- this was useful and might have been otherwise lost. 2) Also, conduct surveys etc. and ask them, 3) sometimes it's not about the system at all. people have other motivation.
+%Finally, what are the limits to solving problems with social computing? 
 
 %%%
-\textbf{Co-design with other experts and users}: How do experts across multiple domains contribute towards building systems that support domain-specific enquiry? How might systems support co-design by users?
-Many diverse efforts, including Precision Medicine Initiative (allofus.nih.gov), Zooniverse (zooniverse.org), and Foldscope Microcosmos (foldscope.com), might benefit from using this dissertation’s principles to diversify and deepen citizen contributions. However, building such a network requires effort that are tangential to research. 
+\textbf{Co-design with other experts and users}: This dissertation features contributions from multiple communities—such as kombucha enthusiasts, Open Humans. The research papers feature xx co-authors from yy fields including microbiology, cognitive science, learning psychology, and systems. Many diverse efforts, including Precision Medicine Initiative (allofus.nih.gov), Zooniverse (zooniverse.org), and Foldscope Microcosmos (foldscope.com), might benefit from using this dissertation’s principles to diversify and deepen citizen contributions. However, building such a network requires effort that are tangential to research. How do experts across multiple domains contribute towards building systems that support domain-specific enquiry? 
 
-This dissertation features contributions from multiple communities—such as kombucha enthusiasts, Open Humans. The research papers feature xx co-authors from yy fields including microbiology [GI-Galileo], cognitive science, learning psychology [??2], and systems [??1,7]. Working with multiple domain experts brings great value and learning but also multiple challenges. It requires finding common ground and developing a shared vocabulary. 
-
-My experience suggests that grounding the conversation in prototypes invites specific feedback from domain-experts that helps the system designer draw higher-level principles. Less emails and Regular meetings [Trust breaks down paper] help catch early errors.
-
-For example, an early prototype with chat ideas floundered at the prototyping stage itself because experts mentioned that finding details in people's conversation will be expert time-intensive and they did not want to do that. 
-
-However, building the system still need work. Might there be ways to automatically bootstrap multiple prototypes for specific atomics tasks (asking questions, adding responses) that enable these conversations to be faster and more detailed as easy as templates? Wat mgiht be a temlated way to develop social computing systems? Does it need to be digital? Could experts paper prototype different parts of the system? (papier machie system)
+Working with multiple domain experts brings great value and learning opportunities but also multiple challenges. It requires finding common ground and developing a shared vocabulary. One approach is to ground the conversation in prototypes invites specific feedback from domain-experts that helps the system designer draw higher-level principles. Less emails and Regular meetings [Trust breaks down paper] help catch early errors. For example, an early prototype with chat ideas floundered at the prototyping stage itself because experts mentioned that finding details in people's conversation will be expert time-intensive and they did not want to do that. However, building the system still needs work. Might there be ways to automatically bootstrap multiple prototypes for specific atomics tasks (asking questions, adding responses) that enable these conversations to be faster and more detailed as easy as templates? 
+%Wat mgiht be a temlated way to develop social computing systems? Does it need to be digital? Could experts paper prototype different parts of the system? (papier machie system)
 
 %%
-Furthermore, many collaborative projects lead to novel opportunities and transfer of ideas in all directions. how do we make this more systematic? Gut Instinct collaborators have brought their diverse insights to human-computer interaction work; they have also taken HCI techniques home. Some of them now use needfinding and low-fidelity prototyping techniques before beginning complex software development. While these questions are difficult to answer in the abstract, creating ways for social computing researchers to share their ideas towards building such knowledge base can be super useful.    %https://en.wikipedia.org/wiki/$Co-production_(public_services)$
-
+%Furthermore, many collaborative projects lead to novel opportunities and transfer of ideas in all directions. how do we make this more systematic? Gut Instinct collaborators have brought their diverse insights to human-computer interaction work; they have also taken HCI techniques home. Some of them now use needfinding and low-fidelity prototyping techniques before beginning complex software development. While these questions are difficult to answer in the abstract, creating ways for social computing researchers to share their ideas towards building such knowledge base can be super useful.    %https://en.wikipedia.org/wiki/$Co-production_(public_services)$
+%How might systems support co-design by users?
 
 
 
