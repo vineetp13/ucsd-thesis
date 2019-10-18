@@ -1,20 +1,15 @@
 \begin{thebibliography}{100}
 
-\bibitem{national2018learning}
-{\sc {, Engineering, and Medicine}, N. A. o.~S.}
-\newblock {\em {Learning through citizen science: enhancing opportunities by
-  design}}.
-\newblock National Academies Press, 2018.
-
 \bibitem{23andme2016}
 {\sc 23andMe}.
 \newblock {Something to Chew On}.
-\newblock $\backslash$url{\{}https://blog.23andme.com/23andmeresearch/
-  something-to-chew-on/{\}}, 2016.
+\newblock https://blog.23andme.com/23andmeresearch/ something-to-chew-on/,
+  2016.
 
 \bibitem{23andMe2017}
 {\sc 23andMe}.
-\newblock {Genetics 101}, 2017.
+\newblock {Genetics 101}.
+\newblock 23andme.com/gen101/, 2017.
 
 \bibitem{Aleven2006}
 {\sc Aleven, V., Mclaren, B., Roll, I., and Koedinger, K.}
@@ -109,6 +104,11 @@
   infection}.
 \newblock {\em Gastroenterology {\&} hepatology 8}, 3 (2012), 191--194.
 
+\bibitem{Bryant2005}
+{\sc Bryant, S.~L., Forte, A., and Bruckman, A.}
+\newblock {Becoming Wikipedian : Transformation of Participation in a
+  Collaborative Online Encyclopedia}.
+
 \bibitem{cardamone2009galaxy}
 {\sc Cardamone, C., Schawinski, K., Sarzi, M., Bamford, S.~P., Bennert, N.,
   Urry, C.~M., Lintott, C., Keel, W.~C., Parejko, J., Nichol, R.~C., and
@@ -134,13 +134,6 @@
 {\sc Chase, W.~G., and Simon, H.~A.}
 \newblock {Perception in chess}.
 \newblock {\em Cognitive psychology 4}, 1 (1973), 55--81.
-
-\bibitem{Chen2016b}
-{\sc Chen, G., Davis, D., Krause, M., Aivaloglou, E., Hauff, C., and Houben,
-  G.-J.}
-\newblock {Can Learners be Earners? Investigating a Design to Enable MOOC
-  Learners to Apply their Skills and Earn Money in an Online Market Place}.
-\newblock {\em IEEE Transactions on Learning Technologies PP}, 99 (2016), 1.
 
 \bibitem{chen2019cicero}
 {\sc Chen, Q., Bragg, J., Chilton, L.~B., and Weld, D.~S.}
@@ -242,6 +235,12 @@
 \newblock {\em Journal of Microbiology {\&} Biology Education 17}, 1 (2016),
   46--50.
 
+\bibitem{Doroudi2016a}
+{\sc Doroudi, S., Kamar, E., Brunskill, E., and Horvitz, E.}
+\newblock {Toward a Learning Science for Complex Crowdsourcing Tasks}.
+\newblock {\em Proceedings of the 2016 CHI Conference on Human Factors in
+  Computing Systems - CHI '16\/} (2016), 2623--2634.
+
 \bibitem{dow2012shepherding}
 {\sc Dow, S.~P., Kulkarni, A., Klemmer, S.~R., and Hartmann, B.}
 \newblock {Shepherding the crowd yields better work}.
@@ -290,9 +289,22 @@
 \newblock In {\em Proceedings of the SIGCHI Conference on Human Factors in
   Computing Systems (CHI '13)\/} (2013), pp.~783--792.
 
+\bibitem{fast2016empath}
+{\sc Fast, E., Chen, B., and Bernstein, M.~S.}
+\newblock Empath: Understanding topic signals in large-scale text.
+\newblock In {\em Proceedings of the 2016 CHI Conference on Human Factors in
+  Computing Systems\/} (2016), ACM, pp.~4647--4657.
+
 \bibitem{F.lux2019}
 {\sc F.lux}.
 \newblock f.lux: sleep research, 2019.
+
+\bibitem{fox2017social}
+{\sc Fox, S., Dimond, J., Irani, L., Hirsch, T., Muller, M., and Bardzell, S.}
+\newblock Social justice and design: Power and oppression in collaborative
+  systems.
+\newblock In {\em Companion of the 2017 ACM Conference on Computer Supported
+  Cooperative Work and Social Computing\/} (2017), ACM, pp.~117--122.
 
 \bibitem{Francis2006}
 {\sc Francis, S.~T., Head, K., Morris, P.~G., and Macdonald, I.~A.}
@@ -314,6 +326,13 @@
 {\sc Gelman, S.~A., and Legare, C.~H.}
 \newblock {Concepts and folk theories}.
 \newblock {\em Annu Rev Anthropol\/} (2011), 379--398.
+
+\bibitem{gil2012social}
+{\sc Gil~de Z{\'u}{\~n}iga, H., Jung, N., and Valenzuela, S.}
+\newblock Social media use for news and individuals' social capital, civic
+  engagement and political participation.
+\newblock {\em Journal of computer-mediated communication 17}, 3 (2012),
+  319--336.
 
 \bibitem{Gill2006}
 {\sc Gill, S., Pop, M., DeBoy, R., and Eckburg, P.}
@@ -679,6 +698,12 @@
 {\sc Munroe, R.}
 \newblock {Correlation}, 2009.
 
+\bibitem{national2018learning}
+{\sc National Academies~of Sciences, E., and Medicine}.
+\newblock {\em {Learning through citizen science: enhancing opportunities by
+  design}}.
+\newblock National Academies Press, 2018.
+
 \bibitem{NationalCouncilforVoluntaryOrganisations2018}
 {\sc {National Council for Voluntary Organisations}, U.}
 \newblock {Why Volunteer?}, 2018.
@@ -753,6 +778,14 @@
   the other?}
 \newblock {\em Journal of Educational Psychology 91}, 1 (1999), 175--189.
 
+\bibitem{rocco1998trust}
+{\sc Rocco, E.}
+\newblock Trust breaks down in electronic contexts but can be repaired by some
+  initial face-to-face contact.
+\newblock In {\em Proceedings of the SIGCHI conference on Human factors in
+  computing systems\/} (1998), ACM Press/Addison-Wesley Publishing Co.,
+  pp.~496--502.
+
 \bibitem{Rotman2012}
 {\sc Rotman, D., Preece, J., Hammock, J., Procita, K., Hansen, D., Parr, C.,
   Lewis, D., and Jacobs, D.}
@@ -798,6 +831,13 @@
 \newblock In {\em Proceedings of the Conference on Empirical Methods in Natural
   Language Processing (EMNLP '08)\/} (2008), pp.~254--263.
 
+\bibitem{Stahl2006}
+{\sc Stahl, G., Koschmann, T., and Suthers, D.}
+\newblock {Computer-supported collaborative learning: An historical
+  perspective}.
+\newblock {\em Cambridge handbook of the learning sciences 2006\/} (2006),
+  409--426.
+
 \bibitem{starbird2014rumors}
 {\sc Starbird, K., Maddock, J., Orand, M., Achterman, P., and Mason, R.~M.}
 \newblock {Rumors, false flags, and digital vigilantes: Misinformation on
@@ -821,6 +861,12 @@
 \newblock {Learning within incoherent structures: The space of online
   discussion forums}.
 \newblock {\em Journal of Computer Assisted Learning 18}, 3 (2002).
+
+\bibitem{tufekci2012social}
+{\sc Tufekci, Z., and Wilson, C.}
+\newblock Social media and the decision to participate in political protest:
+  Observations from tahrir square.
+\newblock {\em Journal of communication 62}, 2 (2012), 363--379.
 
 \bibitem{V.S.Ramachandran1998}
 {\sc {V. S. Ramachandran}, {S. Blakeslee}, and Shah, N.}
@@ -897,6 +943,11 @@
 \newblock {CommentSpace: structured support for collaborative visual analysis}.
 \newblock In {\em Proceedings of the SIGCHI conference on Human Factors in
   Computing Systems\/} (2011), ACM, pp.~3131--3140.
+
+\bibitem{Wing2006}
+{\sc Wing, J.~M.}
+\newblock {Computational thinking}.
+\newblock {\em Communications of the ACM 49}, 3 (2006), 33--35.
 
 \bibitem{Wobbrock2018}
 {\sc Wobbrock, J.}
