@@ -32,15 +32,26 @@ The discussion section of a paper is far less templated though since it summariz
 Such suggestions are preliminary. This dissertation's research strongly benefitted from rapid iterations.
 
 \subsection{More domains for citizen-led scientific investigations}
--- measures change: self-reports, objective data 
--- process change: domain-specific
--- make it easier for other domain experts to use (co-design)
 
 This dissertation used microbiome research as a petri dish because it’s nascent, personal, and motivating. Health related fields with devoted communites are a good match; these include nutrition and brain zapping. 
 
 \subsection{Measures}
 Transfering this dissertation's techniques to requires understanding other domains' objectives and processes. First, different domains' have community-specific approaches to research. e.g. some domains might strictly rely on RCTs while others might prefer observational studies owing to the difficulty of randomization. Second, standard measures exist for many measures that people find relevant. E.g. tDCS folks are interested in testing whether brain zapping improves cognitive performance.  Using standard measures from Cognitive Ability Tests provides two benefits: 1) reduce the effort of creating a new measure, and 2) improve correctness by using a standard measure, and 3) help people compare their results with prior research.
 
+[??Laurel] 1. item response theory
+    1. multiple questions get at the idea
+    2. likert scale is not what it’s supposed to be
+1. Reliability of the measures
+    1. don’t make your own
+    2. measure measures what’s done
+normative not stats
+1. bias — ask multiple questions
+    1. questions that people lie on
+    2. change bias + confidence rating 
+(there are also interface design challenges)
+1. interface design problems — item response theory
+    1. power analysis 
+    2. item response theory
 
 %%%
 \subsection{Designing efficient procedural support}
@@ -82,9 +93,12 @@ The interaction between procedural guidance and social computing raises several 
 
 Another related question is whether the learning gains are commensurate to the role contributions. Consider the roles that emerged in the Gut Instinct platform [?? fig ]. For instance, legitimate peripheral participation~\cite{Bryant2005} proposes that engaging people in byte-sized tasks subsequently increases the complexity and depth of their contributions. However, such ideas have been studied in contexts where people didn't explicitly use just-in-time learning systems. Assuming people learn from participating in procedural guidance systems, do these learning gains draw primarily from the specific role-based activity (e.g. designing or reviewing) or do people learn from following others' work too? Leveraging similarities between Bloom’s taxonomy of learning and the hierarchy of social computing roles provides a potentially rich area of enquiry.
 
-We already know students interact with online classrooms in ways similar to social networking [??
+We already know students interact with online classrooms in ways similar to social networking [?? kizilcec]
 
 Finally, such systems also double up as learning tools providing a petri-dish to test fundamental questions in learning science. Do people transfer their learning from this online system to other aspects of life and work? Does procedural guidance also help people create better conceptual models of their work? Answering such questions would likely help crystallize patterns for building systems for both learning and doing.
+
+1. lead users as teachers
+    1. learning tool — zones of proximal development — scott
 
 
 \subsection{updating beliefs: Does active doing lead to different behavior}
@@ -158,6 +172,9 @@ The results of a traditional algorithm provide a high degree of consistency when
 This dissertation features contributions from multiple communities—such as kombucha enthusiasts, Open Humans. The research papers feature 27 co-authors from five fields including microbiology, cognitive science, learning psychology, and systems. Many diverse efforts, including Precision Medicine Initiative (allofus.nih.gov), Zooniverse (zooniverse.org), and Foldscope Microcosmos (foldscope.com), might benefit from using this dissertation’s principles to diversify and deepen citizen contributions. However, building such a network requires effort that are tangential to research. How do experts across multiple domains contribute towards building systems that support domain-specific enquiry? 
 
 Working with multiple domain experts brings great value and learning opportunities but also multiple challenges. Developing a shared vocabulary helps. One approach is to ground the conversation in prototypes. Concrete prototypes invite specific feedback from domain-experts that helps the system designer understand higher-level principles. Regular meetings can help catch early errors and also add to the trust~\cite{rocco1998trust}. For example, an early prototype with chat ideas floundered at the prototyping stage itself because experts mentioned that finding details in people's conversation will be expert time-intensive and they did not want to do that. However, building the system still needs work. Automatically creating multiple prototypes for specific atomic tasks (asking questions, adding responses) can make these conversations faster and more useful.
+
+One pipe dream is auto-generating galileo for different tasks given the roles and the procedural rules.
+
 %Wat mgiht be a temlated way to develop social computing systems? Does it need to be digital? Could experts paper prototype different parts of the system? (papier machie system)
 
 %%
@@ -236,6 +253,13 @@ The blue book provides a great guide for what needs to be done. Here are some mo
 %maybe fig for this thing
 
 
+1. helene
+    1. Attach to studies of UBI
+    2. lack of diversity in your membership
+        1. largely a time/money issue
+        2. working to survive doesn’t leave a whole lot for creativity
+
+
 %todo- overall, link this with socio-technical gap
 Not all social computing systems have the same affordances. It depends on the task being performed. Do standard tricks apply? Finally, be aware of the things that are lost with domain-specific social computing. standard online engagement tricks apply less to online scientific experimentation. People find online platforms engaging when they have social experience, receive feedback, and show their personality (personalize their profile, share photos, or share other info). Sadly, these activities as part of participating in an experiment can reduce scientific validity by nulling the independence of data assumption. What kinds of online interactions can be allowed (and tracked for conformity checks later) while still participating in an experiment? Future work can study that.
 
@@ -250,36 +274,18 @@ Many people around the world do not have access to education and other systemati
 What are the implications of this research for social computing? What broader technical and societal transformations might we foresee?
 
 \subsection{Who is a scientist / What makes a scientist}
-This dissertation enables people to generate hypotheses and run experiments. Are they scientists now? Oxford dictionary defines a scientist as “A person who conducts scientific research or investigation; an expert in or student of science, esp. one or more of the natural or physical sciences”. Such an understantably broad definition includes many kinds of experts. For all their useful contributions, Gut Instinct users---experiment designers, reviewers, participants, hypotheses generators---aren't scientists. This dissertation did not assess whether people gain conceptual skills. E.g., Can they design an experiment from scratch without any help? Can people recognize well-constructed experiments from poorer ones without any system support? Furthermore, many other processes aren't taught by the system: e.g. figuring out the appropriate research questions given what’s known in the domain; e.g. summarizing their research by understanding and highlighting the key points. Ask a PhD student who toils for many years to come up with one statement that characterizes their research well.
+The systems developed as a part of this dissertation support people in generating hypotheses and running experiments. Are Gut Instinct users scientists? Oxford dictionary defines a scientist as “A person who conducts scientific research or investigation; an expert in or student of science, esp. one or more of the natural or physical sciences”. For all their useful contributions, Gut Instinct users---experiment designers, reviewers, participants, hypotheses generators---cannot be called scientists for multiple reasons. For instance, this dissertation did not assess whether people gain conceptual skills; e.g., can they design an experiment from scratch without any help or recognize well-constructed experiments from poorer ones without any system support? This dissertation focuses on the process of doing science rather than thinking of a scientist as a role. 
 
-This dissertation proposes that rather than thinking of a scientist as a role or a person, we should think about doing science as a process and think about how to involve more folks. 
-
-\subsection{Science as a social process}
-Historical narratives about science (like design) present it as a lone genius toiling away till they reach that "aha moment". Many great endavours have been undertaken by solo contributors [??] but it's hard to imagine that being the dominant way either in the past or in the future, especially as the scientific questions become more complex and require different kinds of expertise. Scientific research is a messy process that seems impossible to get right with a template. Science is a contact sport [latour]: ideas are gleamed from talks, discussed with others, and drawn from personal experiences. Famously, Feynman won a nobel prize for a question he came across watching kids flipping plates in a cafeteria. How do you create those serendipitous encounters? [??]
-
-While history is ripe with visions of the lone warrior, reality is warmer to the idea of groups of people achieve big things. E.g. many scientists publish popular books in collaboration with ghost writers [?]; who is the writer in this case? This brings up the absurdity of using old school ideas for how things happen or at least how we increasingly observe things to happen. Unless a writer is handling everything pertaining to a book, Writing a book is a collaborative effort. There are reviewers who provide feedback, readers, publishers. Perhaps pay more attention to the process and the artifact and less to individuals.
+Popular narratives about science (like design) present it as a story of lone genius toiling away to reach that "aha moment". While history is ripe with visions of the lone warrior, reality is warmer to the idea of groups of people accomplishing big tasks. Science is a contact sport [latour]: ideas are gleamed from talks, discussed with others, and drawn from personal experiences. Famously, Feynman won a nobel prize for a question he came across watching kids flipping plates in a cafeteria. How do you create those serendipitous encounters[??]? Furthermore, performing scientific work requires many open-ended activities: e.g. figuring out the appropriate research questions given what’s known in the domain. Finally, as research questions become more complex and require different kinds of expertise [??nature team of scientists], the lone genius model might be even less applicable to questions of broad interest. 
 
 \subsection{Better science via collaboration between people: expert-supported not expert-led}
-Expertise is a precious commodity; this dissertation did not use experts for feedback due to time needed and liability questions. However, there might be other ways in which experts can be involved. Experts have successful provided feedback [shepherd], built systems as designers, and more. With people playing a bigger role, balance of role might change. Other domains have seen this happen, e.g., crowdfunding enables people (not institutional VCs) to fund ideas. What might be the role of experts in this new future?
+Expertise is a precious commodity. Experts have successful provided feedback and led crowd efforts [?? shepherd]. This dissertation did not leverage microbiome experts' inputs due to limited time and concerns about liability. However, there might be other ways in which experts can be involved. 
 
+Experts possess a wealth of tacit procedural kmowledge; one avenue for curating procedural rules could be for experts to share their knowledge as procedural rules.  Experts might be more useful for structure/process oriented feedback while the domain knowledge could still be provided by standard resources. However, there are challenges too. Might experts' workflows nudge people into a specific (biased) way of performing a task? Alternately, might working with novices help experts uncover their blind spots? Trade-offs for expert-curated content and procedure need to be listed out. 
 
+How might people support experts? Experts need help with multiple activities where citizens might have complementary skills and contexts. For instance, experts need help recruiting people for their experiments; citizens could help out.  Another way for citizens to help experts could be pruning the design space. E.g., for many novel ideas in health and nutrition, the effect size of different interventions is difficult to guess. Citizen's efforts can help experts take better informed guesses about the effect size, thereby providing them the missing knowledge required to launch a study with improved odds of success. Another approach could be for citizens to reproduce current scientific research. Since Gut Instinct users demonstrated technical knowledge in their work, they could also potentially help young scientists master the growing body of knowledge that lies between them and the frontier of a field.
 
- Maybe experts can provide specific procedural rules of how they do things and people can follow that. Reproducibility of scientific research can be one avenue. using multimodal instructing using videos and audios and interfaces etc. 
-
-Another way could be to involve citizens in expert work — one bottleneck that i’ve found is that experts need to recruit more people - find citizens to recruit others. 
-
-But there are challenges too: Might experts nudge people into their own questions? or bias their doing by suggesting feedback?
-    Involving experts while ensuring the bring useful knowledge but not the biases would be important. How do we do this? Experts might be more useful for structure/process oriented feedback while the domain knowledge could still be provided by standard resources. Might working with novices help experts uncover their blind spots?
-
-What are some good mdoels for co-ownership and support?
-%implications for the individual, the community, and machines -- challenges, potential ways, etc... -- atoms, bits, culture
-   % link to CBPR and community-led research
-
-
-
-We need to think of a differenr way where online stuff is involved [beyond being there]. Young scientists need more time to master the growing body of knowledge that lies between them and the frontier of a field. Can others help them? How do we enable collaboration among scientists and novices?
-
-%see msb diss
+How might credit be allocated in such settings? Prior work has suggested algorithmic methods for credit allocation - better understanding their successes and failures would be useful [??msb]. Prior research in co-ownership models---such as Community-based participatory research [??CPBR]---can inform such ideas.
 
 
 \subsection{Folk theories are relevant in many domains}
