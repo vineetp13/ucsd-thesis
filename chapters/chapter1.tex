@@ -50,7 +50,7 @@ People have strong personal motivations and contextual insights; they possess a 
 %3. procedural learning: can teach people how to do things
 %    1. captures learning — depth
 
-This dissertation advances the design of social computing systems by integrating learning and collaboration for complex work such as generating and evaluating scientific theories. Over 600 people from 30 countries have self-organized to generate theories about the human microbiome and test them by running experiments. Gut Instinct emodies this insight and introduces a collaborative citizen science platform for people to transform lived experience into scientific theories. This dissertation raises the question: how can global communities create knowledge that meets their goals without waiting for experts to lead?
+This dissertation advances the design of social computing systems by integrating learning and collaboration for complex work such as generating and evaluating scientific theories. Over 600 people from 30 countries have self-organized to generate theories about the human microbiome and test them by running experiments. \textit{Gut Instinct} emodies this insight and introduces a collaborative citizen science platform for people to transform lived experience into scientific theories. This dissertation raises the question: how can global communities create knowledge that meets their goals without waiting for experts to lead?
 
 \begin{figure}[b] 
   \centering
@@ -58,7 +58,7 @@ This dissertation advances the design of social computing systems by integrating
   \caption[The Gut Instinct platform enables anyone to transform their intuitions to hypotheses 
 and then design and run experiments to test them]
 {The Gut Instinct platform enables anyone to transform their intuitions to hypotheses 
-and then design and run experiments to test them~\cite{Pandey, Pandey2017,Pandey2018}. Gut Instinct integrates 
+and then design and run experiments to test them~\cite{Pandey2017,Pandey2018,Pandey}. Gut Instinct integrates 
 conceptual learning embedded via short lectures and software-guided procedural 
 learning to enable designing and reviewing experiments. Participants from around
  the world join experiments, follow instructions, and provide data in response to 
@@ -68,9 +68,9 @@ automated data collection reminders. }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section {Current online designs do not support deeper work}
-People’s curiosity and needs provide endless possibilities to perform useful work. People design, build, and track to better understand and improve their health~\cite{DanaLewis}. However, traditional social computing designs don’t funnel this motivation to useful work. 
+People's curiosity and needs provide endless possibilities to perform useful work. People design, build, and track to better understand and improve their health~\cite{DanaLewis}. However, traditional social computing designs don’t funnel this motivation to useful work. 
 
-On numerous online fora, people share their intuitions, observations, folk theories, and even results from trying different approaches to improve their health, e.g. from simple ideas like ‘giving up drinking coffee to improve quality of sleep’ to testing different dietary approaches. 
+On numerous online fora, people share their intuitions, observations, folk theories, and even results from trying different approaches to improve their health, e.g. from simple ideas like ``giving up drinking coffee to improve quality of sleep" to testing different dietary approaches. 
 %However, online fora encourage long, rambling discussions that makes it difficult to identify signal from noise. 
 Current online forum designs prioritize discussion---sharing personal details in long, free-flowing text---over goal-directed structure and learning~\cite{Thomas2002}. While learning resources like Massive Open Online Courses (MOOCs) abound, they adopt traditional classroom pedagogy through lectures focused on conceptual knowledge. Synthesizing the social computing literature highlights three challenges: poor signal-to-noise from crowds due to lack of training~\cite{Doroudi2016a}; inefficient collaboration without careful attention~\cite{Resnick2011}; and poor results (or no results at all) unless experts lead. Desirable social computing techniques will reliably enable a wide variety of people to contribute more than they naturally could and manage the dependencies among a large set of tasks. 
 
@@ -123,12 +123,11 @@ To summarize, supporting complex work with social computing requires two key fea
 1) careful collaboration primitives, and 2) procedural support for deeper individual contributions.
 
 
-%todo-introduce the learning and collaboraiton taxonomy here
 \begin{figure}[!h] 
   \centering
  \includegraphics[width=1.0\textwidth]{figures/intro/intro-taxonomy}
-  \caption[Drawing from Maslow's hierarchy of learning and  hierarchy of contribution]
-{Drawing from Maslow's hierarchy of learning and Arlington's hierarchy of contribution}
+  \caption[Maslow's hierarchy of learning provides a research trajectory for learning tools. Arlington's hierarchy of contribution provides goals for social computing systems.]
+{Maslow's hierarchy of learning provides a research trajectory for learning tools. Arlington's hierarchy of contribution provides goals for social computing systems}
   \label{fig:intro-taxonomy}
 \end{figure}
 
@@ -174,13 +173,12 @@ Improving  work quality in social computing suggests deepening individual contri
 %figure about conceptual and procedural learning 
 \textbf{Principles to integrate learning in social computing}: Learning broadly comprises conceptual (declarative) and procedural knowledge. Conceptual learning---the primary focus of classroom teaching---involves understanding and interpreting concepts and the relations between concepts [Arslan 2010]. In contrast, procedural learning teaches "action sequences for solving problems" [Wagner99]. To contribute usefully, people need to have a good working model of both the concepts and procedures for an activity. This dissertation enables knowledge acquisition in two ways: 1) reifying conceptual bits in the software; and 2) providing procedural guidance with examples, checklists, and templates. These techniques aim to move individual contributions to higher levels on Maslow's hierarchy (Figure~\ref{fig:intro-taxonomy}). 
 %todo-show how my system does that
-Specifically, Docent's Learn-Train-Ask workflow (Chapter 4) embeds procedural guidance about hypotheses while Galileo's design workflow (Chapter 5) demonstrates the efficacy of reifying the genre of between-subjects experimentation in the software itself.
+Specifically, \textit{Docent}'s Learn-Train-Ask workflow (Chapter 4) embeds procedural guidance about hypotheses while \textit{Galileo}'s design workflow (Chapter 5) demonstrates the efficacy of reifying the genre of between-subjects experimentation in the software itself.
 %https://teachingmathliteracy.weebly.com/conceptual-vs-procedural-knowledge.html
 %rittle-johnson and wagner
 
-
 \textbf{Ways to decompose a complex activity}: 
-Individuals, groups, and machines possess complementary strengths. Individuals might be highly motivated on a topic of personal interest; their lived experiences provide ideas that might be potentially novel. Groups of people might be less motivated but provide another set of eyes and complementary knowhow and insights from lived experiences; their efforts can help check slips from the creator and provide novel inputs. Finally, computers can implement things consistently to reduce biases but they cannot interpret open-ended instructions fairly in different contexts the way people can. Given these complementary strengths and limitations, this dissertation suggests the following process: 1) support an individual in creating an initial design on a personally meaningful topic; 2) improve it with others' feedback to create an actionable plan; and 3) implement the plan with the help of automated software. For all these steps, the system manages the interdependencies beneath the sheets. Arlington proposed this thing -- TODO ---. This dissertation aims to push collaboration up Arlington's hierarchy (Figure~\ref{fig:intro-taxonomy}). 
+Individuals, groups, and machines possess complementary strengths. Individuals might be highly motivated on a topic of personal interest; their lived experiences provide ideas that might be potentially novel. Groups of people might be less motivated but provide another set of eyes and complementary knowhow and insights from lived experiences; their efforts can help check slips from the creator and provide novel inputs. Finally, computers can implement things consistently to reduce biases but they cannot interpret open-ended instructions fairly in different contexts the way people can. Given these complementary strengths and limitations, this dissertation suggests the following process: 1) support an individual in creating an initial design on a personally meaningful topic; 2) improve it with others' feedback to create an actionable plan; and 3) implement the plan with the help of automated software. For all these steps, the system manages the interdependencies. This dissertation aims to push collaboration up Arlington's hierarchy (Figure~\ref{fig:intro-taxonomy}). 
 % (todo- fix this to crisp english writing) (see slide deck)
 
 %The efficacy of these techniques is borne out over multiple deployments. All these techniques have been put in systems as interfaces, intelligent backends, and so on... \\
@@ -205,7 +203,7 @@ When trying to leverage guidance and roles for complex citizen work, two challen
 %; therefore so we need UIs for focused collaboration. 
 
 %System contributions
-To demonstrate the efficacy of these ideas, this dissertation introduces Gut Instinct, a collaborative citizen science platform for people to transform lived experiences into scientific theories. Gut Instinct frames the task of hypothesis-testing as a crowdsourcing problem, develops techniques and platform that supports different roles with just-in-time learning, and provides efficient backend support to automate simple tasks. Gut Instinct divides multi-party collaboration into complementary tasks and supports them using different contribution mechanisms (like adding a question, editing a response) and roles (like experimenter, reviewer, participant). This provides people the flexibility to choose how much they’d like to contribute. Finally, Gut Instinct automatically manages multiple activities to reduce 
+To demonstrate the efficacy of these ideas, this dissertation introduces \textit{Gut Instinct}, a collaborative citizen science platform for people to transform lived experiences into scientific theories. \textit{Gut Instinct} frames the task of hypothesis-testing as a crowdsourcing problem, develops techniques and platform that supports different roles with just-in-time learning, and provides efficient backend support to automate simple tasks. \textit{Gut Instinct} divides multi-party collaboration into complementary tasks and supports them using different contribution mechanisms (like adding a question, editing a response) and roles (like experimenter, reviewer, participant). This provides people the flexibility to choose how much they’d like to contribute. Finally, \textit{Gut Instinct} automatically manages multiple activities to reduce 
 bias and experimenter/participant workload, such as randomized placement of  people into conditions, maintaining anonymity, and collecting and cleaning data.
 
 %%"Furthermore, adding location information to photo collections is by itself insufficient for scenevisualization: we also need intuitive, interactive interfaces for exploring these scenes. There are several challenges faced in the design of such interfaces. First, unlike with Google Street View, where photos are taken at regular intervals, personal or Internet collections are typically an unstructured soup of photos. Nevertheless, the navigation controls should still be intuitive and exhibit regularity. Second, such controls should make it easy to find and explore the interesting parts of a scene, particularly for tourist sites."
@@ -221,7 +219,7 @@ bias and experimenter/participant workload, such as randomized placement of  peo
 %3. ...
 
 %\subsubsection{Impact}
-This dissertation demonstrates how we might draw on people’s diverse background knowledge, interest, and micro-expertise to expand scientific knowledge and push it in new directions. More specifically, the Gut Instinct platform instantiates these ideas enabling participants of the American Gut Project (the world’s largest crowdfunded citizen science project) to generate and experimentally investigate hypotheses. 344 volunteers from 27 countries created 399 hypotheses about their health and the gut microbiome. Remarkably, microbiome scientists rated a fifth (75) of these hypotheses to have a scientifically valuable insight about a topic not covered by existing published work. Volunteers fleshed out 60 of these hypotheses into complete experimental designs. My entire work (code + data) is open source so others can edit, build, and experiment.
+This dissertation demonstrates how we might draw on people’s diverse background knowledge, interest, and micro-expertise to expand scientific knowledge and push it in new directions. More specifically, the \textit{Gut Instinct} platform instantiates these ideas enabling participants of the American Gut Project (the world’s largest crowdfunded citizen science project) to generate and experimentally investigate hypotheses. 344 volunteers from 27 countries created 399 hypotheses about their health and the gut microbiome. Remarkably, microbiome scientists rated a fifth (75) of these hypotheses to have a scientifically valuable insight about a topic not covered by existing published work. Volunteers fleshed out 60 of these hypotheses into complete experimental designs. My entire work (code + data) is open source so others can edit, build, and experiment.
 
 This dissertation has also enjoyed sufficient support in multiple research communities: Innovation researchers at MIT, online and offline fermentation and self-tracking communities, and citizen science groups. Finally, parts of the system have been taught in classrooms including CSCI 499: (Computing for Social Good) at USC. 
 
