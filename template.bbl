@@ -217,6 +217,11 @@
 \newblock {Peer Instruction: Ten years of experience and results}.
 \newblock {\em American Journal of Physics 69}, 9 (sep 2001), 970.
 
+\bibitem{cypher1993watch}
+{\sc Cypher, A., and Halbert, D.~C.}
+\newblock {\em Watch what I do: programming by demonstration}.
+\newblock MIT press, 1993.
+
 \bibitem{DanaLewis}
 {\sc {Dana Lewis}}.
 \newblock {Real-World Use of Open Source Artificial Pancreas Systems}.
@@ -422,6 +427,13 @@
 \newblock {\em Second AAAI Conference on Human Computation and Crowdsourcing
   (HCOMP '14)\/} (2014), 16--17.
 
+\bibitem{johnson2009breaking}
+{\sc Johnson, A., Kimball, R., Melendez, B., Myers, L., Rhea, K., and Travis,
+  B.}
+\newblock Breaking with tradition: Preparing faculty to teach in a
+  student-centered or problem-solving environment.
+\newblock {\em Primus 19}, 2 (2009), 146--160.
+
 \bibitem{Johnson-Laird1992a}
 {\sc Johnson-Laird, P.~N., and Oatley, K.}
 \newblock {Basic emotions, rationality, and folk theory}.
@@ -446,6 +458,12 @@
 \newblock {Phylo: A citizen science approach for improving multiple sequence
   alignment}.
 \newblock {\em PLoS ONE 7}, 3 (2012).
+
+\bibitem{kellogg2006professional}
+{\sc Kellogg, R.~T.}
+\newblock Professional writing expertise.
+\newblock {\em The Cambridge handbook of expertise and expert performance\/}
+  (2006), 389--402.
 
 \bibitem{Kempton1986}
 {\sc Kempton, W.}
@@ -499,6 +517,13 @@
 \newblock {The future of crowd work}.
 \newblock In {\em ACM Conference on Computer Supported Coooperative Work (CSCW
   2013)\/} (2013).
+
+\bibitem{kizilcec2013deconstructing}
+{\sc Kizilcec, R.~F., Piech, C., and Schneider, E.}
+\newblock Deconstructing disengagement: analyzing learner subpopulations in
+  massive open online courses.
+\newblock In {\em Proceedings of the third international conference on learning
+  analytics and knowledge\/} (2013), ACM, pp.~170--179.
 
 \bibitem{Kizilcec2017b}
 {\sc Kizilcec, R.~F., Saltarelli, A.~J., Reich, J., and Cohen, G.~L.}
@@ -630,6 +655,12 @@
 \newblock In {\em Proceedings of the SIGCHI Conference on Human Factors in
   Computing Systems\/} (2009), ACM, pp.~239--248.
 
+\bibitem{macan1994effects}
+{\sc Macan, T.~H., Avedon, M.~J., Paese, M., and Smith, D.~E.}
+\newblock The effects of applicants' reactions to cognitive ability tests and
+  an assessment center.
+\newblock {\em Personnel Psychology 47}, 4 (1994), 715--738.
+
 \bibitem{Mackay2007}
 {\sc Mackay, W.~E., Appert, C., Beaudouin-Lafon, M., Chapuis, O., Du, Y.,
   Fekete, J.-D., and Guiard, Y.}
@@ -698,6 +729,11 @@
 {\sc Munroe, R.}
 \newblock {Correlation}, 2009.
 
+\bibitem{Murad125}
+{\sc Murad, M.~H., Asi, N., Alsawas, M., and Alahdab, F.}
+\newblock New evidence pyramid.
+\newblock {\em BMJ Evidence-Based Medicine 21}, 4 (2016), 125--127.
+
 \bibitem{national2018learning}
 {\sc National Academies~of Sciences, E., and Medicine}.
 \newblock {\em {Learning through citizen science: enhancing opportunities by
@@ -735,6 +771,13 @@
   through content learning and process training}.
 \newblock In {\em Proceedings of the Fifth Annual ACM Conference on Learning at
   Scale\/} (2018), ACM, p.~9.
+
+\bibitem{Pandey2015}
+{\sc Pandey, V., Kotturi, Y., Kulkarni, C., Bernstein, M.~S., and Klemmer, S.}
+\newblock {Connecting Stories and Pedagogy Increases Participant Engagement in
+  Discussions}.
+\newblock In {\em Proceedings of the Second (2015) ACM Conference on Learning@
+  Scale\/} (2015), ACM, pp.~253--256.
 
 \bibitem{Pandey}
 {\sc Pandey, V., Koul, T., Yang, C., McDonald, D., Knight, R., and Klemmer, S.}
@@ -974,6 +1017,11 @@
   building}.
 \newblock In {\em Proceedings of the 6th ACM/IEEE-CS Joint Conference on
   Digital Libraries (JCDL '06)\/} (2006), pp.~244--253.
+
+\bibitem{zamel1982writing}
+{\sc Zamel, V.}
+\newblock Writing: The process of discovering meaning.
+\newblock {\em TESOL quarterly 16}, 2 (1982), 195--209.
 
 \bibitem{Zhang2015}
 {\sc Zhang, X., Zhang, D., Jia, H., Feng, Q., Wang, D., Liang, D., Wu, X., Li,
