@@ -1,4 +1,4 @@
-\chapter{Collaboratively running experiments}
+\chapter{Collaboratively Running Experiments}
 \begin{quote}
 \emph{People have creative scientific questions and folk theories;
 yet most lack the expertise to investigate them. How might
@@ -48,8 +48,7 @@ The main contribution of this chapter is \textit {demonstrating that online volu
 Three empirical investigations tested Galileo's approach. First, a controlled between-subjects experiment with 72 participants found that procedural support yielded significantly higher-quality experiment designs than lecture videos. Second, a deployment across 16 countries found that people generated structurally-sound experiments on personally meaningful topics. Third, in a field deployment, online users from three communities---kombucha, Open Humans, and beer---across 8 countries demonstrated that people designed, iterated on, and ran week-long experiments.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{The Galileo Experimentation platform}
-
+\section{The Galileo Experimentation Platform}
 Galileo introduces a system for end users to design experiments, get them reviewed, and run them with interested participants. It provides procedural support for these steps, an online collaboration platform, and automated data collection and reminders.
 
 Despite a predetermined goal and a formalized process, experimentation requires making contextually-appropriate decisions~\cite{Martin2007}. Good experiment design is inherently user centered; designers need awareness of others' interpretation of their ideas and asks. Providing feedback on experiment designs requires knowing the success criteria and how to help improve.
@@ -76,10 +75,10 @@ Despite a predetermined goal and a formalized process, experimentation requires 
 
 Finally, successfully running an experiment requires managing multiple processes such as random assignment, anonymizing participant details, and sending instructions and reminders for data collection.
 
-\subsection{Design-Review-Run: From Intuitions to Investigations}
+\subsection{Design-Review-Run: From intuitions to investigations}
 Galileo requires three roles for each experiment: designer, reviewer, and participant. Galileo offers procedural support for each: 1) a design workflow provides just-in-time training, 2) review with scaffolded questions, and 3) automated routines for runtime activities like data collection. Users form and refine with the help of contextual support and learning resources from the system. 
 
-\subsection{Design an Experiment from an Intuition}
+\subsection{Design an experiment from an intuition}
 People have many, often poorly-framed, hypotheses. Galileo's design workflow helps people harvest and sharpen them (Figure~\ref{fig:galileo-2}). Examples illustrate possible choices and how they relate; templates provide structure; and embedded videos explicate technical issues. Such procedural support can improve on-task performance~\cite{Pandey2018}. A final self-review step provides an overview of the experiment. To keep the platform safe, the primary author receives daily updates of platform activity. The design workflow does not mandate double-blindness or the use of placebo; designers can choose to specify these details.
 
 %\begin{wrapfigure}[10]{r}{0.5\textwidth}
@@ -98,7 +97,7 @@ People have many, often poorly-framed, hypotheses. Galileo's design workflow hel
   \label{fig:galileo-2-review}
 \end{figure}
 
-\subsection{Review the Design via Feedback from Others}
+\subsection{Review the design via feedback from others}
 Galileo experiments require at least two reviews before they can be run. The designer invites the reviewers, who might be online community members, a teacher, or anyone else who can provide useful feedback. Upon receiving reviews, the designer edits the experiment to address any issues. For research purposes, Galileo logs version changes. Reviewers provide both binary assessment and written responses to specific questions (Figure~\ref{fig:galileo-2-review}). These questions cover structure (e.g., accounting for confounds), pragmatics (e.g., measuring the real-world cause/effect), and participant experience (e.g., data reminder time). Reviewers are ineligible to be participants in the same experiment. Similarly, creators may not review their own experiment. 
 
 %\begin{wrapfigure}[17]{r}{0.5\textwidth}
@@ -120,7 +119,7 @@ Galileo experiments require at least two reviews before they can be run. The des
 %\vspace{-1pt}
 \end{figure}
 
-\subsection{Run an Experiment using Procedural Support}
+\subsection{Run an experiment using procedural support}
 To launch an experiment, its designer shares a unique URL with potential participants. Galileo automatically manages four activities to reduce bias and workload:
 \begin{enumerate}
 \item Randomized placement of people into conditions~\cite{Martin2007}.
@@ -153,7 +152,7 @@ More than 80 people have designed and run experiments. The system design evolved
 \item \textit{Ease of glancing at participants' data}: Pilot users ran six trial experiments. The idea of a runtime dashboard (Figure~\ref{fig:galileo-2-run-1}A) came from observing experimenter's difficulty tracking participants' data and sending reminders to those who hadn't added their data. Participants struggled with making suitable preparations for a week of experimentation (e.g. buying sufficient kombucha). The system now prompts experimenters to explicitly add preparation instructions that are sent to participants 2 days before the experiment begins. 
 \end{enumerate}
 
-\subsection{Integrating Procedural Support in the Design Workflow}
+\subsection{Integrating procedural support in the design workflow}
 Simple examples of procedural learning are activities like tying your shoes, roasting a chicken, or replacing a door handle. Recipes and instructions convey procedures in written form; demonstrations and hands-on learning make it more interactive. Creative tasks differ from rote procedures in that they require people to generate some artifact themselves.
 
 \subsubsection{Embedding Just-in-Time Support}
@@ -323,7 +322,7 @@ Structure measures whether the design is correct and includes appropriate compon
 
 \subsection*{Results}
 %\subsubsection{People Designed Structurally-Sound Experiments, and Drew from Personal Intuitions}
-\subsection{People Design Structurally-Sound Experiments, and Draw from Personal Intuitions}
+\subsection{People design structurally-sound experiments, and draw from personal intuitions}
 The mean score for the experiment was 10.3/13. On average, people scored higher than 75\% on 8 of 13 measures. 38\% of experiment designs came for people's lived experiences; e.g., \textit{eating yogurt makes a person have a more regular bowel movement}. Personal health and performance were big draws: 90\% of experiments sought to improve a health outcome. 
 
 \begin{figure}[h]
@@ -358,7 +357,7 @@ The mean score for the experiment was 10.3/13. On average, people scored higher 
 \end{figure}
 
 %\subsubsection{Reviewers Use Domain Knowledge to Improve Designs and Advocate for Participant Experience}
-\subsection{Reviewers Use Domain Knowledge to Improve Designs and Advocate for Participant Experience}
+\subsection{Reviewers use domain knowledge to improve designs and advocate for participant experience}
 158 review comments (77\%) were rated useful; incorporating them would improve the experiment. Average comment length was 140 characters ranging from 3 characters (\textit{yes}) to 871 characters (Figure~\ref{fig:galileo-9-result}B,C). Most comments were direct responses to a rubric question hinting that the review interface helped people focus on the salient parts of an experiment design.
 
 The most common comments sought improving structural correctness (38\%) by requesting specific details. For example, one reviewer questioned an experiment's choice of Likert scale for mood saying, \textit{A simplistic Likert scale seems like a bad idea. There has to be something better than this. At least a couple questions? Like, optimism, excitement, depression, anxiety?}. Reviewers provided the most comments (54\%) about the hypothesis and cause \& effect measures. People advocated for improving participant's experience (18\%). Suggesting better data collection messages and times was a popular theme. We present two examples: 1) \textit{People are not very good at remembering what they eat. Maybe an App like MyFitnessPal would be useful since it would allow participants to track all the food they eat without having to remember for too long}, and 2) \textit{How long do they [experiment participants] have to answer? What if they're eating dinner and can't get to it until 9pm?}.
@@ -386,7 +385,7 @@ The previous two studies found that people generated novel, structurally-sound e
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\subsection*{Results}
 %\subsubsection{Before the Experiment: Design, Review, Pilots, and Finding participants}
-\subsection{Before the Experiment: Design, Review, Pilots, and Finding participants}
+\subsection{Before the experiment: Design, review, pilots, and finding participants}
 From initial design to launch, 37 (kombucha), 13 (Open Humans), and 11 (beer) days elapsed. Each experiment ran for a week.
 
 \textit{Design and Review}: None of the experimenters had previously designed and run an experiment with people. All knew some concepts about experiment design; two have PhD degrees (in biology and ecology) and one is enrolled in a Computer Science PhD program. The experimenters are Brazilian, German, and US nationals. While the three experimenters had lived experience of their experiment's topic, they had never scientifically studied it.
@@ -408,13 +407,13 @@ Reviewers provided a total of 104 boolean answers and 32 detailed comments. Comm
 \begin{figure}[h]
 \centering
   \includegraphics[width=0.7\textwidth]{figures/galileo/galileo-study3-1}
-  \caption[Dropout and Adherence Rates across the three experiments]
-{Dropout and Adherence Rates across the three experiments. After signing up, a smaller fraction of people participated in Kombucha (68\%) and Open Humans (63\%) experiments than Beer (90\%). However, those who participated reported greater adherence in Kombucha (92\%) and Open Humans (83\%) compared to Open Humans (50\%). Reasons for non-adherence included being busy, annual leave, and brewers needing to check on the taste of Kombucha. \index{galileo-11-result}}
+  \caption[Dropout and adherence Rates across the three experiments]
+{Dropout and adherence Rates across the three experiments. After signing up, a smaller fraction of people participated in Kombucha (68\%) and Open Humans (63\%) experiments than Beer (90\%). However, those who participated reported greater adherence in Kombucha (92\%) and Open Humans (83\%) compared to Open Humans (50\%). Reasons for non-adherence included being busy, annual leave, and brewers needing to check on the taste of Kombucha. \index{galileo-11-result}}
   \label{fig:galileo-11-result}
 \end{figure}
 
 %\subsubsection{During the Experiment}
-\subsection{During the Experiment: Retention and Data Collection}
+\subsection{During the experiment: Retention and data collection}
 \textit{Retention}: 57 people signed up for the kombucha experiment; 36 completed it (68\%). Retention rates were similar for the Open Humans experiment (63\%) and higher for beer (90\%) (Figure 11). 78\% of dropouts occurred in the first 48 hours. The reasons participants reported for dropping out included lack of interest, holidays, and work travel.
 Adherence: Kombucha garnered 76\% adherence: 86\% for days of no kombucha, and 70\% when asked to drink kombucha. Most Open Humans participants reported high adherence, cutting social media use in half or more (Figure~\ref{fig:galileo-11-result}). Each day, an average of 54\% of participants in the beer experiment reported following the condition requirement (drinking 1 or 0 beers by 8PM). 15 of 17 failed to comply on at least one day.
 
@@ -451,7 +450,7 @@ Why were all three experiments run by people with advanced degrees? One reason c
 
 Another reason for experimentation by those with advanced degrees could be their awareness of potential participants. All three experimenters had access to people who were interested in similar topics; e.g., the Open Humans experimenter received both participants and feedback for their idea from the group's slack community. Such \textit{affinity spaces} are known to provide potential participants as well as social support~\cite{gee2005semiotic}. To tackle this, the design workflow can nudge the creator to start their experiment design by thinking of topics relevant to their social connections.
 
-\subsection{Guidance Techniques to Enable Citizens to Recruit Others}
+\subsection{Guidance techniques to enable citizens to recruit others}
 Two of the three completed experiments were underpowered. Citizen experimenters learned what many scientists know: recruiting participants is time-consuming. This suggests that a good experimental design is not enough and recruiting is the next challenge for citizen scientists on their way to develop meaningful knowledge. While the absence of shared knowledge with experts can sometimes give novices' work a boost (e.g. identifying green pea galaxies on Galaxy zoo), it's less useful when the lack of knowledge is a hindrance. Tools for training and collaboration can help by clearly conveying the importance of getting enough participants; enabling experimenters estimate what "enough" is; and providing sources and strategies to recruit participants.
 
 Citizen experimenters aren't as ardent about sufficient participation numbers as professional scientists. One important piece of technical knowledge is performing power analysis before running the experiment. Additionally, following the lead of data journalists~\cite{Gray2012}, conveying results through real-world effect sizes---such as additional years you'll live---might be useful. Moreover, the experimenter need not find all the participants by themselves. Akin to a Clinical Research Coordinator, a separate recruitment role can help the experimenter rope in others to help out. Participants signed up for an experiment can also assist by suggesting others ala snowball sampling.
@@ -465,7 +464,7 @@ Drawing on findings from social computing and crowd-funding~\cite{hui2014underst
 Our study did not provide experimenters or participants monetary compensation. Consequently, people's motivation is more intrinsic, which has benefits~\cite{NationalCouncilforVoluntaryOrganisations2018} (e.g. telling people the importance of their work improves performance~\cite{Chandler2013}), but also empirically shows a high dropout rate. Compensation may help some citizen science experiments. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Design Implications for Knowledge Work}
+\subsection{Design implications for knowledge work}
 We suggest three heuristics for systems that chunk complex knowledge work: separate roles, provide interactive guidance, and facilitate iteration. These ideas extend minimalism to design learning experiences~\cite{VanderMeij1995}. 
 
 \begin{enumerate}
@@ -481,7 +480,7 @@ Our first two heuristics focus on the authoring piece. Our third heuristic focus
 \end{enumerate}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Do Citizen  Experiments Benefit or Harm Society?}
+\subsection{Do citizen experiments benefit or harm society?}
 One challenge of modern life is the increasing layers of social and technical infrastructure that separate the creation of knowledge from its everyday use. This divorce makes it difficult to wisely assess and use knowledge. This paper has outlined the positive potential for citizen designed experiments, a greater range of perspectives, participation, and understanding. It's worth considering the risks. The primary concern we have is that a poorly designed experiment with a faulty conclusion influences people in fraught ways.
  
 At its best, over time scientific experiments expand human knowledge and correct mistakes when they occur. However, sometimes the popular press reports a headline-grabbing result that is inaccurate, but not the subsequent correction and elaboration. Particularly with science, when ideas are newsworthy but low-quality, people can incorporate misguided ideas in a way that be difficult to dislodge. Perhaps the most notorious example is the (debunked) claim that vaccines, especially MMR vaccine, cause autism by disrupting the body's microbial composition  and/or introducing harmful chemicals. At a time of rising autism diagnoses, this claim terrified parents and continues to impede childhood vaccination more than two decades later . Furthermore, the 20th century offers many examples of pervasively-adopted chemicals (such as lead in paint and gasoline, and asbestos in buildings) that were later found to be toxic. Wakefield's publication linking MMR vaccine to autism (later retracted) was a serial case study~\cite{Godleec7452}, not an experiment. While sharing case studies can help identify valuable leads for further study, the small size and biased selection create enormous risk of confounds and spurious relationships. (In this case, unidentified correlated timing in the measures and undisclosed financial ties by the author further clouded the picture.) Currently, most readers cannot fully grasp the evidentiary difference between a small case study and a rigorous controlled experiment. Our hope is that democratizing the doing of science may help the public interpret science news and reduce the risk of leaping to conclusions.
