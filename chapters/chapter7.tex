@@ -2,7 +2,9 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \chapter{Conclusion}
 %"build theory, think expansively, and tackle broader conceptual issues, not (primarily) to reiterate the literal outcomes of your work.”-srk
-Drawing from related work, empirical results, and lessons from designing these systems, this chapter provides future steps along four themes: 1) future system contributions, 2) open questions for theoretical contributions, 3) heuristics for social computing research, and 4) broader implications for computation in society.
+
+This dissertation demonstrates that procedural guidance works well for scientific experimentation. This chapter provides future steps.
+
 %for designing new systems and for contributing novel theory. 
 
 %%%%%%%%%%%%%%%%%%%%%%
@@ -11,48 +13,41 @@ Drawing from related work, empirical results, and lessons from designing these s
 % fig: a set that shows many approaches for generating hypotheses and evaluating theories
 %-- and says these systems are all waiting to be built
 
-This dissertation demonstrates that procedural guidance works well for scientific experimentation. Domain experts make creative contributions like writing articles, curating museums, leading teams, and more. As in science, the number of experts in many domains is relatively small and their training relatively homogenous.  Can procedural guidance support other genre of work?
+Domain experts make creative contributions like writing articles, curating museums, leading teams, and more. As in science, the number of experts in many domains is relatively small and their training relatively homogenous.  Can procedural guidance support other genre of work?
 
 %%%%%%%
 %\subsection{Other domains that might benefit from procedural guidance}
-\subsection{End to end scientific work}
+\subsection{Systems for end to end scientific work}
 %Social computing environments that model richer work in more domains using procedural support and roles
 Experimentation provides one method to create knowledge across the natural and behavioral sciences. Other ways to empirically evaluate hypotheses---case-control or cohort studies---require different support~\cite{Murad125}. Furthermore, designing and running an experiment is one step among many in creating new knowledge. Scientists perform a range of activities including analyzing study data and communicating the results (e.g. by writing a paper). One key challenge in such complex work is coming up with the initial design(s) that can be refined.
 %todo-e.g. finding participants was a challenge for experimenters - introduce gatherer here
 
 \subsubsection{Case study: writing}
-One popular process for writing includes creating an outline, converting the outline to a draft, and revising the draft over multiple iterations~\cite{zamel1982writing}. Previous research systems have supported people in editing tasks like shortening and proofreading~\cite{Bernstein2010a}. However, few tools support the onerous task of creating the first draft. Research journals and conferences provide templates for formatting guidelines, but the argument and the authors need to generate the content and the argument. EteRNA participants used system-provided templates to write up their results and share with others~\cite{Lee2014}. How might procedural systems assist?
+EteRNA participants used system-provided templates to write up their results and share with others~\cite{Lee2014}. How might procedural systems assist? As is common for complex work, experts possess knowledge of the success criteria, mental scaffolds to help with writing, and access to other experts for feedback~\cite{kellogg2006professional}. Showing specific knowledge to novices in the context of the work might be useful. Scientific writing follows different styles; let’s consider two contrasting examples: the methods section and the discussion section of a paper.
 
-As is common for complex work, experts possess knowledge of the success criteria, mental scaffolds to help with writing, and access to other experts for feedback~\cite{kellogg2006professional}. Showing specific knowledge to novices in the context of the work might be useful. Scientific writing follows different styles; let’s consider two contrasting examples: the methods section and the discussion section of a paper.
+The methods section provides specific details about how certain research was conducted. It describes the study hypotheses, choices of measures, method of enquiry, and all relevant decisions taken while running the study. Others should be able to perform these steps and (hopefully) find the same result. By using templates as the procedural guidance tool, a system can help people exploit the standard structure of the methods section and avoid standard mistakes. The discussion section of a paper is far less templated though since it summarizes multiple topics including the key ideas, the methods, and the results. A procedural guidance system for writing the discussion section can use multiple techniques; it can 1) identify the research question from a previous section; 2) use rubrics to prompt the writer to reflect on their claims; 3) show examples from other discussion sections; and 4) use checklists and peer feedback to improve clarity. The key insight here would be to help people explore the set of questions that a discussion section needs to answer. Such suggestions are preliminary. Rapid iterations immensely benefitted this dissertation's research.
 
-The methods section provides specific details about how certain research was conducted. It describes the study hypotheses, choices of measures, method of enquiry, and all relevant decisions taken while running the study. Others should be able to perform these steps and (hopefully) find the same result. By using templates as the procedural guidance tool, a system can help people exploit the standard structure of the methods section and avoid standard mistakes. The discussion section of a paper is far less templated though since it summarizes multiple topics including the key ideas, the methods, and the results. A procedural guidance system for writing the discussion section can use multiple techniques; it can 1) identify the research question from a previous section; 2) use rubrics to prompt the writer to reflect on their claims; 3) show examples from other discussion sections; and 4) use checklists and peer feedback to improve clarity. The key insight here would be to help people explore the set of questions that a discussion section needs to answer. Such suggestions are preliminary. Rapid iterations immensely benefitted this dissertation's research, therefore, running pilots can be useful.
-
-\subsection{More domains for citizen-led scientific investigations}
-This dissertation used microbiome research as a petri dish. Microbiome science is nascent, personal, and motivating. Other health related domains---like nutrition and Transcranial Direct Current Stimulation (tDCS)---are a good match. Transfering this dissertation's techniques to other domains raises design questions. First, different scientific domains might accept different methods of creating knowledge; e.g. some might rely strictly on Randomized Controlled Trials while others might prefer observational studies owing to the difficulty of randomization. Second, research communities create standard measures for popular outcomes of interest. Supporting standard measures provides three benefits: 1) it reduces citizens' efforts in coming up with a new measure, and 2) it improves reliability and reproducibility, and 3) it helps people compare their results with prior research. E.g. tDCS' effect on cognitive performance intrigues online communities, using standard Cognitive Ability Tests might help~\cite{macan1994effects}.  Correct implementation of standard measures can be especially useful for domains where self-reports are a primary way of collecting data; using confidence ratings and multiple questions could support citizen experimenters in collecting useful data. Implementing specific measures lends itself to interesting interface design challenges: the process of providing data should be simple for participants.
+\subsection{Domains for citizen-led scientific investigations}
+This dissertation used microbiome research as a petri dish. Microbiome science is nascent, personal, and motivating. Other health related domains---like nutrition and Transcranial Direct Current Stimulation (tDCS)---are a good match. Transfering this dissertation's techniques to other domains raises design questions. First, different scientific domains might accept different methods of creating knowledge; e.g. some might rely strictly on Randomized Controlled Trials while others might prefer observational studies owing to the difficulty of randomization. Second, research communities create standard measures for popular outcomes of interest. Supporting standard measures provides three benefits: 1) it reduces citizens' efforts in coming up with a new measure, and 2) it improves reliability and reproducibility, and 3) it helps people compare their results with prior research; e.g. tDCS' effect on cognitive performance intrigues online communities, using standard Cognitive Ability Tests might help~\cite{macan1994effects}. The correct implementation of standard measures can be especially useful for domains where self-reports are a primary way of collecting data; using confidence ratings and multiple questions could support citizen experimenters in collecting useful data. Implementing specific measures lends itself to interesting interface design challenges: the process of providing data should be simple for participants.
 
 %%%
 \subsection{Designing efficient procedural support}
 %highlight open questions?
 %Procedural support provides a remixed version of computational thinking. 
 %  read computational thinking
-Computational problem-solving focuses on four key processes: abstraction, decomposition, generalization, and pattern matching~\cite{Wing2006}. Computer procedures are interpreted literally; people are wiser. With procedural guidance systems, people might perform pattern matching instead of machines.
+Computational problem-solving focuses on four key processes: abstraction, decomposition, generalization, and pattern matching~\cite{Wing2006}. The dissertation presents systems that use examples, checklists, and templates to embed procedural support. A promising avenue for future work might be to use procedural support to help people with pattern matching for higher order tasks.
 
-\subsubsection{Integrating procedural support for your task}
-The dissertation presents systems that use examples, checklists, and templates to embed procedural support. Useful procedural support for people needs to be simple, actionable, and potentially domain-specific. Examples or checklists that are too long and not directly linked to the task will see people struggle. Since people are better at identifying useful features than generating them~\cite{Stahl2006}, two ideas emerge for designing similar systems. First, start with ``good enough" ideas, observe how people identify the useful features, and iterate to develop guidance techniques that lead to a more consistent and correct interpretation across people. Second, textual instructions provide one low-effort way to embed procedural support; providing examples using expert-created videos can be useful as well. Complex tasks such as laboratory work could benefit from short, specific tutorials.
+Useful procedural support for people needs to be simple, actionable, and potentially domain-specific. Examples or checklists that are too long and not directly linked to the task will see people struggle. Since people are better at identifying useful features than generating them~\cite{Stahl2006}, two ideas emerge for designing similar systems. First, start with ``good enough" ideas, observe how people identify the useful features, and iterate to develop guidance techniques that lead to a more consistent and correct interpretation across people. Second, textual instructions provide one low-effort way to embed procedural support; providing examples using expert-created videos can be useful as well. Complex tasks such as laboratory work could benefit from short, specific tutorials.
 
 \subsection{Sources for procedural support}
 %Putting the knowledge together?
-Many heterogenous resources---books, online resources, experts---provide useful procedural guidance system. By employing some of these, this dissertation found different trade-offs.
-
-%todo-provide examples for all
-%create a table for this
-%which examples are better than others
-Books aimed at novices help bootstrap procedural guidance. The systems described in this dissertation leveraged insights from experimentation in psychology~\cite{Martin2007} and design guidelines for social computing~\cite{Resnick2011}. Using books meant for beginners provides multiple advantages: 1) the information presented is simple and makes limited assumptions about the reader; 2) the problems sets provide a corpus of common errors. However, these resources also suffer from multiple challenges. First, they focus on conceptual understanding rather than providing procedural workflows. Second, they might not provide appropriate \textit{chunking} size. For instance, perfectly implementing instructions provided in the book might lead to a highly bloated system; a user might struggle to arrange this knowledge in useful, appropriately-sized chunks.
-
-Online resources---fora, blogposts, wikihow articles---provide another set of resources. Such resources provide tacit practical knowledge that could inform procedural guidance systems about best practices and common pitfalls. E.g., wikihow provides a corpus of how to perform a wide range of activities from gardening to writing letters (wikihow.com) while online fora support crowd-generated resources that are distributed and unstructured: people share details of their goals, their attempts (including instructions), and even their evaluation of different techniques [??]. An early system can use wikihow's details to provide a high-level summary of the task and reuse curated material from online fora for more specific help for different steps. Such curation can be performed by people themselves or by automated techniques like deep learning. Learnersourcing has demonstrated that learners can generate content that can be useful for others~\cite{Kim2015f} while other systems have created new lexical categories from seed terms by mining fiction text~\cite{fast2016empath}. Curating online resources has other advantages too: identifying structure in people's posts, research articles, or books identifies specific features that can bootstrap AI systems.
+The systems described in this dissertation leveraged insights from experimentation in psychology~\cite{Martin2007} and design guidelines for social computing~\cite{Resnick2011}. Wikihow provides a corpus of instructions for a wide range of activities from gardening to writing letters (wikihow.com). Online fora support crowd-generated resources that are distributed and unstructured: people share details of their goals, their attempts (including instructions), and even their evaluation of different techniques [??]. Curating procedural resources from books and online resources can bootstrap online systems. Learnersourcing has demonstrated that learners can generate content that can be useful for others~\cite{Kim2015f} while other systems have created new lexical categories from seed terms by mining fiction text~\cite{fast2016empath}. Curating online resources has other advantages too: identifying structure in people's posts, research articles, or books identifies specific features that can bootstrap AI systems.
 %Finally, many HCI research systems identify key insights in complex activities such as programming and writing. Such insights can be useful for procedural systems [??, Dontcheva?]. 
 
-Experts know the rules and ways of domain-specific work~\cite{Francis2006}; reusing their knowledge can be useful. For this dissertation research, microbiome experts were wary of providing feedback on the platform due to the time efforts needed. We suggest two ways could deal with this concern. First, experts can lead by demonstration: experts perform a task as part of their regular workflow and then lightly annotate such demonstation. Programming by demonstration has succeeded in diverse fields like robotics and image manipulation~\cite{cypher1993watch}. Second, experts can enable passive tracking: automated tools track experts' work and subsequent processing can divide the activity into spearate phases like information foraging, programming, and so on.
+Experts know the rules and ways of domain-specific work~\cite{Francis2006}. How might we leverage experts' knowlegde and experience to make their practices available more widely? For this dissertation research, microbiome experts were wary of providing feedback on citizens' work due to two reasons: 1) the time and effort invested, and 2) the potential of nudging citizens into accidently harmful work. To leverage and reuse their strategies, experts can lead by demonstration. Experts perform a task as part of their regular workflow; an annotated recorded version of the workflow can be programmatically reused by others~\cite{cypher1993watch}. Such a macro recording and annotation approach can be more passive or proactive; the annotation can be performed by demonstrators or annotators.
+
+%todo-PBD can be useful for stuff like this: <one sentence example>
+
 %[??motif] 
 %-- pamhinds --
 % zones of proximal development
@@ -63,17 +58,17 @@ Experts know the rules and ways of domain-specific work~\cite{Francis2006}; reus
 \section{Patterns: Learning tools for end-users} 
 %"What are the research issues for advancing and crystallizing patterns in this area?" - srk
 %     see email threads with tricia
-Multiple research issues need to be answered for computational systems to reify different work environments. 
-
-%\subsection{Learning tools for end-users}
-Learning has always been lifelong. Rapid change and the ready availability of online resources make it even more so. This dissertation seeks to place learning experiences at the right time for people to use them. The interaction between procedural guidance and social computing raises several research questions. 
-
-In the learning sciences, Bloom’s taxonomy shows a hierarchy of ways of engaging knowledge, from remembering facts to evaluating theories. Traditionally, this diagram invites a discussion of classroom learning objectives. Such an order implies a potential research trajectory. Procedural guidance systems double up as learning tools providing a petri-dish to test important questions in learning science. Might such systems improve people's understanding of the domain and the task?
+Learning has always been lifelong. Rapid change and the ready availability of online resources make it even more so. This dissertation seeks to place learning experiences at the right time for people to use them. In the learning sciences, Bloom’s taxonomy shows a hierarchy of ways of engaging knowledge, from remembering facts to evaluating theories (Figure~\ref{fig:intro-taxonomy}). Traditionally, this diagram invites a discussion of classroom learning objectives. Such an order implies a potential research trajectory. Procedural guidance systems can double up as learning tools to provide a petri-dish to test important questions in learning science. Might such systems improve people's understanding of the domain and the task?
 %How online learning environments move people's engagement with knowledge up the hierarchy?
+%Do such approaches demonstrate learning gains as well? 
 
-Supporting people in storytelling in online classrooms improves engagement~\cite{Pandey2015}. Many learning pedagogies have used a similar approach. Problem-based learning suggests starting with a problem that provides the context for learning new techniques~\cite{johnson2009breaking}. Students construct a solution and---in many cases---the problems themselves. Discovery learning follows a similar model: starting with learners' curiosities and then providing the right mental tools to structure the discovery process. Do such approaches demonstrate learning gains as well? Answering this question could help accelerate our understanding of how people learn online.
+How well do goal-driven learning approaches translate online? Problem-based learning suggests starting with a problem that provides the context for learning new techniques~\cite{johnson2009breaking}. Students construct a solution and---in many cases---the problems themselves. Discovery learning follows a similar model: starting with learners' curiosities and then providing the right mental tools to structure the discovery process. Supporting people in storytelling in online classrooms improves engagement~\cite{Pandey2015}. Learner motivation in online environments differs from traditonal classrooms~\cite{kizilcec2015motivation}. While classrooms use test scores as external benchmarks, online learners might be motivated by their goals and care less about scores. Assessing competence at a task (or related tasks) can be one way to assess learner performance. This approach has the additional advantage of providing learners more time on tasks similar to the ones they're interested in.
 
-Leveraging similarities between Bloom’s taxonomy of learning and the hierarchy of social computing roles provides a potentially rich area of enquiry. Student interactions in online classrooms demonstrate similarity to role-taking on social networking platforms~\cite{kizilcec2013deconstructing}. Legitimate peripheral participation~\cite{Bryant2005} proposes that engaging people in byte-sized tasks subsequently increases the complexity and depth of their contributions. Such ideas have been studied in contexts where people didn't explicitly use online learning resources. Are learning gains commensurate to the role contributions? 
+The interaction between procedural guidance and social computing raises several research questions. Leveraging similarities between Bloom’s taxonomy of learning and the hierarchy of social computing roles provides a potentially rich area of enquiry. Student interactions in online classrooms demonstrate similarity to role-taking on social networking platforms~\cite{kizilcec2013deconstructing}. Legitimate peripheral participation~\cite{Bryant2005} proposes that onboarding people with simple, low-risk tasks improves their participation and contributions. Organizing tasks in increasing order of learning complexity and supporting them with procedural guidance can potentially move students up the knowledge as well as engagement hierarchies (Figure~\ref{fig:intro-taxonomy}).
+
+%Answering this question could help accelerate our understanding of how people learn online.
+
+%Such ideas have been studied in contexts where people didn't explicitly use online learning resources. Are learning gains commensurate to the role contributions? 
 
 %One way to study this question could be to understand the patterns in lead user communities where people share knowledge and resources and learn from others. 
 %lead users as teachers
@@ -102,14 +97,14 @@ Leveraging similarities between Bloom’s taxonomy of learning and the hierarchy
 
 %%
 %\subsection{Building a science of social computing systems}
-Social computing systems leverage ideas from multiple disciplines and require substantial engineering. A science of such systems can support early-stage researchers in the face of high-barrier to entry and multiple points of failure. This dissertation identifies questions of prototyping, co-design, and emergent behavior as important issues and proposes a combination of theory, prototyping tools, and benchmarks. 
+This dissertation identifies questions of prototyping, co-design, and emergent behavior as important issues and proposes a combination of theory, prototyping tools, and benchmarks. 
 
 %simplify
 %This section raises three questions: how do we design systems that are 1) quick to build, 2) that meet their objectives. Secondly, how can people engage with these systems: such that more people use them, and that these happen in collaboration with others. I also share ways to do this and provide examples.
 
 %%%
 \subsection{Prototyping}
-How can we rapidly build, debug, and improve social computing systems? For instance, evaluating social computing systems is time-consuming: such systems have multiple features; traditional HCI evaluation techniques (like lab study) do not capture emergent behavior; and finding sufficient participants is a challenge.
+How can we rapidly build, debug, and improve social computing systems? For instance, evaluating social computing systems is time-consuming: such systems embed multiple ideas; and usage phenomena are scale dependent and emergent.
 
 %1 - many features
 All three systems presented in this dissertation have multiple features. Evaluating many features increases the designer's workload and requires more participants. Therefore, social computing systems benefit from more holistic evaluation feature testing. One approach might be to categorically separate measures for system evaluation (e.g. do people collaboratively create better questions using Docent?) from feature evaluation (e.g. does Docent‘s edit feature help people improve another user’s question). A clear separation might help system designers sort the evaluation components in order of importance, assign different quality thresholds (e.g. controlled experiments vs observational evaluation), and communicate overall evaluation effectively to the research community.
@@ -139,10 +134,9 @@ One way to find to partner with organizations that care about the topic. This di
 
 %%%
 \subsection{Emergent behavior}
-How do participants organize and succeed in community-driven systems? How does such behavior evolve over time? Principles derived from psychology, organizational behavior, and previous systems provide a starting point. However, the system designer still needs to understand, select, and test multiple approaches, which necessitates further user-centered development and evaluation. Furthermore, small sample studies can also be poor predictors of emergent behavior in new systems. 
+How do participants organize and succeed in community-driven systems? How does such behavior evolve over time? Studies with small sample sizes can be poor predictors of emergent behavior in new systems. Furthermore, results are not even-keeled across users: some do more than others, many drop out, and take different roles~\cite{Bryant2005}. One approach would be to develop a more stratified understanding of the results. Many health studies attempt to identify factors that influence people's individual responses [??]. Social computing researchers can follow a similar model: rather than testing the efficacy of ideas with population-level measures, they might ask "Did this idea work for some people but not for others? If so, why?". Accumulating such insights across multiple research efforts can complement principles derived from psychology and organizational behavior. Narrowing the design space for a system can both simplify and fasten a system designer's task.
 
-Social computing evaluation differs from evaluation of evaluting algorithms because the results are generated by people. The results of a traditional algorithm provide a high degree of consistency when applied to different inputs: a binary search returns the location of the value searched for in a dataset. Such an algorithm's correcteness guarantee does not depend on the input data. Results with people are less consistent. For instance, results are not even-keeled across users: some do more than others, many drop out, and take different roles~\cite{Bryant2005}. One approach would be to develop a more stratified understanding of the results. Researchers in health sciences already perform evaluation where they attempt to identify factors that influence people's individual responses [??]. Similarly, rather than asking the question "Was this social computing idea useful?", it might be more useful to ask, "Did this idea work for some people but not for others? If so, why?"
-
+% still needs to understand, select, and test multiple approaches, which necessitates further user-centered development and evaluation.
 %My suggestion: focus on human activity. another example: focusing on human activity also led me to find roles in different things that people did -- this was useful and might have been otherwise lost. 2) Also, conduct surveys etc. and ask them, 3) sometimes it's not about the system at all. people have other motivation.
 %Finally, what are the limits to solving problems with social computing? 
 
@@ -173,13 +167,12 @@ Working with multiple domain experts brings great value and learning opportuniti
 
 \subsection{Supporting global participation}
 %see my angry locals email about this thing
-This dissertation aims to complement global data collection with global distribution of expertise. Most Gut Instinct participants are from rich educated countries: 80\% of Docent questions were from people in the developed world and all 3 experimenters had advanced degrees. People not represented on the platform across the world have different ideas and insights; we are missing out on those. A better understanding of motivation can improve participation.
+This dissertation aims to complement global data collection with global distribution of expertise. Most Gut Instinct participants are from rich educated countries: 80\% of Docent questions were from people in the developed world and all 3 experimenters had advanced degrees. People not represented on the platform across the world might have different ideas. How might such systems support a more diverse participation?
 
-Our understanding of human psychology---and therefore, motivation---draws on studies run with a limited demography that are overwhelmingly Western, educated, and live in rich, industrialized, developed countries~\cite{Henrich2010a}. People across different cultures might be motivated by different factors. Recent research has explored drawing on different cultural norms. LITW research demonstrates that people across cultures have different expectations for webpage design~\cite{Reinecke2014a}. TeachAIDS improved awareness of AIDS in India with a culturally-sensitive design that provided using locally tailored videos~\cite{sorcar2009teaching}. To diversify participation, identify what works in local cultures and amplify them online. Complex economic and social factors can shape participation as well. E.g. in traditonally hierarchical societies, novices might be concerned about challenging experts [ ??]. Reusing lessons from cultural psychology to design such systems could improve participation.
+Efforts to scale and diversify participation can build on ideas that are \textit{common} across cultures. For example, disease awareness months might provide a common timeframe for a global audience to collaborate on relevant issues. The ice bucket challenge raised awareness and donations for Amyotrophic Lateral Sclerosis (www.alsa.org). Understanding and building on \textit{differences} in cultural norms is important too. Studies about human psychology have been traditionally run with a limited demography: overwhelmingly Western, educated, and live in rich, industrialized, developed countries~\cite{Henrich2010a}. Recent research has explored different cultural norms across device use and sensitive health topics. Lab in the Wild demonstrates that people across cultures evaluate webpage designs in starkly different ways~\cite{Reinecke2014a}. TeachAIDS has improved awareness of AIDS in India with a culturally-sensitive design that provided using locally tailored videos~\cite{sorcar2009teaching}. Furthermore, complex socio-economic factors can shape participation as well. E.g. in traditonally hierarchical societies, novices might be concerned about challenging experts [??]. These examples suggest that successful, diverse participation might start with identifying what works in different cultures and amplify these ideas online. Finally, even when people might be motivated, they might lack the time/remuneration to learn new things and implement them in their lives. Might payment help? To reduce reliance on payments/extrinsic motivation, one approach could be to pay people to start using the system and then reduce/remove the payment as they get better used to it~\cite{Resnick2011}. 
 
 %Finally, while some might be motivated by self-interest and money, others might want to help out. Enable poeple to help their loved ones can appeal to people's sense of altruism.
 
-Motivation can also build on shared ideas across the global. E.g. disease awareness months might provide a natural timeframe for a global audience to engage sychnronously. ALS ice bucket challenge raised awareness and donations for Amyotrophic Lateral Sclerosis (http://www.alsa.org/fight-als/ice-bucket-challenge.html). Finally, even when people might be motivated, they might lack the time/remuneration to learn new things and implement them in their lives. Might payment help? To reduce reliance on payments/extrinsic motivation, one approach could be to pay people to start using the system and then reduce/remove the payment as they get better used to it~\cite{Resnick2011}. 
 
 %\subsubsection{System design: Take an end-to-end view}
 %The blue book provides great insights on how to design social computing systems~\cite{Resnick2011}. Here are some ideas to make these principles more useful for diverse work. First, clarify who *can* contribute. With novel systems like Gut Instinct, people might not know or believe that they have much to contribute. Making this explicit--using examples or anecdotes-- can help people understand how they can contribute towards a personally meaningful task. Second, make it easier for people to find what to contribute and how. A large diversity of both knowledge and participation requires roles. Also, pre-registration might help. A diverse set of role that bundle tasks and resources help.  Do people find this useful now that they use it? How might the system better meet their needs? Third, identify the ways in which people use the system and err towards supporting their needs over the research goals for the system. Finally, provide the right tool and feedback that links people's work with what they did, and invite feedback from folks.
@@ -194,73 +187,71 @@ Motivation can also build on shared ideas across the global. E.g. disease awaren
 %Take for example the case of MOOCs and the stanford student who ranked 125 in the class after all other students from places around the world.
 
 %%%%%%%%%%%%
-\section{Implications}
+\section{Implications and Limitations}
 %"If the world were to transform to rely heavily on your work, what broader technical and societal transformations would arise? How would your work scale? What would the social and technical challenges be? This might be a good place to connect your work to broader (relevant) writing on the role of technology in society"-srk
 
 The systems developed as a part of this dissertation support people in generating hypotheses and running experiments. What are the implications of this research for social computing? What broader technical and societal transformations might we foresee?
 
-\subsection{Online systems to support processes}
-Are Gut Instinct users scientists? Oxford dictionary defines a scientist as “A person who conducts scientific research or investigation; an expert in or student of science, esp. one or more of the natural or physical sciences”. For all their useful contributions, Gut Instinct users---experiment designers, reviewers, participants, hypotheses generators---cannot be called scientists for multiple reasons. For instance, this dissertation did not assess whether people gain conceptual skills; e.g., can they design an experiment from scratch without any help or recognize well-constructed experiments from poorer ones without any system support? Furthermore, performing scientific work requires many open-ended activities: e.g. figuring out the appropriate research questions given what’s known in the domain.
+\subsection{Collaboration between novices and experts}
+Experts provide feedback and lead crowd efforts~\cite{dow2012shepherding}. How might people support experts in complex knowledge work? Experts need help with multiple activities---such as participant recruitment---where citizens might have complementary skills and contexts. Citizens' efforts can also help experts refine the design space. For example, many novel ideas in health haven't been studied before; therefore, the effect size of such interventions is unknown and difficult to guess. Citizen-led experiments can help experts take better informed guesses, hopefully improving the odds of finding significant results. Citizens could also try reproducing current scientific research in fields with ``reproducibility crisis" such as psychology. Such collaborative efforts raise novel questions. Might working with novices help experts uncover their blind spots? How might such teams of experts and novices work through disagreement? Furthermore, how might credit be allocated in such settings? 
+
+%Prior work has suggested algorithmic methods for credit allocation - better understanding their successes and failures would be useful [??msb]. Prior research in co-ownership models---such as Community-based participatory research [??CPBR]---can inform such ideas.
+%Gut Instinct users demonstrated technical knowledge in their online activity; they could also potentially help young scientists master the growing body of knowledge that lies between them and the frontier of a field.
+
+\subsection{Focus on processes over titles}
+Scientific research increasingly leverages larger teams with diverse expertise [??nature]. Since Gut Instinct users collaboratively designed and ran experiments, can they be called scientists now? Oxford dictionary defines a scientist as “a person who conducts scientific research or investigation; an expert in or student of science, esp. one or more of the natural or physical sciences”. For all their useful contributions, this dissertation does not consider Gut Instinct users---experiment designers, reviewers, participants, hypotheses generators---to be scientists. One key reason is a lack of evaluation of users' conceptual skills; understanding how key concepts are linked is important for mastering complex knowledge work [??]. For example, \textit{absent} system support, can people design an experiment from scratch or recognize well-constructed experiments from poorer ones? Answering such questions can also uncover the limitations of procedural guidance systems.
+
+The scientist-or-not question is also tied to the process of doing science: did Gut Instinct participants perform scientific work? This dissertation's evaluation demonstrates this to be true. However, there are many aspects to scientific work that does not lend itself well to workflows. For example, science is a contact sport [latour]: ideas are gleamed from talks, discussed with others, and drawn from personal experiences. Famously, watching students play with plates in a cafeteria inspired Richard Feynman to pursue a question that won him a Nobel Prize [??]. Creating such serendipitious encounters for inspiration and feedback can be powerful.  
+
+
+%How do online systems support the scientific process?
+
+%Performing scientific work also requires many open-ended activities: e.g. figuring out the appropriate research questions given what’s known in the domain.
 %Popular narratives about science (like design) present it as a story of lone genius toiling away to reach that "aha moment" [Archimedes]. Reality is warmer to the idea of groups of people accomplishing big tasks.
 
-A better question might focus on the process of doing science: did Gut Instinct participants perform science? This dissertation's evaluation demonstrates this to be true. Science is a contact sport [latour]: ideas are gleamed from talks, discussed with others, and drawn from personal experiences. Famously, watching college students play with plates in a cafeteria inspired Richard Feynman to pursue a question that won him a Nobel Prize [??]. How do online systems support the scientific process?
-  
-Creating such serendipitious encounters for inspiration and feedback can be powerful; online systems have already demonstrated successes [??]. Finally, as research questions become more complex and require different kinds of expertise [??nature team of scientists], the lone genius model might be even less applicable to questions of broad interest. 
-
-\subsection{Expert-led or expert-supported}
-Experts have successful provided feedback and led crowd efforts~\cite{dow2012shepherding}. While this dissertation did not leverage microbiome experts' inputs due to concerns about efforts and liability, there are other ways in which experts can be involved. Experts possess a wealth of tacit procedural kmowledge; one avenue for curating procedural rules could be for experts to share their knowledge as procedural rules.  Experts can provide structure/process oriented feedback while learning resources can provide domain knowledge. Such collaborative efforts raise novel questions. Might experts' workflows nudge people into a specific (biased) way of performing a task? Alternately, might working with novices help experts uncover their blind spots?
-%Trade-offs for expert-curated content and procedure need to be listed out. 
-
-How might people support experts? Experts need help with multiple activities where citizens might have complementary skills and contexts. For instance, experts need help recruiting people for their experiments; citizens could help out and learn about participant recruitment along the way.  Another approach for citizens to help experts could be pruning the design space. E.g., for many novel ideas in health and nutrition, the effect size of interventions is unknown and difficult to guess. Citizen-led experiments can help experts take better informed guesses about the effect size, thereby providing them the missing knowledge required to launch a study with improved odds of success. Another approach could be for citizens to reproduce current scientific research. Gut Instinct users demonstrated technical knowledge in their online activity; they could also potentially help young scientists master the growing body of knowledge that lies between them and the frontier of a field.
-
-How might credit be allocated in such settings? Prior work has suggested algorithmic methods for credit allocation - better understanding their successes and failures would be useful [??msb]. Prior research in co-ownership models---such as Community-based participatory research [??CPBR]---can inform such ideas.
-
-{Motivation to learn: Provide link to experts}: People like listening to experts (add Rob image). This might be even more pronounced in places where experts are considered distant.
-
-
-\subsection{Folk theories are relevant in many domains}
-%and learning interfaces
-“how to eke out tacit knowledge from people"
-Folk theories come from many sources -- ideas, passive tracking, fora parsing
--- what about things people don't think about themselves
-
-Where else might folk theories be relevant?
-fix the gap between citizens and experts
-
-With our current times of fire and attack on truth, we are seeing an end ot the quest for an objective reality. Building a bridge between institutions and people’s lived experiences is important — we have processes for these but it’s not clear these are working. While numbers and data provide the illusion of objectivity, it’s not necessarily true: what if the research question is biased, what if measures aren’t correct. 
-%https://www.snopes.com/news/2019/10/10/facts-and-data-arent-enough-to-combat-fake-news/
-
-The key challenges include: 1) where are these relevant and how? 2) how to do is in a humane and efficient manner
-
-A burgeoning field is developing around folk theories for narrative economics, cultural psychology, and more… 
-%what do we know about tacit knowledge — expert knowledge  --- where is this useful? what kind of knowledge is this?
-
-%how to do this
-Polio took such a long time from results to policy --  how to get citizens to create such knowledge -- link to health world. We already know the difficulty of collecting data on the ground [akshay roongta thesis] -- Cultural effects in self organization of crowds?
-
-Here are some ways to proceed.
-
-First, Collect folk theories across cultures and then compare them and ask people for mechanistic explanations: from people around the world by asking them to share theirs; what might this system look like: -- what would it enjoy. Perhaps a metric of identifying plausible candidates would be cool -- would majority vote be the best? we don't know… For instance, think about how different cultures think differently of food — beef, pork, and more — what effect does it have on their nutrition en masse?
-
-personal intuitions provide one set of hypo generation -- others could be folk theories, data tracked from devices, observations, playing around with data using Vega-lite; ways to evaluate could be different too -- data analysis
+%\subsection{Folk theories are relevant in many domains}
+%%and learning interfaces
+%“how to eke out tacit knowledge from people"
+%Folk theories come from many sources -- ideas, passive tracking, fora parsing
+%-- what about things people don't think about themselves
+%
+%Where else might folk theories be relevant?
+%fix the gap between citizens and experts
+%
+%With our current times of fire and attack on truth, we are seeing an end ot the quest for an objective reality. Building a bridge between institutions and people’s lived experiences is important — we have processes for these but it’s not clear these are working. While numbers and data provide the illusion of objectivity, it’s not necessarily true: what if the research question is biased, what if measures aren’t correct. 
+%%https://www.snopes.com/news/2019/10/10/facts-and-data-arent-enough-to-combat-fake-news/
+%
+%The key challenges include: 1) where are these relevant and how? 2) how to do is in a humane and efficient manner
+%
+%A burgeoning field is developing around folk theories for narrative economics, cultural psychology, and more… 
+%%what do we know about tacit knowledge — expert knowledge  --- where is this useful? what kind of knowledge is this?
+%
+%%how to do this
+%Polio took such a long time from results to policy --  how to get citizens to create such knowledge -- link to health world. We already know the difficulty of collecting data on the ground [akshay roongta thesis] -- Cultural effects in self organization of crowds?
+%
+%Here are some ways to proceed.
+%
+%First, Collect folk theories across cultures and then compare them and ask people for mechanistic explanations: from people around the world by asking them to share theirs; what might this system look like: -- what would it enjoy. Perhaps a metric of identifying plausible candidates would be cool -- would majority vote be the best? we don't know… For instance, think about how different cultures think differently of food — beef, pork, and more — what effect does it have on their nutrition en masse?
+%
+%personal intuitions provide one set of hypo generation -- others could be folk theories, data tracked from devices, observations, playing around with data using Vega-lite; ways to evaluate could be different too -- data analysis
 
 %%%%%%
 %\section{More} 
 
 
-\section{Shortcomings / Challenges / limitations}
-%"What were the challenges of this work? For example, the difficulty of gathering longitudinal data b/c people are tied to their email client. How would you recommend others address these challenges?" - srk
-Is this really scientific work though? To be able to publish in a top-tier journal and to inform policy, the experiments would need to satisfy domain-specific rules. This would inform more specific rules around manipulation (rather than self-adminstering the intervention), use of placebo, and so on. We also find these to be useful avenues for further social computing use: enabling family members to administer the intervention based on reminders, or even enabling them to randomize that order... 
-	Also minimal pairs and double blind -- how would you implement it socially without bias -- this trade-off between social trust and bias can be interesting -- wll it be like x or like y
-
-Limitations: when the concept requires global awareness -- not for too "out there" ideas -- not all complex work have this breakdown e.g. collective activism - -when the software does not have a strong domain model
-
-%link these to the topics discussed above
-Another conceptual question is understanding the limits to procedural work. Based on procedural support as described above, it has limitations as well. This approach will struggle when when the concept being studied requires global awareness which is a hallmark of complex work: the sum is greater than the parts.  While procedural support can scale well, it might struggle for too “out there” ideas.
-
-It's also important to not all complex work have this breakdown. For instance, consider collective activism. — there’s no set way to do this. How will the roles and procedural support look like for activities that do not have templated format like between-subjects scientific experimentation?  what happens when software does not have a strong model of the domain or a "high-level" recipe that can be improved.
-%when do different elements of procedural guidance become important - templates for methods and iteration for discussion
-
+%\section{Shortcomings / Challenges / limitations}
+%%"What were the challenges of this work? For example, the difficulty of gathering longitudinal data b/c people are tied to their email client. How would you recommend others address these challenges?" - srk
+%Is this really scientific work though? To be able to publish in a top-tier journal and to inform policy, the experiments would need to satisfy domain-specific rules. This would inform more specific rules around manipulation (rather than self-adminstering the intervention), use of placebo, and so on. We also find these to be useful avenues for further social computing use: enabling family members to administer the intervention based on reminders, or even enabling them to randomize that order... 
+%	Also minimal pairs and double blind -- how would you implement it socially without bias -- this trade-off between social trust and bias can be interesting -- wll it be like x or like y
+%
+%Limitations: when the concept requires global awareness -- not for too "out there" ideas -- not all complex work have this breakdown e.g. collective activism - -when the software does not have a strong domain model
+%
+%%link these to the topics discussed above
+%Another conceptual question is understanding the limits to procedural work. Based on procedural support as described above, it has limitations as well. This approach will struggle when when the concept being studied requires global awareness which is a hallmark of complex work: the sum is greater than the parts.  While procedural support can scale well, it might struggle for too “out there” ideas.
+%
+%It's also important to not all complex work have this breakdown. For instance, consider collective activism. — there’s no set way to do this. How will the roles and procedural support look like for activities that do not have templated format like between-subjects scientific experimentation?  what happens when software does not have a strong model of the domain or a "high-level" recipe that can be improved.
+%%when do different elements of procedural guidance become important - templates for methods and iteration for discussion
+%
 
 %corporations have so many resources -- how do we do this?
 %	engagement metrics implemneted by people
@@ -268,4 +259,4 @@ It's also important to not all complex work have this breakdown. For instance, c
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %From Data to knowledge to wisdom
-This dissertation research provides a vision and prototype systems for complex work by drawing on insights from interactive systems, social computing, and learning theory  for enabling people to perform personally meaningful work. By doing so, this thesis intends to democratize expertise and provide ways to meaningfully embed computation in society. 
+This dissertation research provides a vision and prototype systems for complex work by drawing on insights from interactive systems, social computing, and learning theory for enabling people to perform personally meaningful work. By doing so, this dissertation intends to democratize expertise and provide ways to meaningfully embed computation in society. 
